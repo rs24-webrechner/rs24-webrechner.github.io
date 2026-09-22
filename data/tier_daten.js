@@ -9,1785 +9,993 @@ export const tier_daten = [
 
     {
         name: "Achatina",
-        name_de: "Achatina",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Acrocanthosaurus",
-        name_de: "Acrocanthosaurus",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Allosaurus",
-        name_de: "Allosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ammonite",
-        name_de: "Ammonit",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Angler",
-        name_de: "Anglerfisch",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ankylosaurus",
-        name_de: "Ankylosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Araneo",
-        name_de: "Araneo",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Archaeopteryx",
-        name_de: "Archaeopteryx",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Archelon",
-        name_de: "Archelon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Argentavis",
-        name_de: "Argentavis",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Armadoggo",
-        name_de: "Armadoggo",
         kategorie: "companion",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Arthropluera",
-        name_de: "Arthropluera",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Astrocetus",
-        name_de: "Astrocetus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Aureliax",
-        name_de: "Aureliax",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Baryonyx",
-        name_de: "Baryonyx",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Basilisk",
-        name_de: "Basilisk",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Basilosaurus",
-        name_de: "Basilosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Beelzebufo",
-        name_de: "Beelzebufo",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Bison",
-        name_de: "Bison",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Bloodstalker",
-        name_de: "Blutstalker",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Boaratos",
-        name_de: "Boaratos",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Brontosaurus",
-        name_de: "Brontosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Bulbdog",
-        name_de: "Bulbdog",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Burrowbuck",
-        name_de: "Burrowbuck",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Carbonemys",
-        name_de: "Carbonemys",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Carcharodontosaurus",
-        name_de: "Carcharodontosaurus",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Carnotaurus",
-        name_de: "Carnotaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Castoroides",
-        name_de: "Castoroides",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Cat",
-        name_de: "Katze",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ceratosaurus",
-        name_de: "Ceratosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Chalicotherium",
-        name_de: "Chalicotherium",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Chalk Elemental",
-        name_de: "Kreide-Elementar",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Cnidaria",
-        name_de: "Cnidaria",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Coelacanth",
-        name_de: "Quastenflosser",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Compy",
-        name_de: "Compy",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Concavenator",
-        name_de: "Concavenator",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Cosmo",
-        name_de: "Cosmo",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Cryolophosaurus",
-        name_de: "Cryolophosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Daeodon",
-        name_de: "Daeodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Deathworm",
-        name_de: "Todeswurm",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Deinonychus",
-        name_de: "Deinonychus",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Deinosuchus",
-        name_de: "Deinosuchus",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Deinotherium",
-        name_de: "Deinotherium",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Desmodus",
-        name_de: "Desmodus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dilophosaurus",
-        name_de: "Dilophosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dimetrodon",
-        name_de: "Dimetrodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dimorphodon",
-        name_de: "Dimorphodon",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Diplocaulus",
-        name_de: "Diplocaulus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Diplodocus",
-        name_de: "Diplodocus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Direbear",
-        name_de: "Riesenbär",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dire Polar Bear",
-        name_de: "Polar-Riesenbär",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Direwolf",
-        name_de: "Riesenwolf",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dodo",
-        name_de: "Dodo",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Doedicurus",
-        name_de: "Doedicurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dreadmare",
-        name_de: "Dreadmare",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dreadnoughtus",
-        name_de: "Dreadnoughtus",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dung Beetle",
-        name_de: "Mistkäfer",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Dunkleosteus",
-        name_de: "Dunkleosteus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Elderclaw",
-        name_de: "Elderclaw",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Electrophorus",
-        name_de: "Zitteraal",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Equus",
-        name_de: "Equus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Fasolasuchus",
-        name_de: "Fasolasuchus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Featherlight",
-        name_de: "Federlicht",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ferox",
-        name_de: "Ferox",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Fire Wyvern",
-        name_de: "Feuer-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gacha",
-        name_de: "Gacha",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Element-Gacha",
-        name_de: "Element-gacha",
         kategorie: "gacha",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gallimimus",
-        name_de: "Gallimimus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gasbags",
-        name_de: "Gasbags",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Giant Bee Queen",
-        name_de: "Riesige Bienenkönigin",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gigadesmodus",
-        name_de: "Gigadesmodus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Giganotosaurus",
-        name_de: "Giganotosaurus",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gigantopithecus",
-        name_de: "Gigantopithecus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gigantoraptor",
-        name_de: "Gigantoraptor",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Gloon",
-        name_de: "Gloon",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Glowtail",
-        name_de: "Leuchtschwanz",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Grand Tortugar",
-        name_de: "Grand Tortugar",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Griffin",
-        name_de: "Greif",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Helicoprion",
-        name_de: "Helicoprion",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Hesperornis",
-        name_de: "Hesperornis",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Hyaenodon",
-        name_de: "Hyaenodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ice Elemental",
-        name_de: "Eis-Elementar",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ice Wyvern",
-        name_de: "Eis-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ichthyornis",
-        name_de: "Ichthyornis",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ichthyosaurus",
-        name_de: "Ichthyosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Iguanodon",
-        name_de: "Iguanodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Jerboa",
-        name_de: "Jerboa",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Kairuku",
-        name_de: "Kairuku",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Kaprosuchus",
-        name_de: "Kaprosuchus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Karkinos",
-        name_de: "Karkinos",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Kentrosaurus",
-        name_de: "Kentrosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Lumina",
-        name_de: "Lumina",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Lymantria",
-        name_de: "Lymantria",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Lystrosaurus",
-        name_de: "Lystrosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Maeguana",
-        name_de: "Maeguana",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Magmasaur",
-        name_de: "Magmasaur",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Mammoth",
-        name_de: "Mammut",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Managarmr",
-        name_de: "Managarmr",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Manta",
-        name_de: "Manta",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Mantis",
-        name_de: "Mantis",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megachelon",
-        name_de: "Megachelon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megalania",
-        name_de: "Megalania",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megaloceros",
-        name_de: "Megaloceros",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megalodon",
-        name_de: "Megalodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megalosaurus",
-        name_de: "Megalosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Meganeura",
-        name_de: "Meganeura",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megaraptor",
-        name_de: "Megaraptor",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Megatherium",
-        name_de: "Megatherium",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Mesopithecus",
-        name_de: "Mesopithecus",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Microraptor",
-        name_de: "Microraptor",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Morellatops",
-        name_de: "Morellatops",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Mosasaurus",
-        name_de: "Mosasaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Moschops",
-        name_de: "Moschops",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Oasisaur",
-        name_de: "Oasisaur",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Onyc",
-        name_de: "Onyc",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ossidon",
-        name_de: "Ossidon",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Otter",
-        name_de: "Otter",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Oviraptor",
-        name_de: "Oviraptor",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ovis",
-        name_de: "Ovis",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pachy",
-        name_de: "Pachy",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pachyrhinosaurus",
-        name_de: "Pachyrhinosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Palaeoctopus",
-        name_de: "Palaeoctopus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Paraceratherium",
-        name_de: "Paraceratherium",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Parasaur",
-        name_de: "Parasaur",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Parrot",
-        name_de: "Papagei",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pegomastax",
-        name_de: "Pegomastax",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pelagornis",
-        name_de: "Pelagornis",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Phiomia",
-        name_de: "Phiomia",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Phoenix",
-        name_de: "Phönix",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Plesiosaur",
-        name_de: "Plesiosaurier",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Poison Wyvern",
-        name_de: "Gift-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Polar Bear",
-        name_de: "Eisbär",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Procoptodon",
-        name_de: "Procoptodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pteranodon",
-        name_de: "Pteranodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pulmonoscorpius",
-        name_de: "Pulmonoscorpius",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Purlovia",
-        name_de: "Purlovia",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Pyromane",
-        name_de: "Pyromane",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Quetzal",
-        name_de: "Quetzal",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Raptor",
-        name_de: "Raptor",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Ravager",
-        name_de: "Ravager",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Reaper King",
-        name_de: "Reaper-König",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Rex",
-        name_de: "Rex",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Rhyniognatha",
-        name_de: "Rhyniognatha",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Rock Drake",
-        name_de: "Felsdrache",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Rock Golem",
-        name_de: "Felsgolem",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Roll Rat",
-        name_de: "Rollratte",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Sabertooth",
-        name_de: "Säbelzahntiger",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Sarcosuchus",
-        name_de: "Sarcosuchus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Shastasaurus",
-        name_de: "Shastasaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Shinehorn",
-        name_de: "Leuchthorn",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Snow Owl",
-        name_de: "Schneeeule",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Solwyn",
-        name_de: "Solwyn",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Spino",
-        name_de: "Spinosaurus",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Stegosaurus",
-        name_de: "Stegosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tapejara",
-        name_de: "Tapejara",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Giganoto",
-        name_de: "Tek-Giganoto",
         kategorie: "special",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Parasaur",
-        name_de: "Tek-Parasaur",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Quetzal",
-        name_de: "Tek-Quetzal",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Raptor",
-        name_de: "Tek-Raptor",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Rex",
-        name_de: "Tek-Rex",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Stegosaurus",
-        name_de: "Tek-Stegosaurus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tek Triceratops",
-        name_de: "Tek-Triceratops",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Terror Bird",
-        name_de: "Terrorvogel",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Therizinosaurus",
-        name_de: "Therizinosaurus",
         kategorie: "boss",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thorny Dragon",
-        name_de: "Dornen-Drache",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Archer",
-        name_de: "Thrall-Bogenschütze",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Bounty Hunter",
-        name_de: "Thrall-Kopfgeldjäger",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Deadeye",
-        name_de: "Thrall-Scharfschütze",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Demolisher",
-        name_de: "Thrall-Zerstörer",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Enforcer",
-        name_de: "Thrall-Vollstrecker",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Gunslinger",
-        name_de: "Thrall-Revolverheld",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Herald",
-        name_de: "Thrall-Herold",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Marauder",
-        name_de: "Thrall-Plünderer",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Piercer",
-        name_de: "Thrall-Durchbohrer",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Scattershot",
-        name_de: "Thrall-Schrotflintenschütze",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Snarer",
-        name_de: "Thrall-Fänger",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Subjugator",
-        name_de: "Thrall-Unterwerfer",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thrall Warden",
-        name_de: "Thrall-Wächter",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Thylacoleo",
-        name_de: "Thylacoleo",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tidepup",
-        name_de: "Tidepup",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tidepup Evolution",
-        name_de: "Tidepup Evolution",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Titanoboa",
-        name_de: "Titanoboa",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Triceratops",
-        name_de: "Triceratops",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Troodon",
-        name_de: "Troodon",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Tusoteuthis",
-        name_de: "Tusoteuthis",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Umbra",
-        name_de: "Umbra",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Unicorn",
-        name_de: "Einhorn",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Veilwyn",
-        name_de: "Veilwyn",
         kategorie: "companion",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Velonasaur",
-        name_de: "Velonasaur",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Vulture",
-        name_de: "Geier",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Woolly Rhino",
-        name_de: "Wollnashorn",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Xiphactinus",
-        name_de: "Xiphactinus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Yi Ling",
-        name_de: "Yi Ling",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Yutyrannus",
-        name_de: "Yutyrannus",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Zombie Dodo",
-        name_de: "Zombie-Dodo",
         kategorie: "normal",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Zombie Fire Wyvern",
-        name_de: "Zombie-Feuer-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Zombie Lightning Wyvern",
-        name_de: "Zombie-Blitz-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Zombie Poison Wyvern",
-        name_de: "Zombie-Gift-Wyvern",
         kategorie: "eier",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
 
     // ============================================================
@@ -1796,38 +1004,22 @@ export const tier_daten = [
 
     {
         name: "Spring Drakeling",
-        name_de: "Frühlings-Drakeling",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Summer Drakeling",
-        name_de: "Sommer-Drakeling",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Autuum Drakeling",
-        name_de: "Herbst-Drakeling",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     },
     {
         name: "Winter Drakeling",
-        name_de: "Winter-Drakeling",
         kategorie: "schulter",
-        map_verfuegbarkeit: [],
-        name_tag: "",
-        mod: "Ark Official",
-        event: ""
+        mod: "Ark Official"
     }
 ];

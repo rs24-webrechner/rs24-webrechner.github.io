@@ -5,340 +5,375 @@
 export const geneDaten = [
 
     // ========================================
-    // BREEDING
+    // ZUCHT
     // ========================================
 
     {
-        name: "Mutable [Stat]",
-        name_de: "Mutierbar [Stat]",
-        kategorie: "breeding",
+        name: "Mutierbar [Stat]",
+        name_en: "Mutable [Stat]",
+        kategorie: "Zucht",
+        kategorie_en: "Breeding",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "1-2% increase to mut chance, higher chance for [Stat]",
-        beschreibung_de: "1–2 % höhere Mutationschance, höhere Chance auf [Stat]."
+        beschreibung: "1–2 % höhere Mutationschance, höhere Chance auf [Stat].",
+        beschreibung_en: "1-2% increase to mut chance, higher chance for [Stat]"
     },
     {
         name: "[Stat] Robust",
-        name_de: "[Stat] Robust",
-        kategorie: "breeding",
+        name_en: "[Stat] Robust",
+        kategorie: "Zucht",
+        kategorie_en: "Breeding",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "1.5-3% increase to inherit higher [Stat] of parents",
-        beschreibung_de: "1,5–3 % höhere Chance, den höheren [Stat] der Eltern zu erben."
+        beschreibung: "1,5–3 % höhere Chance, den höheren [Stat] der Eltern zu erben.",
+        beschreibung_en: "1.5-3% increase to inherit higher [Stat] of parents"
     },
     {
-        name: "[Stat] Frail",
-        name_de: "[Stat] Gebrechlich",
-        kategorie: "breeding",
+        name: "[Stat] Gebrechlich",
+        name_en: "[Stat] Frail",
+        kategorie: "Zucht",
+        kategorie_en: "Breeding",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "1.5-3% decrease to inherit higher [Stat] of parents",
-        beschreibung_de: "1,5–3 % geringere Chance, den höheren [Stat] der Eltern zu erben."
+        beschreibung: "1,5–3 % geringere Chance, den höheren [Stat] der Eltern zu erben.",
+        beschreibung_en: "1.5-3% decrease to inherit higher [Stat] of parents"
     },
 
 
     // ========================================
-    // COMBAT
+    // KAMPF
     // ========================================
 
     {
-        name: "Numb",
-        name_de: "Unempfindlich",
-        kategorie: "combat",
+        name: "Unempfindlich",
+        name_en: "Numb",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 1,
         stufe: null,
-        beschreibung_en: "Damage taken reduced by 25-50%, takes that damage over 5s",
-        beschreibung_de: "Erlittener Schaden wird um 25–50 % reduziert und über 5 Sekunden verteilt."
+        beschreibung: "Erlittener Schaden wird um 25–50 % reduziert und über 5 Sekunden verteilt.",
+        beschreibung_en: "Damage taken reduced by 25-50%, takes that damage over 5s"
     },
     {
-        name: "Vampiric",
-        name_de: "Vampirisch",
-        kategorie: "combat",
+        name: "Vampirisch",
+        name_en: "Vampiric",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 1,
         stufe: null,
-        beschreibung_en: "5-10% Lifesteal",
-        beschreibung_de: "5–10 % Lebensraub."
+        beschreibung: "5–10 % Lebensraub.",
+        beschreibung_en: "5-10% Lifesteal"
     },
     {
-        name: "Tenacious",
-        name_de: "Zäh",
-        kategorie: "combat",
+        name: "Zäh",
+        name_en: "Tenacious",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Damage taken reduced by 12.5-25% as health reaches 25%",
-        beschreibung_de: "Erlittener Schaden wird um 12,5–25 % reduziert, wenn die Gesundheit 25 % erreicht."
+        beschreibung: "Erlittener Schaden wird um 12,5–25 % reduziert, wenn die Gesundheit 25 % erreicht.",
+        beschreibung_en: "Damage taken reduced by 12.5-25% as health reaches 25%"
     },
     {
-        name: "Angry",
-        name_de: "Wütend",
-        kategorie: "combat",
+        name: "Wütend",
+        name_en: "Angry",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 2,
         stufe: null,
-        beschreibung_en: "Damage dealt increases by 12.5-25% as health reaches 25%",
-        beschreibung_de: "Verursachter Schaden steigt um 12,5–25 %, wenn die Gesundheit 25 % erreicht."
+        beschreibung: "Verursachter Schaden steigt um 12,5–25 %, wenn die Gesundheit 25 % erreicht.",
+        beschreibung_en: "Damage dealt increases by 12.5-25% as health reaches 25%"
     },
     {
         name: "Warm",
-        name_de: "Warm",
-        kategorie: "combat",
+        name_en: "Warm",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "40-80 Insul, 5-10% reduced Cold damage",
-        beschreibung_de: "40–80 Isolation, 5–10 % weniger Kälteschaden."
+        beschreibung: "40–80 Isolation, 5–10 % weniger Kälteschaden.",
+        beschreibung_en: "40-80 Insul, 5-10% reduced Cold damage"
     },
     {
-        name: "Cold",
-        name_de: "Kalt",
-        kategorie: "combat",
+        name: "Kalt",
+        name_en: "Cold",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "40-80 Insul, 5-10% reduced Heat damage",
-        beschreibung_de: "40–80 Isolation, 5–10 % weniger Hitzeschaden."
+        beschreibung: "40–80 Isolation, 5–10 % weniger Hitzeschaden.",
+        beschreibung_en: "40-80 Insul, 5-10% reduced Heat damage"
     },
     {
-        name: "High Endurance",
-        name_de: "Hohe Ausdauer",
-        kategorie: "combat",
+        name: "Hohe Ausdauer",
+        name_en: "High Endurance",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "4-8% reduced stamina drain from sprinting",
-        beschreibung_de: "4–8 % weniger Ausdauerverbrauch beim Sprinten."
+        beschreibung: "4–8 % weniger Ausdauerverbrauch beim Sprinten.",
+        beschreibung_en: "4-8% reduced stamina drain from sprinting"
     },
     {
-        name: "Protective",
-        name_de: "Beschützend",
-        kategorie: "combat",
+        name: "Beschützend",
+        name_en: "Protective",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 2,
         stufe: null,
-        beschreibung_en: "Rider takes 15-30% less damage. Persists 10s after dismount",
-        beschreibung_de: "Der Reiter erleidet 15–30 % weniger Schaden. Der Effekt bleibt 10 Sekunden nach dem Absteigen bestehen."
+        beschreibung: "Der Reiter erleidet 15–30 % weniger Schaden. Der Effekt bleibt 10 Sekunden nach dem Absteigen bestehen.",
+        beschreibung_en: "Rider takes 15-30% less damage. Persists 10s after dismount"
     },
     {
-        name: "Excitable",
-        name_de: "Erregbar",
-        kategorie: "combat",
+        name: "Erregbar",
+        name_en: "Excitable",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 1,
         stufe: null,
-        beschreibung_en: "Basic Attacks reduce Ability cooldowns by 0.25-0.5s",
-        beschreibung_de: "Standardangriffe reduzieren die Abklingzeiten von Fähigkeiten um 0,25–0,5 Sekunden."
+        beschreibung: "Standardangriffe reduzieren die Abklingzeiten von Fähigkeiten um 0,25–0,5 Sekunden.",
+        beschreibung_en: "Basic Attacks reduce Ability cooldowns by 0.25-0.5s"
     },
     {
-        name: "Distracting",
-        name_de: "Ablenkend",
-        kategorie: "combat",
+        name: "Ablenkend",
+        name_en: "Distracting",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 1,
         stufe: null,
-        beschreibung_en: "Enemys that take damage from this Creature deal 5-10% less damage to all other targets for 20s",
-        beschreibung_de: "Gegner, die von diesem Tier Schaden erleiden, verursachen 20 Sekunden lang 5–10 % weniger Schaden an allen anderen Zielen."
+        beschreibung: "Gegner, die von diesem Tier Schaden erleiden, verursachen 20 Sekunden lang 5–10 % weniger Schaden an allen anderen Zielen.",
+        beschreibung_en: "Enemys that take damage from this Creature deal 5-10% less damage to all other targets for 20s"
     },
     {
-        name: "Heavy Hitting",
-        name_de: "Schlagkräftig",
-        kategorie: "combat",
+        name: "Schlagkräftig",
+        name_en: "Heavy Hitting",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Basic Attack damage increased 2.5-5%, Attack Spd reduced 5-10%",
-        beschreibung_de: "Schaden von Standardangriffen um 2,5–5 % erhöht, Angriffsgeschwindigkeit um 5–10 % reduziert."
+        beschreibung: "Schaden von Standardangriffen um 2,5–5 % erhöht, Angriffsgeschwindigkeit um 5–10 % reduziert.",
+        beschreibung_en: "Basic Attack damage increased 2.5-5%, Attack Spd reduced 5-10%"
     },
     {
-        name: "Quick Hitting",
-        name_de: "Schnellschlag",
-        kategorie: "combat",
+        name: "Schnellschlag",
+        name_en: "Quick Hitting",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Attack Spd increased 2.5-5%, Basic Attack damage reduced 5-10%",
-        beschreibung_de: "Angriffsgeschwindigkeit um 2,5–5 % erhöht, Schaden von Standardangriffen um 5–10 % reduziert."
+        beschreibung: "Angriffsgeschwindigkeit um 2,5–5 % erhöht, Schaden von Standardangriffen um 5–10 % reduziert.",
+        beschreibung_en: "Attack Spd increased 2.5-5%, Basic Attack damage reduced 5-10%"
     },
     {
-        name: "Giantslaying",
-        name_de: "Riesentöter",
-        kategorie: "combat",
+        name: "Riesentöter",
+        name_en: "Giantslaying",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 2,
         stufe: null,
-        beschreibung_en: "2.5-5% increased damage to 500< drag weight, 7.5-15% descreased damage to 200> drag weight",
-        beschreibung_de: "2,5–5 % mehr Schaden gegen Kreaturen mit einem Traggewicht über 500, 7,5–15 % weniger Schaden gegen Kreaturen mit einem Traggewicht unter 200."
+        beschreibung: "2,5–5 % mehr Schaden gegen Kreaturen mit einem Traggewicht über 500, 7,5–15 % weniger Schaden gegen Kreaturen mit einem Traggewicht unter 200.",
+        beschreibung_en: "2.5-5% increased damage to 500< drag weight, 7.5-15% descreased damage to 200> drag weight"
     },
     {
-        name: "Kingslaying",
-        name_de: "Königstöter",
-        kategorie: "combat",
+        name: "Königstöter",
+        name_en: "Kingslaying",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "5-10% increased damage to Bosses, reduces damage to all other creatures by 10%",
-        beschreibung_de: "5–10 % mehr Schaden gegen Bosse, dafür 10 % weniger Schaden gegen alle anderen Kreaturen."
+        beschreibung: "5–10 % mehr Schaden gegen Bosse, dafür 10 % weniger Schaden gegen alle anderen Kreaturen.",
+        beschreibung_en: "5-10% increased damage to Bosses, reduces damage to all other creatures by 10%"
     },
     {
-        name: "Fatty",
-        name_de: "Fett",
-        kategorie: "combat",
+        name: "Fett",
+        name_en: "Fatty",
+        kategorie: "Kampf",
+        kategorie_en: "Combat",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Gains 0.1-0.2 Armor per point in Food",
-        beschreibung_de: "Erhält 0,1–0,2 Rüstung pro Punkt Nahrung."
+        beschreibung: "Erhält 0,1–0,2 Rüstung pro Punkt Nahrung.",
+        beschreibung_en: "Gains 0.1-0.2 Armor per point in Food"
     },
 
 
     // ========================================
-    // UTILITY
+    // HILFSEIGENSCHAFTEN
     // ========================================
 
     {
-        name: "Cave Bearing",
-        name_de: "Höhlenaffinität",
-        kategorie: "utility",
+        name: "Höhlenaffinität",
+        name_en: "Cave Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Gems, Ele Ore",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Edelsteine und Elementerz."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Edelsteine und Elementerz.",
+        beschreibung_en: "15-30% reduction in Resources from area - Gems, Ele Ore"
     },
     {
-        name: "Desert Bearing",
-        name_de: "Wüstenaffinität",
-        kategorie: "utility",
+        name: "Wüstenaffinität",
+        name_en: "Desert Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Salt, Sand",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Salz und Sand."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Salz und Sand.",
+        beschreibung_en: "15-30% reduction in Resources from area - Salt, Sand"
     },
     {
-        name: "Mineral Bearing",
-        name_de: "Mineralienaffinität",
-        kategorie: "utility",
+        name: "Mineralienaffinität",
+        name_en: "Mineral Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Metal, Crystal, Stone",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Metall, Kristall und Stein."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Metall, Kristall und Stein.",
+        beschreibung_en: "15-30% reduction in Resources from area - Metal, Crystal, Stone"
     },
     {
-        name: "Carcass Bearing",
-        name_de: "Kadaveraffinität",
-        kategorie: "utility",
+        name: "Kadaveraffinität",
+        name_en: "Carcass Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Hide, Org Poly, Chitin",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Fell, organisches Polymer und Chitin."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Fell, organisches Polymer und Chitin.",
+        beschreibung_en: "15-30% reduction in Resources from area - Hide, Org Poly, Chitin"
     },
     {
-        name: "Exotic Bearing",
-        name_de: "Exotenaffinität",
-        kategorie: "utility",
+        name: "Exotenaffinität",
+        name_en: "Exotic Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Black Pearls",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Schwarze Perlen."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Schwarze Perlen.",
+        beschreibung_en: "15-30% reduction in Resources from area - Black Pearls"
     },
     {
-        name: "Plant Bearing",
-        name_de: "Pflanzenaffinität",
-        kategorie: "utility",
+        name: "Pflanzenaffinität",
+        name_en: "Plant Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Wood, Berries",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Holz und Beeren."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Holz und Beeren.",
+        beschreibung_en: "15-30% reduction in Resources from area - Wood, Berries"
     },
     {
-        name: "Meat Bearing",
-        name_de: "Fleischaffinität",
-        kategorie: "utility",
+        name: "Fleischaffinität",
+        name_en: "Meat Bearing",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: null,
         stufe: null,
-        beschreibung_en: "15-30% reduction in Resources from area - Meats",
-        beschreibung_de: "15–30 % weniger Ressourcen aus diesem Gebiet – Fleisch."
+        beschreibung: "15–30 % weniger Ressourcen aus diesem Gebiet – Fleisch.",
+        beschreibung_en: "15-30% reduction in Resources from area - Meats"
     },
     {
-        name: "Slow Metabolism",
-        name_de: "Langsamer Stoffwechsel",
-        kategorie: "utility",
+        name: "Langsamer Stoffwechsel",
+        name_en: "Slow Metabolism",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Reduces Food consumption by 5-10%, includes abilities that drain food",
-        beschreibung_de: "Reduziert den Nahrungsverbrauch um 5–10 %, einschließlich Fähigkeiten, die Nahrung verbrauchen."
+        beschreibung: "Reduziert den Nahrungsverbrauch um 5–10 %, einschließlich Fähigkeiten, die Nahrung verbrauchen.",
+        beschreibung_en: "Reduces Food consumption by 5-10%, includes abilities that drain food"
     },
     {
-        name: "Aquatic",
-        name_de: "Aquatisch",
-        kategorie: "utility",
+        name: "Aquatisch",
+        name_en: "Aquatic",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Swim speed increase 7.5-15%, O2 drain reduced 12.5-25%, swim-sprint stamina drain reduced 4-8%",
-        beschreibung_de: "Schwimmgeschwindigkeit um 7,5–15 % erhöht, Sauerstoffverbrauch um 12,5–25 % reduziert und Ausdauerverbrauch beim Schwimmsprint um 4–8 % reduziert."
+        beschreibung: "Schwimmgeschwindigkeit um 7,5–15 % erhöht, Sauerstoffverbrauch um 12,5–25 % reduziert und Ausdauerverbrauch beim Schwimmsprint um 4–8 % reduziert.",
+        beschreibung_en: "Swim speed increase 7.5-15%, O2 drain reduced 12.5-25%, swim-sprint stamina drain reduced 4-8%"
     },
     {
-        name: "Athletic",
-        name_de: "Athletisch",
-        kategorie: "utility",
+        name: "Athletisch",
+        name_en: "Athletic",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Gain 0.05-0.1 health regen and 0.05-0.1% stamina regen per point in O2",
-        beschreibung_de: "Erhält 0,05–0,1 Gesundheitsregeneration und 0,05–0,1 % Ausdauerregeneration pro Punkt Sauerstoff."
+        beschreibung: "Erhält 0,05–0,1 Gesundheitsregeneration und 0,05–0,1 % Ausdauerregeneration pro Punkt Sauerstoff.",
+        beschreibung_en: "Gain 0.05-0.1 health regen and 0.05-0.1% stamina regen per point in O2"
     },
     {
-        name: "Carefree",
-        name_de: "Sorglos",
-        kategorie: "utility",
+        name: "Sorglos",
+        name_en: "Carefree",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 1,
         stufe: null,
-        beschreibung_en: "Gain 7.5-15% movespeed buff that is lost for 20s after dealing/taking damage or gaining new rider",
-        beschreibung_de: "Erhält einen Bewegungsgeschwindigkeitsbonus von 7,5–15 %, der für 20 Sekunden verloren geht, nachdem Schaden verursacht oder erlitten wurde oder ein neuer Reiter aufsteigt."
+        beschreibung: "Erhält einen Bewegungsgeschwindigkeitsbonus von 7,5–15 %, der für 20 Sekunden verloren geht, nachdem Schaden verursacht oder erlitten wurde oder ein neuer Reiter aufsteigt.",
+        beschreibung_en: "Gain 7.5-15% movespeed buff that is lost for 20s after dealing/taking damage or gaining new rider"
     },
     {
-        name: "Aggressive",
-        name_de: "Aggressiv",
-        kategorie: "utility",
+        name: "Aggressiv",
+        name_en: "Aggressive",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 2,
         stufe: null,
-        beschreibung_en: "When creature hits enemy, gain 2.5-5% movespeed buff for 5s",
-        beschreibung_de: "Wenn das Tier einen Gegner trifft, erhält es 5 Sekunden lang einen Bewegungsgeschwindigkeitsbonus von 2,5–5 %."
+        beschreibung: "Wenn das Tier einen Gegner trifft, erhält es 5 Sekunden lang einen Bewegungsgeschwindigkeitsbonus von 2,5–5 %.",
+        beschreibung_en: "When creature hits enemy, gain 2.5-5% movespeed buff for 5s"
     },
     {
-        name: "Cowardly",
-        name_de: "Feige",
-        kategorie: "utility",
+        name: "Feige",
+        name_en: "Cowardly",
+        kategorie: "Hilfseigenschaften",
+        kategorie_en: "Utility",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "When creature takes damage, gains 2.5-5% movespeed buff for 5s",
-        beschreibung_de: "Wenn das Tier Schaden erleidet, erhält es 5 Sekunden lang einen Bewegungsgeschwindigkeitsbonus von 2,5–5 %."
+        beschreibung: "Wenn das Tier Schaden erleidet, erhält es 5 Sekunden lang einen Bewegungsgeschwindigkeitsbonus von 2,5–5 %.",
+        beschreibung_en: "When creature takes damage, gains 2.5-5% movespeed buff for 5s"
     },
 
 
     // ========================================
-    // MISC
+    // SONSTIGES
     // ========================================
 
     {
-        name: "Nocturnal",
-        name_de: "Nachtaktiv",
-        kategorie: "misc",
+        name: "Nachtaktiv",
+        name_en: "Nocturnal",
+        kategorie: "Sonstiges",
+        kategorie_en: "Misc",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "2.5-5% Reduced stamina drain at night",
-        beschreibung_de: "2,5–5 % weniger Ausdauerverbrauch während der Nacht."
+        beschreibung: "2,5–5 % weniger Ausdauerverbrauch während der Nacht.",
+        beschreibung_en: "2.5-5% Reduced stamina drain at night"
     },
     {
-        name: "Diurnal",
-        name_de: "Tagaktiv",
-        kategorie: "misc",
+        name: "Tagaktiv",
+        name_en: "Diurnal",
+        kategorie: "Sonstiges",
+        kategorie_en: "Misc",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "2.5-5% Reduced stamina drain during day",
-        beschreibung_de: "2,5–5 % weniger Ausdauerverbrauch während des Tages."
+        beschreibung: "2,5–5 % weniger Ausdauerverbrauch während des Tages.",
+        beschreibung_en: "2.5-5% Reduced stamina drain during day"
     },
     {
-        name: "Fast Learner",
-        name_de: "Schneller Lerner",
-        kategorie: "misc",
+        name: "Schneller Lerner",
+        name_en: "Fast Learner",
+        kategorie: "Sonstiges",
+        kategorie_en: "Misc",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Gain 15-30% additional EXP",
-        beschreibung_de: "Erhält 15–30 % zusätzliche Erfahrung."
+        beschreibung: "Erhält 15–30 % zusätzliche Erfahrung.",
+        beschreibung_en: "Gain 15-30% additional EXP"
     },
     {
-        name: "Frenetic",
-        name_de: "Frenetisch",
-        kategorie: "misc",
+        name: "Frenetisch",
+        name_en: "Frenetic",
+        kategorie: "Sonstiges",
+        kategorie_en: "Misc",
         max_stacks: 3,
         stufe: null,
-        beschreibung_en: "Torpor drain increased by 7.5-15%",
-        beschreibung_de: "Der Torporabbau wird um 7,5–15 % erhöht."
+        beschreibung: "Der Torporabbau wird um 7,5–15 % erhöht.",
+        beschreibung_en: "Torpor drain increased by 7.5-15%"
     }
 ];

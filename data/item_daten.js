@@ -9,1219 +9,814 @@ export const itemDaten = [
     // ========================================
 
     {
-        name: "Acrocanthosaurus Saddle",
-        name_de: "Acrocanthosaurus-Sattel",
+        name: "Acrocanthosaurus-Sattel",
+        name_en: "Acrocanthosaurus Saddle",
         class: "PrimalItemArmor_AcroSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Allosaurus Saddle",
-        name_de: "Allosaurus-Sattel",
+        name: "Allosaurus-Sattel",
+        name_en: "Allosaurus Saddle",
         class: "PrimalItemArmor_AlloSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ankylosaurus Saddle",
-        name_de: "Ankylosaurus-Sattel",
+        name: "Ankylosaurus-Sattel",
+        name_en: "Ankylosaurus Saddle",
         class: "PrimalItemArmor_AnkyloSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Araneo Saddle",
-        name_de: "Araneo-Sattel",
+        name: "Araneo-Sattel",
+        name_en: "Araneo Saddle",
         class: "PrimalItemArmor_SpiderSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Archelon Saddle",
-        name_de: "Archelon-Sattel",
+        name: "Archelon-Sattel",
+        name_en: "Archelon Saddle",
         class: "PrimalItem_Armor_Archelon_Saddle_ASA_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Argentavis Saddle",
-        name_de: "Argentavis-Sattel",
+        name: "Argentavis-Sattel",
+        name_en: "Argentavis Saddle",
         class: "PrimalItemArmor_ArgentavisSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Armadoggo Armor",
-        name_de: "Armadoggo-Rüstung",
+        name: "Armadoggo-Rüstung",
+        name_en: "Armadoggo Armor",
         class: "PrimalItemArmor_DinoCompanionSaddle_Doggo_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Arthropluera Saddle",
-        name_de: "Arthropluera-Sattel",
+        name: "Arthropluera-Sattel",
+        name_en: "Arthropluera Saddle",
         class: "PrimalItemArmor_ArthroSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Astrocetus Tek Saddle",
-        name_de: "Astrocetus-Tek-Sattel",
+        name: "Astrocetus-Tek-Sattel",
+        name_en: "Astrocetus Tek Saddle",
         class: "PrimalItemArmor_SpaceWhaleSaddle_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Aureliax Saddle",
-        name_de: "Aureliax-Sattel",
+        name: "Aureliax-Sattel",
+        name_en: "Aureliax Saddle",
         class: "PrimalItemArmor_SnowDragonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Baryonyx Saddle",
-        name_de: "Baryonyx-Sattel",
+        name: "Baryonyx-Sattel",
+        name_en: "Baryonyx Saddle",
         class: "PrimalItemArmor_BaryonyxSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Basilisk Saddle",
-        name_de: "Basilisk-Sattel",
+        name: "Basilisk-Sattel",
+        name_en: "Basilisk Saddle",
         class: "PrimalItemArmor_BasiliskSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Basilosaurus Saddle",
-        name_de: "Basilosaurus-Sattel",
+        name: "Basilosaurus-Sattel",
+        name_en: "Basilosaurus Saddle",
         class: "PrimalItemArmor_BasiloSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Beelzebufo Saddle",
-        name_de: "Beelzebufo-Sattel",
+        name: "Beelzebufo-Sattel",
+        name_en: "Beelzebufo Saddle",
         class: "PrimalItemArmor_ToadSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Bison Saddle",
-        name_de: "Bison-Sattel",
+        name: "Bison-Sattel",
+        name_en: "Bison Saddle",
         class: "PrimalItemArmor_BisonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Boaratos Saddle",
-        name_de: "Boaratos-Sattel",
+        name: "Boaratos-Sattel",
+        name_en: "Boaratos Saddle",
         class: "PrimalItemArmor_BoaratosSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Bronto Platform Saddle",
-        name_de: "Bronto-Plattformsattel",
+        name: "Bronto-Plattformsattel",
+        name_en: "Bronto Platform Saddle",
         class: "PrimalItemArmor_SauroSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Bronto Saddle",
-        name_de: "Bronto-Sattel",
+        name: "Bronto-Sattel",
+        name_en: "Bronto Saddle",
         class: "PrimalItemArmor_SauroSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Burrowbuck Saddle",
-        name_de: "Burrowbuck-Sattel",
+        name: "Burrowbuck-Sattel",
+        name_en: "Burrowbuck Saddle",
         class: "PrimalItemArmor_JackalopeSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Carbonemys Saddle",
-        name_de: "Carbonemys-Sattel",
+        name: "Carbonemys-Sattel",
+        name_en: "Carbonemys Saddle",
         class: "PrimalItemArmor_TurtleSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Carcharo Saddle",
-        name_de: "Carcharodontosaurus-Sattel",
+        name: "Carcharodontosaurus-Sattel",
+        name_en: "Carcharo Saddle",
         class: "PrimalItemArmor_CarchaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Carno Saddle",
-        name_de: "Carno-Sattel",
+        name: "Carno-Sattel",
+        name_en: "Carno Saddle",
         class: "PrimalItemArmor_CarnoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Castoroides Saddle",
-        name_de: "Castoroides-Sattel",
+        name: "Castoroides-Sattel",
+        name_en: "Castoroides Saddle",
         class: "PrimalItemArmor_BeaverSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ceratosaurus Saddle",
-        name_de: "Ceratosaurus-Sattel",
+        name: "Ceratosaurus-Sattel",
+        name_en: "Ceratosaurus Saddle",
         class: "PrimalItemArmor_CeratosaurusSaddle_ASA_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chalicotherium Saddle",
-        name_de: "Chalicotherium-Sattel",
+        name: "Chalicotherium-Sattel",
+        name_en: "Chalicotherium Saddle",
         class: "PrimalItemArmor_ChalicoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Ammo Box",
-        name_de: "Begleiter-Munitionskiste",
+        name: "Begleiter-Munitionskiste",
+        name_en: "Companion Ammo Box",
         class: "PrimalItemArmor_DinoCompanion_Gear_AmmoBox_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Bait Trap",
-        name_de: "Begleiter-Köderfalle",
+        name: "Begleiter-Köderfalle",
+        name_en: "Companion Bait Trap",
         class: "PrimalItemArmor_DinoCompanion_Gear_MeatSack_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Battle-spikes",
-        name_de: "Begleiter-Kampfspitzen",
+        name: "Begleiter-Kampfspitzen",
+        name_en: "Companion Battle-spikes",
         class: "PrimalItemArmor_DinoCompanion_Gear_Spikes_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Camping Gear",
-        name_de: "Begleiter-Campingausrüstung",
+        name: "Begleiter-Campingausrüstung",
+        name_en: "Companion Camping Gear",
         class: "PrimalItemArmor_DinoCompanion_Gear_RolledUpSleepingBag_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Chibi-carrier",
-        name_de: "Begleiter-Chibi-Träger",
+        name: "Begleiter-Chibi-Träger",
+        name_en: "Companion Chibi-carrier",
         class: "PrimalItemArmor_DinoCompanion_Gear_ChibiBasket_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Extra Armor",
-        name_de: "Begleiter-Zusatzrüstung",
+        name: "Begleiter-Zusatzrüstung",
+        name_en: "Companion Extra Armor",
         class: "PrimalItemArmor_DinoCompanion_Gear_ExtraArmor_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Medpack",
-        name_de: "Begleiter-Medipack",
+        name: "Begleiter-Medipack",
+        name_en: "Companion Medpack",
         class: "PrimalItemArmor_DinoCompanion_Gear_Medkit_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Oxygen Tank",
-        name_de: "Begleiter-Sauerstofftank",
+        name: "Begleiter-Sauerstofftank",
+        name_en: "Companion Oxygen Tank",
         class: "PrimalItemArmor_DinoCompanion_Gear_OxygenTank_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Picnic Set",
-        name_de: "Begleiter-Picknickset",
+        name: "Begleiter-Picknickset",
+        name_en: "Companion Picnic Set",
         class: "PrimalItemArmor_DinoCompanion_Gear_FoodBasket_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Rucksack",
-        name_de: "Begleiter-Rucksack",
+        name: "Begleiter-Rucksack",
+        name_en: "Companion Rucksack",
         class: "PrimalItemArmor_DinoCompanion_Gear_Bag_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Speed Booster",
-        name_de: "Begleiter-Geschwindigkeitsverstärker",
+        name: "Begleiter-Geschwindigkeitsverstärker",
+        name_en: "Companion Speed Booster",
         class: "PrimalItemArmor_DinoCompanion_Gear_Movespeed_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Companion Spykit",
-        name_de: "Begleiter-Spähset",
+        name: "Begleiter-Spähset",
+        name_en: "Companion Spykit",
         class: "PrimalItemArmor_DinoCompanion_Gear_Spyglass_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Conca Saddle",
-        name_de: "Concavenator-Sattel",
+        name: "Concavenator-Sattel",
+        name_en: "Conca Saddle",
         class: "PrimalItemArmor_ConcavenatorSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cryolophosaurus Saddle",
-        name_de: "Cryolophosaurus-Sattel",
+        name: "Cryolophosaurus-Sattel",
+        name_en: "Cryolophosaurus Saddle",
         class: "PrimalItemArmor_CryoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Daeodon Saddle",
-        name_de: "Daeodon-Sattel",
+        name: "Daeodon-Sattel",
+        name_en: "Daeodon Saddle",
         class: "PrimalItemArmor_DaeodonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Deinonychus Saddle",
-        name_de: "Deinonychus-Sattel",
+        name: "Deinonychus-Sattel",
+        name_en: "Deinonychus Saddle",
         class: "PrimalItemArmor_DeinonychusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Deinosuchus Saddle",
-        name_de: "Deinosuchus-Sattel",
+        name: "Deinosuchus-Sattel",
+        name_en: "Deinosuchus Saddle",
         class: "PrimalItemArmor_Deinosuchus_Saddle_ASA_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Deinotherium Saddle",
-        name_de: "Deinotherium-Sattel",
+        name: "Deinotherium-Sattel",
+        name_en: "Deinotherium Saddle",
         class: "PrimalItemArmor_DeinotheriumSaddle_ASA_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desmodus Saddle",
-        name_de: "Desmodus-Sattel",
+        name: "Desmodus-Sattel",
+        name_en: "Desmodus Saddle",
         class: "PrimalItemArmor_DesmodusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Diplodocus Saddle",
-        name_de: "Diplodocus-Sattel",
+        name: "Diplodocus-Sattel",
+        name_en: "Diplodocus Saddle",
         class: "PrimalItemArmor_DiplodocusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Direbear Saddle",
-        name_de: "Riesenbär-Sattel",
+        name: "Riesenbär-Sattel",
+        name_en: "Direbear Saddle",
         class: "PrimalItemArmor_DireBearSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Doedicurus Saddle",
-        name_de: "Doedicurus-Sattel",
+        name: "Doedicurus-Sattel",
+        name_en: "Doedicurus Saddle",
         class: "PrimalItemArmor_DoeddSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Dreadnoughtus Platform Saddle",
-        name_de: "Dreadnoughtus-Plattformsattel",
+        name: "Dreadnoughtus-Plattformsattel",
+        name_en: "Dreadnoughtus Platform Saddle",
         class: "PrimalItemArmor_DreadSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Dunkleosteus Saddle",
-        name_de: "Dunkleosteus-Sattel",
+        name: "Dunkleosteus-Sattel",
+        name_en: "Dunkleosteus Saddle",
         class: "PrimalItemArmor_DunkleosteusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Equus Saddle",
-        name_de: "Equus-Sattel",
+        name: "Equus-Sattel",
+        name_en: "Equus Saddle",
         class: "PrimalItemArmor_EquusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fasolasuchus Saddle",
-        name_de: "Fasolasuchus-Sattel",
+        name: "Fasolasuchus-Sattel",
+        name_en: "Fasolasuchus Saddle",
         class: "PrimalItemArmor_FasolaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gacha Saddle",
-        name_de: "Gacha-Sattel",
+        name: "Gacha-Sattel",
+        name_en: "Gacha Saddle",
         class: "PrimalItemArmor_GachaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gallimimus Saddle",
-        name_de: "Gallimimus-Sattel",
+        name: "Gallimimus-Sattel",
+        name_en: "Gallimimus Saddle",
         class: "PrimalItemArmor_Gallimimus_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gasbags Saddle",
-        name_de: "Gasbags-Sattel",
+        name: "Gasbags-Sattel",
+        name_en: "Gasbags Saddle",
         class: "PrimalItemArmor_GasBagsSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gigadesmodus Platform Saddle",
-        name_de: "Gigadesmodus-Plattformsattel",
+        name: "Gigadesmodus-Plattformsattel",
+        name_en: "Gigadesmodus Platform Saddle",
         class: "PrimalItemArmor_BossBatSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gigadesmodus Saddle",
-        name_de: "Gigadesmodus-Sattel",
+        name: "Gigadesmodus-Sattel",
+        name_en: "Gigadesmodus Saddle",
         class: "PrimalItemArmor_BossBatSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Giganotosaurus Saddle",
-        name_de: "Giganotosaurus-Sattel",
+        name: "Giganotosaurus-Sattel",
+        name_en: "Giganotosaurus Saddle",
         class: "PrimalItemArmor_GigantSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gigantoraptor Saddle",
-        name_de: "Gigantoraptor-Sattel",
+        name: "Gigantoraptor-Sattel",
+        name_en: "Gigantoraptor Saddle",
         class: "PrimalItemArmor_GigantoraptorSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Grand Tortugar Platform Saddle",
-        name_de: "Grand-Tortugar-Plattformsattel",
+        name: "Grand-Tortugar-Plattformsattel",
+        name_en: "Grand Tortugar Platform Saddle",
         class: "PrimalItemArmor_GrandTortugar_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Grand Tortugar Saddle",
-        name_de: "Grand-Tortugar-Sattel",
+        name: "Grand-Tortugar-Sattel",
+        name_en: "Grand Tortugar Saddle",
         class: "PrimalItemArmor_GrandTortugaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Helicoprion Saddle",
-        name_de: "Helicoprion-Sattel",
+        name: "Helicoprion-Sattel",
+        name_en: "Helicoprion Saddle",
         class: "PrimalItemArmor_Helicoprion_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hyaenodon Meatpack",
-        name_de: "Hyaenodon-Fleischrucksack",
+        name: "Hyaenodon-Fleischrucksack",
+        name_en: "Hyaenodon Meatpack",
         class: "PrimalItemArmor_HyaenodonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ichthyosaurus Saddle",
-        name_de: "Ichthyosaurus-Sattel",
+        name: "Ichthyosaurus-Sattel",
+        name_en: "Ichthyosaurus Saddle",
         class: "PrimalItemArmor_DolphinSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Iguanodon Saddle",
-        name_de: "Iguanodon-Sattel",
+        name: "Iguanodon-Sattel",
+        name_en: "Iguanodon Saddle",
         class: "PrimalItemArmor_IguanodonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Kaprosuchus Saddle",
-        name_de: "Kaprosuchus-Sattel",
+        name: "Kaprosuchus-Sattel",
+        name_en: "Kaprosuchus Saddle",
         class: "PrimalItemArmor_KaprosuchusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Karkinos Saddle",
-        name_de: "Karkinos-Sattel",
+        name: "Karkinos-Sattel",
+        name_en: "Karkinos Saddle",
         class: "PrimalItemArmor_CrabSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Lumina Saddle",
-        name_de: "Lumina-Sattel",
+        name: "Lumina-Sattel",
+        name_en: "Lumina Saddle",
         class: "PrimalItemArmor_LuminaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Lymantria Saddle",
-        name_de: "Lymantria-Sattel",
+        name: "Lymantria-Sattel",
+        name_en: "Lymantria Saddle",
         class: "PrimalItemArmor_MothSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Maeguana Saddle",
-        name_de: "Maeguana-Sattel",
+        name: "Maeguana-Sattel",
+        name_en: "Maeguana Saddle",
         class: "PrimalItemArmor_MaelizardSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Magmasaur Saddle",
-        name_de: "Magmasaur-Sattel",
+        name: "Magmasaur-Sattel",
+        name_en: "Magmasaur Saddle",
         class: "PrimalItemArmor_CherufeSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Malwyn Saddle",
-        name_de: "Malwyn-Sattel",
+        name: "Malwyn-Sattel",
+        name_en: "Malwyn Saddle",
         class: "PrimalItemArmor_DevilFoxSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mammoth Saddle",
-        name_de: "Mammut-Sattel",
+        name: "Mammut-Sattel",
+        name_en: "Mammoth Saddle",
         class: "PrimalItemArmor_MammothSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Managarmr Saddle",
-        name_de: "Managarmr-Sattel",
+        name: "Managarmr-Sattel",
+        name_en: "Managarmr Saddle",
         class: "PrimalItemArmor_IceJumperSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Manta Saddle",
-        name_de: "Manta-Sattel",
+        name: "Manta-Sattel",
+        name_en: "Manta Saddle",
         class: "PrimalItemArmor_MantaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mantis Saddle",
-        name_de: "Mantis-Sattel",
+        name: "Mantis-Sattel",
+        name_en: "Mantis Saddle",
         class: "PrimalItemArmor_MantisSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megachelon Platform Saddle",
-        name_de: "Megachelon-Plattformsattel",
+        name: "Megachelon-Plattformsattel",
+        name_en: "Megachelon Platform Saddle",
         class: "PrimalItemArmor_GiantTurtleSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megalania Saddle",
-        name_de: "Megalania-Sattel",
+        name: "Megalania-Sattel",
+        name_en: "Megalania Saddle",
         class: "PrimalItemArmor_MegalaniaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megaloceros Saddle",
-        name_de: "Megaloceros-Sattel",
+        name: "Megaloceros-Sattel",
+        name_en: "Megaloceros Saddle",
         class: "PrimalItemArmor_StagSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megalodon Saddle",
-        name_de: "Megalodon-Sattel",
+        name: "Megalodon-Sattel",
+        name_en: "Megalodon Saddle",
         class: "PrimalItemArmor_MegalodonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megalosaurus Saddle",
-        name_de: "Megalosaurus-Sattel",
+        name: "Megalosaurus-Sattel",
+        name_en: "Megalosaurus Saddle",
         class: "PrimalItemArmor_MegalosaurusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megaraptor Saddle",
-        name_de: "Megaraptor-Sattel",
+        name: "Megaraptor-Sattel",
+        name_en: "Megaraptor Saddle",
         class: "PrimalItemArmor_ValMegaraptorSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Megatherium Saddle",
-        name_de: "Megatherium-Sattel",
+        name: "Megatherium-Sattel",
+        name_en: "Megatherium Saddle",
         class: "PrimalItemArmor_MegatheriumSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Morellatops Saddle",
-        name_de: "Morellatops-Sattel",
+        name: "Morellatops-Sattel",
+        name_en: "Morellatops Saddle",
         class: "PrimalItemArmor_CamelsaurusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mosasaur Platform Saddle",
-        name_de: "Mosasaurier-Plattformsattel",
+        name: "Mosasaurier-Plattformsattel",
+        name_en: "Mosasaur Platform Saddle",
         class: "PrimalItemArmor_MosaSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mosasaur Saddle",
-        name_de: "Mosasaurier-Sattel",
+        name: "Mosasaurier-Sattel",
+        name_en: "Mosasaur Saddle",
         class: "PrimalItemArmor_MosaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mosasaur Tek Saddle",
-        name_de: "Mosasaurier-Tek-Sattel",
+        name: "Mosasaurier-Tek-Sattel",
+        name_en: "Mosasaur Tek Saddle",
         class: "PrimalItemArmor_MosaSaddle_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ossidon Saddle",
-        name_de: "Ossidon-Sattel",
+        name: "Ossidon-Sattel",
+        name_en: "Ossidon Saddle",
         class: "PrimalItemArmor_SnowMonsterSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pachy Saddle",
-        name_de: "Pachy-Sattel",
+        name: "Pachy-Sattel",
+        name_en: "Pachy Saddle",
         class: "PrimalItemArmor_PachySaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pachyrhinosaurus Saddle",
-        name_de: "Pachyrhinosaurus-Sattel",
+        name: "Pachyrhinosaurus-Sattel",
+        name_en: "Pachyrhinosaurus Saddle",
         class: "PrimalItemArmor_PachyrhinoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Palaeoctopus Saddle",
-        name_de: "Palaeoctopus-Sattel",
+        name: "Palaeoctopus-Sattel",
+        name_en: "Palaeoctopus Saddle",
         class: "PrimalItemArmor_PalaeoctopusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Paracer Platform Saddle",
-        name_de: "Paracer-Plattformsattel",
+        name: "Paracer-Plattformsattel",
+        name_en: "Paracer Platform Saddle",
         class: "PrimalItemArmor_ParacerSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Paracer Saddle",
-        name_de: "Paracer-Sattel",
+        name: "Paracer-Sattel",
+        name_en: "Paracer Saddle",
         class: "PrimalItemArmor_Paracer_Saddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Parasaur Saddle",
-        name_de: "Parasaur-Sattel",
+        name: "Parasaur-Sattel",
+        name_en: "Parasaur Saddle",
         class: "PrimalItemArmor_ParaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pelagornis Saddle",
-        name_de: "Pelagornis-Sattel",
+        name: "Pelagornis-Sattel",
+        name_en: "Pelagornis Saddle",
         class: "PrimalItemArmor_PelaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Phiomia Saddle",
-        name_de: "Phiomia-Sattel",
+        name: "Phiomia-Sattel",
+        name_en: "Phiomia Saddle",
         class: "PrimalItemArmor_PhiomiaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Plesiosaur Platform Saddle",
-        name_de: "Plesiosaurier-Plattformsattel",
+        name: "Plesiosaurier-Plattformsattel",
+        name_en: "Plesiosaur Platform Saddle",
         class: "PrimalItemArmor_PlesiSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Plesiosaur Saddle",
-        name_de: "Plesiosaurier-Sattel",
+        name: "Plesiosaurier-Sattel",
+        name_en: "Plesiosaur Saddle",
         class: "PrimalItemArmor_PlesiaSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Procoptodon Saddle",
-        name_de: "Procoptodon-Sattel",
+        name: "Procoptodon-Sattel",
+        name_en: "Procoptodon Saddle",
         class: "PrimalItemArmor_ProcoptodonSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pteranodon Saddle",
-        name_de: "Pteranodon-Sattel",
+        name: "Pteranodon-Sattel",
+        name_en: "Pteranodon Saddle",
         class: "PrimalItemArmor_PteroSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pulmonoscorpius Saddle",
-        name_de: "Pulmonoscorpius-Sattel",
+        name: "Pulmonoscorpius-Sattel",
+        name_en: "Pulmonoscorpius Saddle",
         class: "PrimalItemArmor_ScorpionSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Quetz Platform Saddle",
-        name_de: "Quetzal-Plattformsattel",
+        name: "Quetzal-Plattformsattel",
+        name_en: "Quetz Platform Saddle",
         class: "PrimalItemArmor_QuetzSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Quetz Saddle",
-        name_de: "Quetzal-Sattel",
+        name: "Quetzal-Sattel",
+        name_en: "Quetz Saddle",
         class: "PrimalItemArmor_QuetzSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Raptor Saddle",
-        name_de: "Raptor-Sattel",
+        name: "Raptor-Sattel",
+        name_en: "Raptor Saddle",
         class: "PrimalItemArmor_RaptorSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ravager Saddle",
-        name_de: "Ravager-Sattel",
+        name: "Ravager-Sattel",
+        name_en: "Ravager Saddle",
         class: "PrimalItemArmor_CavewolfSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rex Saddle",
-        name_de: "Rex-Sattel",
+        name: "Rex-Sattel",
+        name_en: "Rex Saddle",
         class: "PrimalItemArmor_RexSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rhyniognatha Saddle",
-        name_de: "Rhyniognatha-Sattel",
+        name: "Rhyniognatha-Sattel",
+        name_en: "Rhyniognatha Saddle",
         class: "PrimalItemArmor_RhynioSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rock Drake Saddle",
-        name_de: "Felsgleiter-Sattel",
+        name: "Felsgleiter-Sattel",
+        name_en: "Rock Drake Saddle",
         class: "PrimalItemArmor_RockDrakeSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rock Drake Tek Saddle",
-        name_de: "Rock Drake-Tek-Sattel",
+        name: "Rock Drake-Tek-Sattel",
+        name_en: "Rock Drake Tek Saddle",
         class: "PrimalItemArmor_RockDrakeSaddle_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rock Golem Saddle",
-        name_de: "Felsgolem-Sattel",
+        name: "Felsgolem-Sattel",
+        name_en: "Rock Golem Saddle",
         class: "PrimalItemArmor_RockGolemSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Roll Rat Saddle",
-        name_de: "Rollratten-Sattel",
+        name: "Rollratten-Sattel",
+        name_en: "Roll Rat Saddle",
         class: "PrimalItemArmor_MoleRatSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Sabertooth Saddle",
-        name_de: "Säbelzahn-Sattel",
+        name: "Säbelzahn-Sattel",
+        name_en: "Sabertooth Saddle",
         class: "PrimalItemArmor_SaberSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Sarco Saddle",
-        name_de: "Sarco-Sattel",
+        name: "Sarco-Sattel",
+        name_en: "Sarco Saddle",
         class: "PrimalItemArmor_SarcoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Shastasaurus Submarine Saddle",
-        name_de: "Shastasaurus-U-Boot-Sattel",
+        name: "Shastasaurus-U-Boot-Sattel",
+        name_en: "Shastasaurus Submarine Saddle",
         class: "PrimalItemArmor_ShastaSaddle_Submarine_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Snow Owl Saddle",
-        name_de: "Schneeeulen-Sattel",
+        name: "Schneeeulen-Sattel",
+        name_en: "Snow Owl Saddle",
         class: "PrimalItemArmor_OwlSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Solwyn Saddle",
-        name_de: "Solwyn-Sattel",
+        name: "Solwyn-Sattel",
+        name_en: "Solwyn Saddle",
         class: "PrimalItemArmor_AngelFoxSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Spino Saddle",
-        name_de: "Spino-Sattel",
+        name: "Spino-Sattel",
+        name_en: "Spino Saddle",
         class: "PrimalItemArmor_SpinoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Stego Saddle",
-        name_de: "Stego-Sattel",
+        name: "Stego-Sattel",
+        name_en: "Stego Saddle",
         class: "PrimalItemArmor_StegoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tapejara Saddle",
-        name_de: "Tapejara-Sattel",
+        name: "Tapejara-Sattel",
+        name_en: "Tapejara Saddle",
         class: "PrimalItemArmor_TapejaraSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Megalodon Saddle",
-        name_de: "Tek-Megalodon-Sattel",
+        name: "Tek-Megalodon-Sattel",
+        name_en: "Tek Megalodon Saddle",
         class: "PrimalItemArmor_MegalodonSaddle_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Rex Saddle",
-        name_de: "Tek-Rex-Sattel",
+        name: "Tek-Rex-Sattel",
+        name_en: "Tek Rex Saddle",
         class: "PrimalItemArmor_RexSaddle_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Tapejara Saddle",
-        name_de: "Tek-Tapejara-Sattel",
+        name: "Tek-Tapejara-Sattel",
+        name_en: "Tek Tapejara Saddle",
         class: "PrimalItemArmor_Tapejara_Tek_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Terror Bird Saddle",
-        name_de: "Terrorvogel-Sattel",
+        name: "Terrorvogel-Sattel",
+        name_en: "Terror Bird Saddle",
         class: "PrimalItemArmor_TerrorBirdSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Therizinosaurus Saddle",
-        name_de: "Therizinosaurus-Sattel",
+        name: "Therizinosaurus-Sattel",
+        name_en: "Therizinosaurus Saddle",
         class: "PrimalItemArmor_TherizinosaurusSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Thorny Dragon Saddle",
-        name_de: "Dorndrache-Sattel",
+        name: "Dorndrache-Sattel",
+        name_en: "Thorny Dragon Saddle",
         class: "PrimalItemArmor_SpineyLizardSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Thylacoleo Saddle",
-        name_de: "Thylacoleo-Sattel",
+        name: "Thylacoleo-Sattel",
+        name_en: "Thylacoleo Saddle",
         class: "PrimalItemArmor_ThylacoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tidepup Saddle",
-        name_de: "Tidepup-Sattel",
+        name: "Tidepup-Sattel",
+        name_en: "Tidepup Saddle",
         class: "PrimalItemArmor_AxolotlSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Titanosaur Platform Saddle",
-        name_de: "Titanosaurier-Plattformsattel",
+        name: "Titanosaurier-Plattformsattel",
+        name_en: "Titanosaur Platform Saddle",
         class: "PrimalItemArmor_TitanSaddle_Platform_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Trike Saddle",
-        name_de: "Trike-Sattel",
+        name: "Trike-Sattel",
+        name_en: "Trike Saddle",
         class: "PrimalItemArmor_TrikeSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tusoteuthis Saddle",
-        name_de: "Tusoteuthis-Sattel",
+        name: "Tusoteuthis-Sattel",
+        name_en: "Tusoteuthis Saddle",
         class: "PrimalItemArmor_TusoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Umbra Saddle",
-        name_de: "Umbra-Sattel",
+        name: "Umbra-Sattel",
+        name_en: "Umbra Saddle",
         class: "PrimalItemArmor_UmbraSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Velonasaur Saddle",
-        name_de: "Velonasaur-Sattel",
+        name: "Velonasaur-Sattel",
+        name_en: "Velonasaur Saddle",
         class: "PrimalItemArmor_SpindlesSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Woolly Rhino Saddle",
-        name_de: "Wollnashorn-Sattel",
+        name: "Wollnashorn-Sattel",
+        name_en: "Woolly Rhino Saddle",
         class: "PrimalItemArmor_RhinoSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Xiphactinus Saddle",
-        name_de: "Xiphactinus-Sattel",
+        name: "Xiphactinus-Sattel",
+        name_en: "Xiphactinus Saddle",
         class: "PrimalItemArmor_XiphSaddle_ASA_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Yi Ling Saddle",
-        name_de: "Yi-Ling-Sattel",
+        name: "Yi-Ling-Sattel",
+        name_en: "Yi Ling Saddle",
         class: "PrimalItemArmor_YiLingSaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Yutyrannus Saddle",
-        name_de: "Yutyrannus-Sattel",
+        name: "Yutyrannus-Sattel",
+        name_en: "Yutyrannus Saddle",
         class: "PrimalItemArmor_YutySaddle_C",
-        kategorie: "Sättel",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
 
 
@@ -1230,670 +825,449 @@ export const itemDaten = [
     // ========================================
 
     {
-        name: "Arctic Scout Boots",
-        name_de: "Arktische Späherstiefel",
+        name: "Arktische Späherstiefel",
+        name_en: "Arctic Scout Boots",
         class: "PrimalItemArmor_ArcticBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Arctic Scout Chestpiece",
-        name_de: "Arktischer Späher-Brustschutz",
+        name: "Arktischer Späher-Brustschutz",
+        name_en: "Arctic Scout Chestpiece",
         class: "PrimalItemArmor_ArcticShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Arctic Scout Gauntlets",
-        name_de: "Arktische Späher-Handschuhe",
+        name: "Arktische Späher-Handschuhe",
+        name_en: "Arctic Scout Gauntlets",
         class: "PrimalItemArmor_ArcticGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Arctic Scout Helmet",
-        name_de: "Arktischer Späherhelm",
+        name: "Arktischer Späherhelm",
+        name_en: "Arctic Scout Helmet",
         class: "PrimalItemArmor_ArcticHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Arctic Scout Leggings",
-        name_de: "Arktische Späherhose",
+        name: "Arktische Späherhose",
+        name_en: "Arctic Scout Leggings",
         class: "PrimalItemArmor_ArcticPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chitin Boots",
-        name_de: "Chitin-Stiefel",
+        name: "Chitin-Stiefel",
+        name_en: "Chitin Boots",
         class: "PrimalItemArmor_ChitinBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chitin Chestpiece",
-        name_de: "Chitin-Brustschutz",
+        name: "Chitin-Brustschutz",
+        name_en: "Chitin Chestpiece",
         class: "PrimalItemArmor_ChitinShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chitin Gauntlets",
-        name_de: "Chitin-Handschuhe",
+        name: "Chitin-Handschuhe",
+        name_en: "Chitin Gauntlets",
         class: "PrimalItemArmor_ChitinGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chitin Helmet",
-        name_de: "Chitin-Helm",
+        name: "Chitin-Helm",
+        name_en: "Chitin Helmet",
         class: "PrimalItemArmor_ChitinHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Chitin Leggings",
-        name_de: "Chitin-Hose",
+        name: "Chitin-Hose",
+        name_en: "Chitin Leggings",
         class: "PrimalItemArmor_ChitinPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cloth Boots",
-        name_de: "Stoffstiefel",
+        name: "Stoffstiefel",
+        name_en: "Cloth Boots",
         class: "PrimalItemArmor_ClothBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cloth Gloves",
-        name_de: "Stoffhandschuhe",
+        name: "Stoffhandschuhe",
+        name_en: "Cloth Gloves",
         class: "PrimalItemArmor_ClothGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cloth Hat",
-        name_de: "Stoffmütze",
+        name: "Stoffmütze",
+        name_en: "Cloth Hat",
         class: "PrimalItemArmor_ClothHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cloth Pants",
-        name_de: "Stoffhose",
+        name: "Stoffhose",
+        name_en: "Cloth Pants",
         class: "PrimalItemArmor_ClothPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cloth Shirt",
-        name_de: "Stoffhemd",
+        name: "Stoffhemd",
+        name_en: "Cloth Shirt",
         class: "PrimalItemArmor_ClothShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desert Cloth Boots",
-        name_de: "Wüstenstoffstiefel",
+        name: "Wüstenstoffstiefel",
+        name_en: "Desert Cloth Boots",
         class: "PrimalItemArmor_DesertClothBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desert Cloth Gloves",
-        name_de: "Wüstenstoffhandschuhe",
+        name: "Wüstenstoffhandschuhe",
+        name_en: "Desert Cloth Gloves",
         class: "PrimalItemArmor_DesertClothGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desert Cloth Pants",
-        name_de: "Wüstenstoffhose",
+        name: "Wüstenstoffhose",
+        name_en: "Desert Cloth Pants",
         class: "PrimalItemArmor_DesertClothPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desert Cloth Shirt",
-        name_de: "Wüstenstoffhemd",
+        name: "Wüstenstoffhemd",
+        name_en: "Desert Cloth Shirt",
         class: "PrimalItemArmor_DesertClothShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Desert Goggles and Hat",
-        name_de: "Wüstenbrille und -hut",
+        name: "Wüstenbrille und -hut",
+        name_en: "Desert Goggles and Hat",
         class: "PrimalItemArmor_DesertClothGogglesHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Flak Boots",
-        name_de: "Flak-Stiefel",
+        name: "Flak-Stiefel",
+        name_en: "Flak Boots",
         class: "PrimalItemArmor_MetalBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Flak Chestpiece",
-        name_de: "Flak-Brustschutz",
+        name: "Flak-Brustschutz",
+        name_en: "Flak Chestpiece",
         class: "PrimalItemArmor_MetalShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Flak Gauntlets",
-        name_de: "Flak-Handschuhe",
+        name: "Flak-Handschuhe",
+        name_en: "Flak Gauntlets",
         class: "PrimalItemArmor_MetalGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Flak Helmet",
-        name_de: "Flak-Helm",
+        name: "Flak-Helm",
+        name_en: "Flak Helmet",
         class: "PrimalItemArmor_MetalHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Flak Leggings",
-        name_de: "Flak-Hose",
+        name: "Flak-Hose",
+        name_en: "Flak Leggings",
         class: "PrimalItemArmor_MetalPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fur Boots",
-        name_de: "Fellstiefel",
+        name: "Fellstiefel",
+        name_en: "Fur Boots",
         class: "PrimalItemArmor_FurBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fur Cap",
-        name_de: "Fellmütze",
+        name: "Fellmütze",
+        name_en: "Fur Cap",
         class: "PrimalItemArmor_FurHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fur Chestpiece",
-        name_de: "Fell-Brustschutz",
+        name: "Fell-Brustschutz",
+        name_en: "Fur Chestpiece",
         class: "PrimalItemArmor_FurShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fur Gauntlets",
-        name_de: "Fellhandschuhe",
+        name: "Fellhandschuhe",
+        name_en: "Fur Gauntlets",
         class: "PrimalItemArmor_FurGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fur Leggings",
-        name_de: "Fellhose",
+        name: "Fellhose",
+        name_en: "Fur Leggings",
         class: "PrimalItemArmor_FurPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ghillie Boots",
-        name_de: "Ghillie-Stiefel",
+        name: "Ghillie-Stiefel",
+        name_en: "Ghillie Boots",
         class: "PrimalItemArmor_GhillieBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ghillie Chestpiece",
-        name_de: "Ghillie-Brustschutz",
+        name: "Ghillie-Brustschutz",
+        name_en: "Ghillie Chestpiece",
         class: "PrimalItemArmor_GhillieShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ghillie Gauntlets",
-        name_de: "Ghillie-Handschuhe",
+        name: "Ghillie-Handschuhe",
+        name_en: "Ghillie Gauntlets",
         class: "PrimalItemArmor_GhillieGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ghillie Leggings",
-        name_de: "Ghillie-Hose",
+        name: "Ghillie-Hose",
+        name_en: "Ghillie Leggings",
         class: "PrimalItemArmor_GhilliePants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Ghillie Mask",
-        name_de: "Ghillie-Maske",
+        name: "Ghillie-Maske",
+        name_en: "Ghillie Mask",
         class: "PrimalItemArmor_GhillieHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hazard Suit Boots",
-        name_de: "Gefahrenanzug-Stiefel",
+        name: "Gefahrenanzug-Stiefel",
+        name_en: "Hazard Suit Boots",
         class: "PrimalItemArmor_HazardSuitBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hazard Suit Gloves",
-        name_de: "Gefahrenanzug-Handschuhe",
+        name: "Gefahrenanzug-Handschuhe",
+        name_en: "Hazard Suit Gloves",
         class: "PrimalItemArmor_HazardSuitGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hazard Suit Hat",
-        name_de: "Gefahrenanzug-Helm",
+        name: "Gefahrenanzug-Helm",
+        name_en: "Hazard Suit Hat",
         class: "PrimalItemArmor_HazardSuitHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hazard Suit Pants",
-        name_de: "Gefahrenanzug-Hose",
+        name: "Gefahrenanzug-Hose",
+        name_en: "Hazard Suit Pants",
         class: "PrimalItemArmor_HazardSuitPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hazard Suit Shirt",
-        name_de: "Gefahrenanzug-Oberteil",
+        name: "Gefahrenanzug-Oberteil",
+        name_en: "Hazard Suit Shirt",
         class: "PrimalItemArmor_HazardSuitShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hide Boots",
-        name_de: "Lederstiefel",
+        name: "Lederstiefel",
+        name_en: "Hide Boots",
         class: "PrimalItemArmor_HideBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hide Gloves",
-        name_de: "Lederhandschuhe",
+        name: "Lederhandschuhe",
+        name_en: "Hide Gloves",
         class: "PrimalItemArmor_HideGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hide Hat",
-        name_de: "Ledermütze",
+        name: "Ledermütze",
+        name_en: "Hide Hat",
         class: "PrimalItemArmor_HideHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hide Pants",
-        name_de: "Lederhose",
+        name: "Lederhose",
+        name_en: "Hide Pants",
         class: "PrimalItemArmor_HidePants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hide Shirt",
-        name_de: "Lederhemd",
+        name: "Lederhemd",
+        name_en: "Hide Shirt",
         class: "PrimalItemArmor_HideShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Boots",
-        name_de: "Riot-Stiefel",
+        name: "Riot-Stiefel",
+        name_en: "Riot Boots",
         class: "PrimalItemArmor_RiotBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Chestpiece",
-        name_de: "Riot-Brustschutz",
+        name: "Riot-Brustschutz",
+        name_en: "Riot Chestpiece",
         class: "PrimalItemArmor_RiotShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Gauntlets",
-        name_de: "Riot-Handschuhe",
+        name: "Riot-Handschuhe",
+        name_en: "Riot Gauntlets",
         class: "PrimalItemArmor_RiotGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Helmet",
-        name_de: "Riot-Helm",
+        name: "Riot-Helm",
+        name_en: "Riot Helmet",
         class: "PrimalItemArmor_RiotHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Leggings",
-        name_de: "Riot-Hose",
+        name: "Riot-Hose",
+        name_en: "Riot Leggings",
         class: "PrimalItemArmor_RiotPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "SCUBA Flippers",
-        name_de: "SCUBA-Flossen",
+        name: "SCUBA-Flossen",
+        name_en: "SCUBA Flippers",
         class: "PrimalItemArmor_ScubaBoots_Flippers_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "SCUBA Leggings",
-        name_de: "SCUBA-Hose",
+        name: "SCUBA-Hose",
+        name_en: "SCUBA Leggings",
         class: "PrimalItemArmor_ScubaPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "SCUBA Mask",
-        name_de: "SCUBA-Maske",
+        name: "SCUBA-Maske",
+        name_en: "SCUBA Mask",
         class: "PrimalItemArmor_ScubaHelmet_Goggles_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "SCUBA Tank",
-        name_de: "SCUBA-Tank",
+        name: "SCUBA-Tank",
+        name_en: "SCUBA Tank",
         class: "PrimalItemArmor_ScubaShirt_SuitWithTank_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Flak Boots",
-        name_de: "Verfluchte Flak-Stiefel",
+        name: "Verfluchte Flak-Stiefel",
+        name_en: "Cursed Flak Boots",
         class: "PrimalItemArmor_MetalBoots_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Flak Chestpiece",
-        name_de: "Verfluchter Flak-Brustschutz",
+        name: "Verfluchter Flak-Brustschutz",
+        name_en: "Cursed Flak Chestpiece",
         class: "PrimalItemArmor_MetalShirt_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Flak Gauntlets",
-        name_de: "Verfluchte Flak-Handschuhe",
+        name: "Verfluchte Flak-Handschuhe",
+        name_en: "Cursed Flak Gauntlets",
         class: "PrimalItemArmor_MetalGloves_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Flak Helmet",
-        name_de: "Verfluchter Flak-Helm",
+        name: "Verfluchter Flak-Helm",
+        name_en: "Cursed Flak Helmet",
         class: "PrimalItemArmor_MetalHelmet_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Flak Leggings",
-        name_de: "Verfluchte Flak-Hose",
+        name: "Verfluchte Flak-Hose",
+        name_en: "Cursed Flak Leggings",
         class: "PrimalItemArmor_MetalPants_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Riot Boots",
-        name_de: "Verfluchte Riot-Stiefel",
+        name: "Verfluchte Riot-Stiefel",
+        name_en: "Cursed Riot Boots",
         class: "PrimalItemArmor_RiotBoots_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Riot Chestpiece",
-        name_de: "Verfluchter Riot-Brustschutz",
+        name: "Verfluchter Riot-Brustschutz",
+        name_en: "Cursed Riot Chestpiece",
+        class: "PrimalItemArmor_Riot Chestpiece",
         class: "PrimalItemArmor_RiotShirt_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Riot Gauntlets",
-        name_de: "Verfluchte Riot-Handschuhe",
+        name: "Verfluchte Riot-Handschuhe",
+        name_en: "Cursed Riot Gauntlets",
         class: "PrimalItemArmor_RiotGloves_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Riot Helmet",
-        name_de: "Verfluchter Riot-Helm",
+        name: "Verfluchter Riot-Helm",
+        name_en: "Cursed Riot Helmet",
         class: "PrimalItemArmor_RiotHelmet_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Riot Leggings",
-        name_de: "Verfluchte Riot-Hose",
+        name: "Verfluchte Riot-Hose",
+        name_en: "Cursed Riot Leggings",
         class: "PrimalItemArmor_RiotPants_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Boots",
-        name_de: "Verfluchte Tek-Stiefel",
+        name: "Verfluchte Tek-Stiefel",
+        name_en: "Cursed Tek Boots",
         class: "PrimalItemArmor_TekBoots_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Chestpiece",
-        name_de: "Verfluchter Tek-Brustschutz",
+        name: "Verfluchter Tek-Brustschutz",
+        name_en: "Cursed Tek Chestpiece",
         class: "PrimalItemArmor_TekShirt_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Gauntlets",
-        name_de: "Verfluchte Tek-Handschuhe",
+        name: "Verfluchte Tek-Handschuhe",
+        name_en: "Cursed Tek Gauntlets",
         class: "PrimalItemArmor_TekGloves_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Helmet",
-        name_de: "Verfluchter Tek-Helm",
+        name: "Verfluchter Tek-Helm",
+        name_en: "Cursed Tek Helmet",
         class: "PrimalItemArmor_TekHelmet_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Leggings",
-        name_de: "Verfluchte Tek-Hose",
+        name: "Verfluchte Tek-Hose",
+        name_en: "Cursed Tek Leggings",
         class: "PrimalItemArmor_TekPants_Cursed_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Boots",
-        name_de: "Tek-Stiefel",
+        name: "Tek-Stiefel",
+        name_en: "Tek Boots",
         class: "PrimalItemArmor_TekBoots_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Chestpiece",
-        name_de: "Tek-Brustschutz",
+        name: "Tek-Brustschutz",
+        name_en: "Tek Chestpiece",
         class: "PrimalItemArmor_TekShirt_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Gauntlets",
-        name_de: "Tek-Handschuhe",
+        name: "Tek-Handschuhe",
+        name_en: "Tek Gauntlets",
         class: "PrimalItemArmor_TekGloves_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Helmet",
-        name_de: "Tek-Helm",
+        name: "Tek-Helm",
+        name_en: "Tek Helmet",
         class: "PrimalItemArmor_TekHelmet_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Leggings",
-        name_de: "Tek-Hose",
+        name: "Tek-Hose",
+        name_en: "Tek Leggings",
         class: "PrimalItemArmor_TekPants_C",
-        kategorie: "Rüstung",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
 
 
@@ -1902,355 +1276,238 @@ export const itemDaten = [
     // ========================================
 
     {
-        name: "Assault Rifle",
-        name_de: "Sturmgewehr",
+        name: "Sturmgewehr",
+        name_en: "Assault Rifle",
         class: "PrimalItem_WeaponRifle_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Bow",
-        name_de: "Bogen",
+        name: "Bogen",
+        name_en: "Bow",
         class: "PrimalItem_WeaponBow_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Compound Bow",
-        name_de: "Kompositbogen",
+        name: "Kompositbogen",
+        name_en: "Compound Bow",
         class: "PrimalItem_WeaponCompoundBow_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Crossbow",
-        name_de: "Armbrust",
+        name: "Armbrust",
+        name_en: "Crossbow",
         class: "PrimalItem_WeaponCrossbow_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Assault Rifle",
-        name_de: "Verfluchtes Sturmgewehr",
+        name: "Verfluchtes Sturmgewehr",
+        name_en: "Cursed Assault Rifle",
         class: "PrimalItem_WeaponRifle_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Compound Bow",
-        name_de: "Verfluchter Kompositbogen",
+        name: "Verfluchter Kompositbogen",
+        name_en: "Cursed Compound Bow",
         class: "PrimalItem_WeaponCompoundBow_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Crossbow",
-        name_de: "Verfluchte Armbrust",
+        name: "Verfluchte Armbrust",
+        name_en: "Cursed Crossbow",
         class: "PrimalItem_WeaponCrossbow_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Fabricated Pistol",
-        name_de: "Verfluchte Fließbandpistole",
+        name: "Verfluchte Fließbandpistole",
+        name_en: "Cursed Fabricated Pistol",
         class: "PrimalItem_WeaponMachinedPistol_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Fabricated Sniper Rifle",
-        name_de: "Verfluchtes Scharfschützengewehr",
+        name: "Verfluchtes Scharfschützengewehr",
+        name_en: "Cursed Fabricated Sniper Rifle",
         class: "PrimalItem_WeaponMachinedSniper_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Harpoon Launcher",
-        name_de: "Verfluchter Harpunenwerfer",
+        name: "Verfluchter Harpunenwerfer",
+        name_en: "Cursed Harpoon Launcher",
         class: "PrimalItem_WeaponHarpoon_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Longneck Rifle",
-        name_de: "Verfluchtes Flinte",
+        name: "Verfluchtes Flinte",
+        name_en: "Cursed Longneck Rifle",
         class: "PrimalItem_WeaponOneShotRifle_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Pike",
-        name_de: "Verfluchte Pike",
+        name: "Verfluchte Pike",
+        name_en: "Cursed Pike",
         class: "PrimalItem_WeaponPike_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Pump-Action Shotgun",
-        name_de: "Verfluchte Pump-Action-Schrotflinte",
+        name: "Verfluchte Pump-Action-Schrotflinte",
+        name_en: "Cursed Pump-Action Shotgun",
         class: "PrimalItem_WeaponMachinedShotgun_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Sword",
-        name_de: "Verfluchtes Schwert",
+        name: "Verfluchtes Schwert",
+        name_en: "Cursed Sword",
         class: "PrimalItem_WeaponSword_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Tek Sword",
-        name_de: "Verfluchtes Tek-Schwert",
+        name: "Verfluchtes Tek-Schwert",
+        name_en: "Cursed Tek Sword",
         class: "PrimalItem_WeaponTekSword_Cursed_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Drake Claw",
-        name_de: "Drakenklaue",
+        name: "Drakenklaue",
+        name_en: "Drake Claw",
         class: "PrimalItem_WeaponDrakeClaw_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Electric Prod",
-        name_de: "Elektroschocker",
+        name: "Elektroschocker",
+        name_en: "Electric Prod",
         class: "PrimalItem_WeaponProd_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Explosive Spear",
-        name_de: "Explosiver Speer",
+        name: "Explosiver Speer",
+        name_en: "Explosive Spear",
         class: "PrimalItem_WeaponSpear_Explosive_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fabricated Crossbow",
-        name_de: "Fließband-Armbrust",
+        name: "Fließband-Armbrust",
+        name_en: "Fabricated Crossbow",
         class: "PrimalItem_WeaponCrossbow_Fab_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fabricated Pistol",
-        name_de: "Fließbandpistole",
+        name: "Fließbandpistole",
+        name_en: "Fabricated Pistol",
         class: "PrimalItem_WeaponMachinedPistol_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fabricated Sniper Rifle",
-        name_de: "Fließband-Scharfschützengewehr",
+        name: "Fließband-Scharfschützengewehr",
+        name_en: "Fabricated Sniper Rifle",
         class: "PrimalItem_WeaponMachinedSniper_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Goo Gun",
-        name_de: "Goo-Gewehr",
+        name: "Goo-Gewehr",
+        name_en: "Goo Gun",
         class: "PrimalItem_WeaponGooGun_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Hand Cannon",
-        name_de: "Handkanone",
+        name: "Handkanone",
+        name_en: "Hand Cannon",
         class: "PrimalItem_WeaponHandCannon_ToF_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Harpoon Gun",
-        name_de: "Harpunenkanone",
+        name: "Harpunenkanone",
+        name_en: "Harpoon Gun",
         class: "PrimalItem_WeaponHarpoon_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Lance",
-        name_de: "Lanze",
+        name: "Lanze",
+        name_en: "Lance",
         class: "PrimalItem_WeaponLance_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Longneck Rifle",
-        name_de: "Flinte",
+        name: "Flinte",
+        name_en: "Longneck Rifle",
         class: "PrimalItem_WeaponOneShotRifle_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Metal Sword",
-        name_de: "Metallschwert",
+        name: "Metallschwert",
+        name_en: "Metal Sword",
         class: "PrimalItem_WeaponSword_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
         name: "Pike",
-        name_de: "Pike",
+        name_en: "Pike",
         class: "PrimalItem_WeaponPike_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Pump-Action Shotgun",
-        name_de: "Pump-Action-Schrotflinte",
+        name: "Pump-Action-Schrotflinte",
+        name_en: "Pump-Action Shotgun",
         class: "PrimalItem_WeaponMachinedShotgun_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Rocket Launcher",
-        name_de: "Raketenwerfer",
+        name: "Raketenwerfer",
+        name_en: "Rocket Launcher",
         class: "PrimalItem_WeaponRocketLauncher_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Shotgun",
-        name_de: "Schrotflinte",
+        name: "Schrotflinte",
+        name_en: "Shotgun",
         class: "PrimalItem_WeaponShotgun_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Simple Pistol",
-        name_de: "Einfache Pistole",
+        name: "Einfache Pistole",
+        name_en: "Simple Pistol",
         class: "PrimalItem_WeaponGun_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Slingshot",
-        name_de: "Steinschleuder",
+        name: "Steinschleuder",
+        name_en: "Slingshot",
         class: "PrimalItem_WeaponSlingshot_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Spear",
-        name_de: "Speer",
+        name: "Speer",
+        name_en: "Spear",
         class: "PrimalItem_WeaponSpear_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Claws",
-        name_de: "Tek-Klauen",
+        name: "Tek-Klauen",
+        name_en: "Tek Claws",
         class: "PrimalItem_WeaponTekClaws_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Grenade Launcher",
-        name_de: "Tek-Granatwerfer",
+        name: "Tek-Granatwerfer",
+        name_en: "Tek Grenade Launcher",
         class: "PrimalItem_WeaponTekGrenadeLauncher_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Spear",
-        name_de: "Tek-Speer",
+        name: "Tek-Speer",
+        name_en: "Tek Spear",
         class: "PrimalItem_WeaponSpear_Tek_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Sword",
-        name_de: "Tek-Schwert",
+        name: "Tek-Schwert",
+        name_en: "Tek Sword",
         class: "PrimalItem_WeaponTekSword_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Wooden Club",
-        name_de: "Holzkeule",
+        name: "Holzkeule",
+        name_en: "Wooden Club",
         class: "PrimalItem_WeaponStoneClub_C",
-        kategorie: "Waffen",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
 
 
@@ -2260,254 +1517,170 @@ export const itemDaten = [
 
     {
         name: "MEK M.D.S.M.",
-        name_de: "MEK M.D.S.M.",
+        name_en: "MEK M.D.S.M.",
         class: "PrimalItemArmor_MekBackpack_Shield_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
         name: "MEK M.O.M.I.",
-        name_de: "MEK M.O.M.I.",
+        name_en: "MEK M.O.M.I.",
         class: "PrimalItemArmor_MekTransformer_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
         name: "MEK M.R.L.M.",
-        name_de: "MEK M.R.L.M.",
+        name_en: "MEK M.R.L.M.",
         class: "PrimalItemArmor_MekBackpack_MissilePod_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
         name: "MEK M.S.C.M.",
-        name_de: "MEK M.S.C.M.",
+        name_en: "MEK M.S.C.M.",
         class: "PrimalItemArmor_MekBackpack_SiegeCannon_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Wooden Shield",
-        name_de: "Holzschild",
+        name: "Holzschild",
+        name_en: "Wooden Shield",
         class: "PrimalItemArmor_WoodShield_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Shield",
-        name_de: "Tek-Schild",
+        name: "Tek-Schild",
+        name_en: "Tek Shield",
         class: "PrimalItemArmor_ShieldTek_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Shoulder Cannon",
-        name_de: "Tek-Schulterkanone",
+        name: "Tek-Schulterkanone",
+        name_en: "Tek Shoulder Cannon",
         class: "PrimalItemArmor_ShoulderCannon_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Zip-Line Motor Attachment",
-        name_de: "Seilbahn-Motoraufsatz",
+        name: "Seilbahn-Motoraufsatz",
+        name_en: "Zip-Line Motor Attachment",
         class: "PrimalItemArmor_ZiplineMotor_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Metal Shield",
-        name_de: "Metallschild",
+        name: "Metallschild",
+        name_en: "Metal Shield",
         class: "PrimalItemArmor_MetalShield_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Night Vision Goggles",
-        name_de: "Nachtsichtbrille",
+        name: "Nachtsichtbrille",
+        name_en: "Night Vision Goggles",
         class: "PrimalItemArmor_NightVisionGoggles_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Glider Suit",
-        name_de: "Gleitanzug",
+        name: "Gleitanzug",
+        name_en: "Glider Suit",
         class: "PrimalItemArmor_Glider_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Gas Mask",
-        name_de: "Gasmaske",
+        name: "Gasmaske",
+        name_en: "Gas Mask",
         class: "PrimalItemArmor_GasMask_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Heavy Miner's Helmet",
-        name_de: "Bergbauhelm",
+        name: "Bergbauhelm",
+        name_en: "Heavy Miner's Helmet",
         class: "PrimalItemArmor_MinersHelmet_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Riot Shield",
-        name_de: "SWAT-Schild",
+        name: "SWAT-Schild",
+        name_en: "Riot Shield",
         class: "PrimalItemArmor_TransparentRiotShield_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Climbing Pick",
-        name_de: "Kletterhaken",
+        name: "Kletterhaken",
+        name_en: "Climbing Pick",
         class: "PrimalItem_WeaponClimbPick_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Torch",
-        name_de: "Fackel",
+        name: "Fackel",
+        name_en: "Torch",
         class: "PrimalItem_WeaponTorch_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Whip",
-        name_de: "Peitsche",
+        name: "Peitsche",
+        name_en: "Whip",
         class: "PrimalItem_WeaponWhip_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Tek Binoculars",
-        name_de: "Tek-Fernglas",
+        name: "Tek-Fernglas",
+        name_en: "Tek Binoculars",
         class: "PrimalItem_WeaponElectronicBinoculars_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Stone Hatchet",
-        name_de: "Steinaxt",
+        name: "Steinaxt",
+        name_en: "Stone Hatchet",
         class: "PrimalItem_WeaponStoneHatchet_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Stone Pick",
-        name_de: "Steinspitzhacke",
+        name: "Steinspitzhacke",
+        name_en: "Stone Pick",
         class: "PrimalItem_WeaponStonePick_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Shovel",
-        name_de: "Schaufel",
+        name: "Schaufel",
+        name_en: "Shovel",
         class: "PrimalItem_WeaponShovel_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Metal Hatchet",
-        name_de: "Metallaxt",
+        name: "Metallaxt",
+        name_en: "Metal Hatchet",
         class: "PrimalItem_WeaponMetalHatchet_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Metal Pick",
-        name_de: "Metallspitzhacke",
+        name: "Metallspitzhacke",
+        name_en: "Metal Pick",
         class: "PrimalItem_WeaponMetalPick_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Metal Sickle",
-        name_de: "Metallsichel",
+        name: "Metallsichel",
+        name_en: "Metal Sickle",
         class: "PrimalItem_WeaponSickle_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Mining Drill",
-        name_de: "Bergbaubohrer",
+        name: "Bergbaubohrer",
+        name_en: "Mining Drill",
         class: "PrimalItem_WeaponMiningDrill_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Fishing Rod",
-        name_de: "Angelrute",
+        name: "Angelrute",
+        name_en: "Fishing Rod",
         class: "PrimalItem_WeaponFishingRod_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Metal Hatchet",
-        name_de: "Verfluchte Metallaxt",
+        name: "Verfluchte Metallaxt",
+        name_en: "Cursed Metal Hatchet",
         class: "PrimalItem_WeaponMetalHatchet_Cursed_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
     {
-        name: "Cursed Metal Pick",
-        name_de: "Verfluchte Metallspitzhacke",
+        name: "Verfluchte Metallspitzhacke",
+        name_en: "Cursed Metal Pick",
         class: "PrimalItem_WeaponMetalPick_Cursed_C",
-        kategorie: "Werkzeuge",
-        itemgruppe: "",
-        herstellungskosten: null,
-        mapverfuegbarkeit: []
+        kategorie: ""
     },
-]
+];
