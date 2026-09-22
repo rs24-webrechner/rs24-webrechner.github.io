@@ -666,6 +666,7 @@ body::after {
     flex-direction: column;
     gap: 0.35rem;
     width: min(100%, 360px);
+    margin-top: 22px;
     margin-bottom: 0.85rem;
     padding: 0.65rem;
     background: rgba(20, 20, 20, 0.45);
@@ -785,6 +786,11 @@ body::after {
     font-size: 12px;
     font-weight: 400;
     font-style: normal;
+}
+
+.item-qualitaet h2,
+.item-herstellungsart h2 {
+    font-weight: 400 !important;
 }
 
 /* ========================================
@@ -1142,7 +1148,7 @@ body::after {
 .item-qualitaet h2 {
     margin-bottom: 0.55rem;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 400 !important;
     font-style: normal;
 }
 
@@ -1157,7 +1163,7 @@ body::after {
 .item-qualitaet-bereich h2 {
     margin-bottom: 0.55rem;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 400 !important;
     font-style: normal;
 }
 
