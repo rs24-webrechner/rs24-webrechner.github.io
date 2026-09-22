@@ -74,6 +74,35 @@ const preisSonstige =
     document.getElementById("preis-sonstige");
 
 // ========================================
+// SEITENLEISTE
+// ========================================
+
+const rechner =
+    document.querySelector(".rechner");
+
+const seitenleisteUmschalter =
+    document.getElementById("seitenleiste-umschalter");
+
+// ========================================
+// SEITENLEISTE EIN- UND AUSKLAPPEN
+// ========================================
+
+seitenleisteUmschalter.addEventListener(
+    "click",
+    function () {
+        const eingeklappt =
+            rechner.classList.toggle(
+                "seitenleiste-eingeklappt"
+            );
+
+        this.setAttribute(
+            "aria-expanded",
+            String(!eingeklappt)
+        );
+    }
+);
+
+// ========================================
 // PREISE ANZEIGEN
 // ========================================
 
