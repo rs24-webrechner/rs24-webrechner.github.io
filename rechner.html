@@ -76,7 +76,20 @@
 
         <aside class="rechner-seitenleiste">
 
-            <h2>⚙ Rechner-Einstellungen</h2>
+            <!-- Seitenleiste ein-/ausklappen -->
+
+            <button
+                type="button"
+                class="seitenleiste-umschalter"
+                id="seitenleiste-umschalter"
+                aria-label="Seitenleiste ein- oder ausklappen"
+                aria-expanded="true"
+                title="Seitenleiste ein- oder ausklappen"
+            >
+                <span></span>
+            </button>
+
+            <h2>⚙ Einstellungen</h2>
 
             <!-- ========================================
                  ITEMS
@@ -85,79 +98,98 @@
             <section class="seitenleisten-bereich itempreise">
                 <h3>📦 Items</h3>
 
-                <div class="seitenleisten-unterbereich">
-                    <h4>Itempreise</h4>
+                <p class="seitenleisten-hinweis">
+                    Individuelle Preise bei Bedarf eingeben
+                </p>
 
-                    <!-- Itemstufe -->
+                <!-- Itemstufe -->
 
-                    <div class="itempreis-stufe">
-                        <label for="itempreis-stufe">
-                            Itemstufe
-                        </label>
-                        <select id="itempreis-stufe">
-                            <option value="blaupausen">
-                                Blaupausen
-                            </option>
-                            <option value="konvertierbar">
-                                Konvertierbar
-                            </option>
-                            <option value="hergestellt">
-                                Hergestellt
-                            </option>
-                        </select>
-                    </div>
+                <div class="itempreis-stufe">
+                    <select id="itempreis-stufe">
+                        <option value="blaupausen">
+                            Blaupausen
+                        </option>
+                        <option value="konvertierbar">
+                            Konvertierbar
+                        </option>
+                        <option value="hergestellt">
+                            Hergestellt
+                        </option>
+                    </select>
+                </div>
 
-                    <!-- Endgame-Sättel -->
+                <!-- Endgame-Sättel -->
 
-                    <div class="itempreis-gruppe">
-                        <h4>🐎 Endgame-Sättel</h4>
-                        <div class="preisfeld">
-                            <input
-                                type="number"
-                                id="preis-sattel"
-                                value="5000"
-                                min="5000"
-                                max="20000"
-                                step="100"
-                            >
-                            <span>SP</span>
-                        </div>
-                    </div>
+                <div class="itempreis-gruppe">
+                    <h4>
+                        <img
+                            src="assets/icons/items/endgame.png"
+                            alt=""
+                        >
+                        Endgame-Sättel
+                    </h4>
 
-                    <!-- Tek-Ausrüstung -->
-
-                    <div class="itempreis-gruppe">
-                        <h4>🔩 Tek-Ausrüstung</h4>
-                        <div class="preisfeld">
-                            <input
-                                type="number"
-                                id="preis-tek"
-                                value="8000"
-                                min="8000"
-                                max="20000"
-                                step="100"
-                            >
-                            <span>SP</span>
-                        </div>
-                    </div>
-
-                    <!-- Sonstige BP -->
-
-                    <div class="itempreis-gruppe">
-                        <h4>📜 Sonstige BP</h4>
-                        <div class="preisfeld">
-                            <input
-                                type="number"
-                                id="preis-sonstige"
-                                value="1000"
-                                min="1000"
-                                max="20000"
-                                step="100"
-                            >
-                            <span>SP</span>
-                        </div>
+                    <div class="preisfeld">
+                        <input
+                            type="number"
+                            id="preis-sattel"
+                            value="5000"
+                            min="5000"
+                            max="20000"
+                            step="100"
+                        >
+                        <span>SP</span>
                     </div>
                 </div>
+
+                <!-- Tek-Ausrüstung -->
+
+                <div class="itempreis-gruppe">
+                    <h4>
+                        <img
+                            src="assets/icons/items/tek.png"
+                            alt=""
+                        >
+                        Tek-Ausrüstung
+                    </h4>
+
+                    <div class="preisfeld">
+                        <input
+                            type="number"
+                            id="preis-tek"
+                            value="8000"
+                            min="8000"
+                            max="20000"
+                            step="100"
+                        >
+                        <span>SP</span>
+                    </div>
+                </div>
+
+                <!-- Sonstiges -->
+
+                <div class="itempreis-gruppe">
+                    <h4>
+                        <img
+                            src="assets/icons/items/sonstige.png"
+                            alt=""
+                        >
+                        Sonstiges
+                    </h4>
+
+                    <div class="preisfeld">
+                        <input
+                            type="number"
+                            id="preis-sonstige"
+                            value="1000"
+                            min="1000"
+                            max="20000"
+                            step="100"
+                        >
+                        <span>SP</span>
+                    </div>
+                </div>
+
             </section>
 
             <!-- ========================================
@@ -167,12 +199,23 @@
             <section class="seitenleisten-bereich tiere">
                 <h3>🧬 Tiere</h3>
 
+                <p class="seitenleisten-hinweis">
+                    Individuelle Preise bei Bedarf eingeben
+                </p>
+
                 <!-- ========================================
                      MUTATIONSAUSWAHL
                      ======================================== -->
 
                 <div class="seitenleisten-unterbereich">
-                    <h4>Mutationen</h4>
+
+                    <h4>
+                        <img
+                            src="assets/icons/tiere/mutation.png"
+                            alt=""
+                        >
+                        Mutationen
+                    </h4>
 
                     <div class="mutationsauswahl">
 
@@ -226,7 +269,14 @@
                      ======================================== -->
 
                 <div class="seitenleisten-unterbereich">
-                    <h4>Gene</h4>
+
+                    <h4>
+                        <img
+                            src="assets/icons/tiere/gen.png"
+                            alt=""
+                        >
+                        Gene
+                    </h4>
 
                     <div class="genauswahl">
                         <select id="gen-auswahl">
@@ -239,6 +289,7 @@
                             </option>
                         </select>
                     </div>
+
                 </div>
 
             </section>
@@ -317,11 +368,10 @@
                 <div class="konfigurator-box">
 
                     <!-- ========================================
-                         1. KATEGORIE
+                         KATEGORIE
                          ======================================== -->
 
                     <section class="kategorieauswahl">
-                        <h2>Kategorie</h2>
 
                         <div class="kategorie-buttons">
                             <!-- Kategorie-Buttons werden per JavaScript eingefügt -->
@@ -335,25 +385,23 @@
                         >
                             Lorem Ipsum
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         2. ANGABEN
+                         ANGABEN
                          ======================================== -->
 
                     <section class="rechner-bereich">
-                        <h2>Angaben</h2>
 
                         <div class="angaben-formular">
 
                             <!-- Tier-Suche -->
 
                             <div class="tier-suche">
-                                <label for="dino-suche-eingabe">
-                                    Tier suchen
-                                </label>
 
                                 <div class="dino-suche-eingabebereich">
+
                                     <input
                                         type="text"
                                         id="dino-suche-eingabe"
@@ -370,7 +418,9 @@
                                     >
                                         <!-- Treffer werden per JavaScript eingefügt -->
                                     </div>
+
                                 </div>
+
                             </div>
 
                             <!-- Level -->
@@ -379,6 +429,7 @@
                                 <label for="dino-level">
                                     Level
                                 </label>
+
                                 <input
                                     type="number"
                                     id="dino-level"
@@ -390,11 +441,13 @@
                             <!-- Abgabeart -->
 
                             <div class="angabe-gruppe">
+
                                 <span class="angabe-label">
                                     Abgabeart
                                 </span>
 
                                 <div class="angabe-optionen">
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -403,6 +456,7 @@
                                     >
                                         Baby
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -411,17 +465,21 @@
                                     >
                                         Ausgewachsen
                                     </button>
+
                                 </div>
+
                             </div>
 
                             <!-- Geschlecht -->
 
                             <div class="angabe-gruppe">
+
                                 <span class="angabe-label">
                                     Geschlecht
                                 </span>
 
                                 <div class="angabe-optionen">
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -430,6 +488,7 @@
                                     >
                                         Weibchen
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -438,6 +497,7 @@
                                     >
                                         Männchen
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -446,17 +506,21 @@
                                     >
                                         Neutral
                                     </button>
+
                                 </div>
+
                             </div>
 
                             <!-- Kastration -->
 
                             <div class="angabe-gruppe">
+
                                 <span class="angabe-label">
                                     Kastration
                                 </span>
 
                                 <div class="angabe-optionen">
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -465,6 +529,7 @@
                                     >
                                         Ja
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -473,17 +538,21 @@
                                     >
                                         Nein
                                     </button>
+
                                 </div>
+
                             </div>
 
                             <!-- Shiny -->
 
                             <div class="angabe-gruppe">
+
                                 <span class="angabe-label">
                                     Shiny
                                 </span>
 
                                 <div class="angabe-optionen">
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -492,6 +561,7 @@
                                     >
                                         Nein
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -500,6 +570,7 @@
                                     >
                                         Ja
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -508,17 +579,21 @@
                                     >
                                         Essenz
                                     </button>
+
                                 </div>
+
                             </div>
 
                             <!-- Rassenzusatz -->
 
                             <div class="angabe-gruppe">
+
                                 <span class="angabe-label">
                                     Rassenzusatz
                                 </span>
 
                                 <div class="angabe-optionen">
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -527,6 +602,7 @@
                                     >
                                         Aberrant
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -535,6 +611,7 @@
                                     >
                                         X
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -543,6 +620,7 @@
                                     >
                                         Y
                                     </button>
+
                                     <button
                                         type="button"
                                         class="angabe-option"
@@ -551,14 +629,17 @@
                                     >
                                         S
                                     </button>
+
                                 </div>
+
                             </div>
 
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         3. MUTATIONEN
+                         MUTATIONEN
                          ======================================== -->
 
                     <section
@@ -566,6 +647,7 @@
                         id="dino-mutationen"
                         hidden
                     >
+
                         <h2>Mutationen</h2>
 
                         <div
@@ -574,10 +656,11 @@
                         >
                             <!-- Aktivierte Mutations-Slider werden hier eingefügt -->
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         4. GENE
+                         GENE
                          ======================================== -->
 
                     <section
@@ -585,6 +668,7 @@
                         id="dino-gene"
                         hidden
                     >
+
                         <h2>Gene</h2>
 
                         <div
@@ -593,6 +677,7 @@
                         >
                             <!-- Ausgewählte Gene werden hier eingefügt -->
                         </div>
+
                     </section>
 
                     <!-- ========================================
@@ -600,12 +685,14 @@
                          ======================================== -->
 
                     <div class="dino-konfigurator-aktion">
+
                         <button
                             type="button"
                             id="tier-in-warenkorb"
                         >
                             🛒 Tier in den Warenkorb
                         </button>
+
                     </div>
 
                 </div>
@@ -639,11 +726,10 @@
                 <div class="konfigurator-box">
 
                     <!-- ========================================
-                         1. KATEGORIE
+                         KATEGORIE
                          ======================================== -->
 
                     <section class="item-kategorieauswahl">
-                        <h2>Kategorie</h2>
 
                         <div class="item-kategorie-buttons">
 
@@ -697,7 +783,7 @@
                     </section>
 
                     <!-- ========================================
-                         2. ITEM + MENGE
+                         ITEM + MENGE
                          ======================================== -->
 
                     <section class="rechner-bereich item-angaben">
@@ -707,10 +793,6 @@
                             <!-- Item-Suche -->
 
                             <div class="item-suche">
-
-                                <label for="item-suche-eingabe">
-                                    Item suchen
-                                </label>
 
                                 <input
                                     type="text"
@@ -754,7 +836,7 @@
                     </section>
 
                     <!-- ========================================
-                         3. HERSTELLUNGSART
+                         HERSTELLUNGSART
                          ======================================== -->
 
                     <section class="item-herstellungsart">
@@ -792,12 +874,12 @@
                     </section>
 
                     <!-- ========================================
-                         4. QUALITÄT + ITEMWERTE
+                         QUALITÄT + ITEMWERTE
                          ======================================== -->
 
                     <section class="item-qualitaet">
 
-                        <div class="item-qualitaet-layout">
+                        <div class="item-qualitaet-kopf">
 
                             <!-- Qualität -->
 
@@ -805,111 +887,107 @@
 
                                 <h2>Qualität</h2>
 
-                                <div class="item-qualitaet-buttons">
+                            </div>
 
-                                    <!-- Obere Reihe -->
+                            <!-- Rüstungswert -->
 
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="primitiv"
-                                        data-englisch="Primitive"
-                                    >
-                                        Primitiv
-                                    </button>
+                            <div class="item-wert">
 
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="marode"
-                                        data-englisch="Ramshackle"
-                                    >
-                                        Marode
-                                    </button>
+                                <label for="item-ruestungswert">
+                                    Rüstungswert
+                                </label>
 
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="fortschrittlich"
-                                        data-englisch="Apprentice"
-                                    >
-                                        Fortschrittlich
-                                    </button>
-
-                                    <!-- Untere Reihe -->
-
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="geselle"
-                                        data-englisch="Journeyman"
-                                    >
-                                        Geselle
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="meisterhaft"
-                                        data-englisch="Mastercraft"
-                                    >
-                                        Meisterhaft
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="item-qualitaet-button"
-                                        data-qualitaet="ueberragend"
-                                        data-englisch="Ascendant"
-                                    >
-                                        Überragend
-                                    </button>
-
-                                </div>
+                                <input
+                                    type="number"
+                                    id="item-ruestungswert"
+                                    min="0"
+                                    step="0.1"
+                                    placeholder="Optional"
+                                >
 
                             </div>
 
-                            <!-- Itemwerte -->
+                            <!-- Itemrating -->
 
-                            <div class="item-werte">
+                            <div class="item-wert">
 
-                                <!-- Rüstungswert -->
+                                <label for="itemrating">
+                                    Itemrating
+                                </label>
 
-                                <div class="item-wert">
-
-                                    <label for="item-ruestungswert">
-                                        Rüstungswert
-                                    </label>
-
-                                    <input
-                                        type="number"
-                                        id="item-ruestungswert"
-                                        min="0"
-                                        step="0.1"
-                                        placeholder="Optional"
-                                    >
-
-                                </div>
-
-                                <!-- Itemrating -->
-
-                                <div class="item-wert">
-
-                                    <label for="itemrating">
-                                        Itemrating
-                                    </label>
-
-                                    <input
-                                        type="number"
-                                        id="itemrating"
-                                        min="0"
-                                        step="0.1"
-                                        placeholder="Optional"
-                                    >
-
-                                </div>
+                                <input
+                                    type="number"
+                                    id="itemrating"
+                                    min="0"
+                                    step="0.1"
+                                    placeholder="Optional"
+                                >
 
                             </div>
+
+                        </div>
+
+                        <!-- Qualitätsauswahl -->
+
+                        <div class="item-qualitaet-buttons">
+
+                            <!-- Obere Reihe -->
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="primitiv"
+                                data-englisch="Primitive"
+                            >
+                                Primitiv
+                            </button>
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="marode"
+                                data-englisch="Ramshackle"
+                            >
+                                Marode
+                            </button>
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="fortschrittlich"
+                                data-englisch="Apprentice"
+                            >
+                                Fortschrittlich
+                            </button>
+
+                            <!-- Untere Reihe -->
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="geselle"
+                                data-englisch="Journeyman"
+                            >
+                                Geselle
+                            </button>
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="meisterhaft"
+                                data-englisch="Mastercraft"
+                            >
+                                Meisterhaft
+                            </button>
+
+                            <button
+                                type="button"
+                                class="item-qualitaet-button"
+                                data-qualitaet="ueberragend"
+                                data-englisch="Ascendant"
+                            >
+                                Überragend
+                            </button>
 
                         </div>
 
