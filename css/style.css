@@ -659,6 +659,13 @@ body::after {
    DINO-SUCHE
    ======================================== */
 
+.tier-suche {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 0;
+}
+
 .dino-suche {
     position: relative;
     z-index: 100;
@@ -666,7 +673,6 @@ body::after {
     flex-direction: column;
     gap: 0.35rem;
     width: min(100%, 360px);
-    margin-top: 22px;
     margin-bottom: 0.85rem;
     padding: 0.65rem;
     background: rgba(20, 20, 20, 0.45);
