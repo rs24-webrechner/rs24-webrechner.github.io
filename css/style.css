@@ -1538,9 +1538,11 @@ body::after {
     gap: 0;
 }
 
+/* Die Item-Bereiche liegen direkt aneinander */
+
 .itempreise > .itempreis-stufe,
 .itempreise > .itempreis-gruppe {
-    margin-top: 0.45rem;
+    margin-top: 0;
 }
 
 /* ========================================
