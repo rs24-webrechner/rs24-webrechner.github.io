@@ -311,8 +311,6 @@ body::after {
         transform: rotate(-45deg);
     }
 
-    /* Hintergrundlogo auf kleinen Bildschirmen */
-
     body::before {
         width: 100vw;
         height: 100vw;
@@ -650,18 +648,24 @@ body::after {
 .item-herstellungsart h2,
 .item-werte h2,
 .item-menge h2 {
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.65rem;
     font-size: 1.05rem;
+}
+
+/* ========================================
+   ITEM + MENGE
+   ======================================== */
+
+.item-suche-menge {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    width: 100%;
 }
 
 /* ========================================
    ITEM-SUCHE
    ======================================== */
-
-/*
-   Nur das Suchfeld bekommt innerhalb der
-   großen Item-Box eine eigene kleine Box.
-*/
 
 .item-suche {
     position: relative;
@@ -670,8 +674,8 @@ body::after {
     flex-direction: column;
     gap: 0.4rem;
     width: min(100%, 360px);
-    margin-bottom: 1rem;
-    padding: 0.8rem;
+    margin-bottom: 0;
+    padding: 0.65rem;
     background: rgba(20, 20, 20, 0.45);
     border: 1px solid var(--rahmen);
     border-radius: 10px;
@@ -679,20 +683,20 @@ body::after {
 
 .item-suche label {
     color: var(--schrift-gedeckt);
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 600;
 }
 
 #item-suche-eingabe {
     width: 100%;
-    padding: 0.55rem 0.65rem;
+    padding: 0.5rem 0.6rem;
     background: rgba(20, 20, 20, 0.75);
     color: var(--schrift);
     border: 1px solid var(--rahmen);
     border-radius: 8px;
     outline: none;
     font-family: inherit;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     transition:
         border-color 0.2s ease,
         background 0.2s ease,
@@ -724,7 +728,7 @@ body::after {
 
 .item-suche-ergebnis {
     width: 100%;
-    padding: 0.55rem 0.65rem;
+    padding: 0.5rem 0.6rem;
     color: var(--schrift);
     background: transparent;
     border: 1px solid transparent;
@@ -732,7 +736,7 @@ body::after {
     cursor: pointer;
     text-align: left;
     font-family: inherit;
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     transition:
         background 0.2s ease,
         border-color 0.2s ease,
@@ -743,6 +747,55 @@ body::after {
     color: var(--schrift);
     background: rgba(255, 126, 0, 0.12);
     border-color: rgba(255, 126, 0, 0.45);
+}
+
+/* ========================================
+   MENGE
+   ======================================== */
+
+.item-menge {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 90px;
+    margin-bottom: 0;
+}
+
+.item-menge label {
+    color: var(--schrift-gedeckt);
+    font-size: 0.72rem;
+    font-weight: 600;
+}
+
+#item-menge {
+    width: 90px;
+    padding: 0.5rem 0.6rem;
+    background: rgba(20, 20, 20, 0.75);
+    color: var(--schrift);
+    border: 1px solid var(--rahmen);
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.82rem;
+    text-align: left;
+    appearance: textfield;
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#item-menge:focus {
+    border-color: var(--orange);
+    background: rgba(20, 20, 20, 0.9);
+    box-shadow:
+        0 0 0 1px rgba(255, 126, 0, 0.12);
+}
+
+#item-menge::-webkit-inner-spin-button,
+#item-menge::-webkit-outer-spin-button {
+    margin: 0;
+    opacity: 0;
 }
 
 /* ========================================
@@ -846,111 +899,12 @@ body::after {
 }
 
 /* ========================================
-   ITEM-QUALITÄT
-   ======================================== */
-
-.item-qualitaet-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.item-qualitaet-button {
-    min-width: 105px;
-    min-height: 40px;
-    padding: 0.5rem 0.7rem;
-    color: var(--schrift-gedeckt);
-    background: rgba(20, 20, 20, 0.75);
-    border: 1px solid var(--rahmen);
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 0.8rem;
-    font-weight: 600;
-    transition:
-        color 0.2s ease,
-        border-color 0.2s ease,
-        background 0.2s ease,
-        box-shadow 0.2s ease,
-        transform 0.2s ease;
-}
-
-.item-qualitaet-button:hover {
-    color: var(--schrift);
-    border-color: rgba(255, 126, 0, 0.65);
-    background: rgba(44, 42, 41, 0.9);
-    transform: translateY(-1px);
-}
-
-/* Primitiv */
-
-.item-qualitaet-button[data-qualitaet="primitiv"].aktiv {
-    color: #C8CACA;
-    border-color: #C8CACA;
-    background: rgba(200, 202, 202, 0.08);
-    box-shadow:
-        0 0 0 1px rgba(200, 202, 202, 0.12),
-        0 0 10px rgba(200, 202, 202, 0.12);
-}
-
-/* Roh */
-
-.item-qualitaet-button[data-qualitaet="roh"].aktiv {
-    color: #1EFF00;
-    border-color: #1EFF00;
-    background: rgba(30, 255, 0, 0.07);
-    box-shadow:
-        0 0 0 1px rgba(30, 255, 0, 0.12),
-        0 0 10px rgba(30, 255, 0, 0.12);
-}
-
-/* Fortgeschritten */
-
-.item-qualitaet-button[data-qualitaet="fortgeschritten"].aktiv {
-    color: #0070DD;
-    border-color: #0070DD;
-    background: rgba(0, 112, 221, 0.08);
-    box-shadow:
-        0 0 0 1px rgba(0, 112, 221, 0.12),
-        0 0 10px rgba(0, 112, 221, 0.12);
-}
-
-/* Überragend */
-
-.item-qualitaet-button[data-qualitaet="ueberragend"].aktiv {
-    color: #A335EE;
-    border-color: #A335EE;
-    background: rgba(163, 53, 238, 0.08);
-    box-shadow:
-        0 0 0 1px rgba(163, 53, 238, 0.12),
-        0 0 10px rgba(163, 53, 238, 0.12);
-}
-
-/* Meisterhaft */
-
-.item-qualitaet-button[data-qualitaet="meisterhaft"].aktiv {
-    color: #B6AC4C;
-    border-color: #B6AC4C;
-    background: rgba(182, 172, 76, 0.08);
-    box-shadow:
-        0 0 0 1px rgba(182, 172, 76, 0.12),
-        0 0 10px rgba(182, 172, 76, 0.12);
-}
-
-/* Legendär */
-
-.item-qualitaet-button[data-qualitaet="legendaer"].aktiv {
-    color: #00FFFF;
-    border-color: #00FFFF;
-    background: rgba(0, 255, 255, 0.07);
-    box-shadow:
-        0 0 0 1px rgba(0, 255, 255, 0.12),
-        0 0 10px rgba(0, 255, 255, 0.12);
-}
-
-/* ========================================
    ITEM-HERSTELLUNGSART
    ======================================== */
+
+.item-herstellungsart {
+    margin-bottom: 1rem;
+}
 
 .item-herstellungsart-buttons {
     display: flex;
@@ -1000,44 +954,184 @@ body::after {
 }
 
 /* ========================================
+   ITEM-QUALITÄT + ITEMWERTE
+   ======================================== */
+
+.item-qualitaet {
+    margin-bottom: 1rem;
+}
+
+.item-qualitaet-layout {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.item-qualitaet-bereich {
+    min-width: 0;
+}
+
+.item-qualitaet-bereich h2 {
+    margin-bottom: 0.65rem;
+}
+
+/* ========================================
+   ITEM-QUALITÄT
+   ======================================== */
+
+.item-qualitaet-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(105px, 1fr));
+    gap: 0.5rem;
+}
+
+.item-qualitaet-button {
+    min-width: 105px;
+    min-height: 40px;
+    padding: 0.5rem 0.7rem;
+    color: var(--schrift-gedeckt);
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid var(--rahmen);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.item-qualitaet-button:hover {
+    color: var(--schrift);
+    border-color: rgba(255, 126, 0, 0.65);
+    background: rgba(44, 42, 41, 0.9);
+    transform: translateY(-1px);
+}
+
+/* Primitiv */
+
+.item-qualitaet-button[data-qualitaet="primitiv"].aktiv {
+    color: #C8CACA;
+    border-color: #C8CACA;
+    background: rgba(200, 202, 202, 0.08);
+    box-shadow:
+        0 0 0 1px rgba(200, 202, 202, 0.12),
+        0 0 10px rgba(200, 202, 202, 0.12);
+}
+
+/* Marode */
+
+.item-qualitaet-button[data-qualitaet="marode"].aktiv {
+    color: #1EFF00;
+    border-color: #1EFF00;
+    background: rgba(30, 255, 0, 0.07);
+    box-shadow:
+        0 0 0 1px rgba(30, 255, 0, 0.12),
+        0 0 10px rgba(30, 255, 0, 0.12);
+}
+
+/* Fortschrittlich */
+
+.item-qualitaet-button[data-qualitaet="fortschrittlich"].aktiv {
+    color: #0070DD;
+    border-color: #0070DD;
+    background: rgba(0, 112, 221, 0.08);
+    box-shadow:
+        0 0 0 1px rgba(0, 112, 221, 0.12),
+        0 0 10px rgba(0, 112, 221, 0.12);
+}
+
+/* Überragend */
+
+.item-qualitaet-button[data-qualitaet="ueberragend"].aktiv {
+    color: #A335EE;
+    border-color: #A335EE;
+    background: rgba(163, 53, 238, 0.08);
+    box-shadow:
+        0 0 0 1px rgba(163, 53, 238, 0.12),
+        0 0 10px rgba(163, 53, 238, 0.12);
+}
+
+/* Meisterhaft */
+
+.item-qualitaet-button[data-qualitaet="meisterhaft"].aktiv {
+    color: #B6AC4C;
+    border-color: #B6AC4C;
+    background: rgba(182, 172, 76, 0.08);
+    box-shadow:
+        0 0 0 1px rgba(182, 172, 76, 0.12),
+        0 0 10px rgba(182, 172, 76, 0.12);
+}
+
+/* Geselle */
+
+.item-qualitaet-button[data-qualitaet="geselle"].aktiv {
+    color: #00FFFF;
+    border-color: #00FFFF;
+    background: rgba(0, 255, 255, 0.07);
+    box-shadow:
+        0 0 0 1px rgba(0, 255, 255, 0.12),
+        0 0 10px rgba(0, 255, 255, 0.12);
+}
+
+/* ========================================
    ITEMWERTE
    ======================================== */
 
 .item-werte {
-    margin-bottom: 1rem;
-    padding: 0;
-    background: transparent;
-    border: none;
-    border-radius: 0;
-    backdrop-filter: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.65rem;
+    flex-shrink: 0;
 }
 
-.item-werte-formular {
-    display: grid;
-    grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
+.item-wert {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 115px;
 }
 
-.item-werte-formular .angabe-eingabe input {
-    width: min(100%, 220px);
+.item-wert label {
+    color: var(--schrift-gedeckt);
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
-/* ========================================
-   MENGE
-   ======================================== */
-
-.item-menge {
-    margin-bottom: 1rem;
-    padding: 0;
-    background: transparent;
-    border: none;
-    border-radius: 0;
-    backdrop-filter: none;
+.item-wert input {
+    width: 115px;
+    height: 40px;
+    padding: 0.5rem 0.6rem;
+    background: rgba(20, 20, 20, 0.75);
+    color: var(--schrift);
+    border: 1px solid var(--rahmen);
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.8rem;
+    appearance: textfield;
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
-.item-menge .angabe-eingabe {
-    max-width: 220px;
+.item-wert input:focus {
+    border-color: var(--orange);
+    background: rgba(20, 20, 20, 0.9);
+    box-shadow:
+        0 0 0 1px rgba(255, 126, 0, 0.12);
+}
+
+.item-wert input::-webkit-inner-spin-button,
+.item-wert input::-webkit-outer-spin-button {
+    margin: 0;
+    opacity: 0;
 }
 
 /* ========================================
@@ -1313,24 +1407,54 @@ body::after {
         width: 100%;
     }
 
-    .item-werte-formular {
-        grid-template-columns: 1fr;
+    .item-suche-menge {
+        align-items: flex-end;
+        flex-wrap: wrap;
     }
 
-    .item-menge .angabe-eingabe {
-        max-width: none;
+    .item-suche {
+        flex: 1 1 250px;
+        width: auto;
+        max-width: 360px;
+    }
+
+    .item-menge {
+        flex: 0 0 90px;
+        width: 90px;
     }
 
     .item-kategorie-buttons,
-    .item-qualitaet-buttons,
     .item-herstellungsart-buttons {
         width: 100%;
     }
 
     .item-kategorie-button,
-    .item-qualitaet-button,
     .item-herstellungsart-button {
         flex: 1 1 auto;
+    }
+
+    .item-qualitaet-layout {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.9rem;
+    }
+
+    .item-qualitaet-buttons {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+    }
+
+    .item-werte {
+        width: 100%;
+    }
+
+    .item-wert {
+        flex: 1 1 0;
+        width: auto;
+    }
+
+    .item-wert input {
+        width: 100%;
     }
 }
 

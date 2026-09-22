@@ -646,6 +646,7 @@
                         <h2>Kategorie</h2>
 
                         <div class="item-kategorie-buttons">
+
                             <button
                                 type="button"
                                 class="item-kategorie-button"
@@ -653,6 +654,7 @@
                             >
                                 🐎 Endgame-Sattel
                             </button>
+
                             <button
                                 type="button"
                                 class="item-kategorie-button"
@@ -660,6 +662,7 @@
                             >
                                 🔩 Tek-Ausrüstung
                             </button>
+
                             <button
                                 type="button"
                                 class="item-kategorie-button"
@@ -667,6 +670,7 @@
                             >
                                 📜 Sonstige Baupläne
                             </button>
+
                         </div>
 
                         <!-- Kategorie-Hinweis -->
@@ -677,100 +681,76 @@
                             hidden
                         >
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         2. ITEM
+                         2. ITEM + MENGE
                          ======================================== -->
 
                     <section class="rechner-bereich item-angaben">
-                        <h2>Item</h2>
 
-                        <div class="item-suche">
-                            <label for="item-suche-eingabe">
-                                Item suchen
-                            </label>
+                        <div class="item-suche-menge">
 
-                            <input
-                                type="text"
-                                id="item-suche-eingabe"
-                                placeholder="Name des Items eingeben"
-                                autocomplete="off"
-                            >
+                            <!-- Item-Suche -->
 
-                            <!-- Suchergebnisse -->
+                            <div class="item-suche">
 
-                            <div
-                                id="item-suche-ergebnisse"
-                                class="item-suche-ergebnisse"
-                                hidden
-                            >
-                                <!-- Treffer werden per JavaScript eingefügt -->
+                                <label for="item-suche-eingabe">
+                                    Item suchen
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="item-suche-eingabe"
+                                    placeholder="Name des Items eingeben"
+                                    autocomplete="off"
+                                >
+
+                                <!-- Suchergebnisse -->
+
+                                <div
+                                    id="item-suche-ergebnisse"
+                                    class="item-suche-ergebnisse"
+                                    hidden
+                                >
+                                    <!-- Treffer werden per JavaScript eingefügt -->
+                                </div>
+
                             </div>
+
+                            <!-- Menge -->
+
+                            <div class="item-menge">
+
+                                <label for="item-menge">
+                                    Menge
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="item-menge"
+                                    min="1"
+                                    value="1"
+                                    step="1"
+                                >
+
+                            </div>
+
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         3. QUALITÄT
-                         ======================================== -->
-
-                    <section class="item-qualitaet">
-                        <h2>Qualität</h2>
-
-                        <div class="item-qualitaet-buttons">
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="primitiv"
-                            >
-                                Primitiv
-                            </button>
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="roh"
-                            >
-                                Roh
-                            </button>
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="fortgeschritten"
-                            >
-                                Fortgeschritten
-                            </button>
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="ueberragend"
-                            >
-                                Überragend
-                            </button>
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="meisterhaft"
-                            >
-                                Meisterhaft
-                            </button>
-                            <button
-                                type="button"
-                                class="item-qualitaet-button"
-                                data-qualitaet="legendaer"
-                            >
-                                Legendär
-                            </button>
-                        </div>
-                    </section>
-
-                    <!-- ========================================
-                         4. HERSTELLUNGSART
+                         3. HERSTELLUNGSART
                          ======================================== -->
 
                     <section class="item-herstellungsart">
+
                         <h2>Herstellungsart</h2>
 
                         <div class="item-herstellungsart-buttons">
+
                             <button
                                 type="button"
                                 class="item-herstellungsart-button"
@@ -778,6 +758,7 @@
                             >
                                 📜 Blaupause
                             </button>
+
                             <button
                                 type="button"
                                 class="item-herstellungsart-button"
@@ -785,6 +766,7 @@
                             >
                                 🔄 Konvertierbar
                             </button>
+
                             <button
                                 type="button"
                                 class="item-herstellungsart-button"
@@ -792,70 +774,133 @@
                             >
                                 🔨 Hergestellt
                             </button>
+
                         </div>
+
                     </section>
 
                     <!-- ========================================
-                         5. ITEMWERTE
+                         4. QUALITÄT + ITEMWERTE
                          ======================================== -->
 
-                    <section class="rechner-bereich item-werte">
-                        <h2>Itemwerte</h2>
+                    <section class="item-qualitaet">
 
-                        <div class="item-werte-formular">
+                        <div class="item-qualitaet-layout">
 
-                            <!-- Rüstungswert -->
+                            <!-- Qualität -->
 
-                            <div class="angabe-eingabe">
-                                <label for="item-ruestungswert">
-                                    Rüstungswert (optional)
-                                </label>
-                                <input
-                                    type="number"
-                                    id="item-ruestungswert"
-                                    min="0"
-                                    step="0.1"
-                                    placeholder="Rüstungswert"
-                                >
+                            <div class="item-qualitaet-bereich">
+
+                                <h2>Qualität</h2>
+
+                                <div class="item-qualitaet-buttons">
+
+                                    <!-- Obere Reihe -->
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="primitiv"
+                                        data-englisch="Primitive"
+                                    >
+                                        Primitiv
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="marode"
+                                        data-englisch="Ramshackle"
+                                    >
+                                        Marode
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="fortschrittlich"
+                                        data-englisch="Apprentice"
+                                    >
+                                        Fortschrittlich
+                                    </button>
+
+                                    <!-- Untere Reihe -->
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="geselle"
+                                        data-englisch="Journeyman"
+                                    >
+                                        Geselle
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="meisterhaft"
+                                        data-englisch="Mastercraft"
+                                    >
+                                        Meisterhaft
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="item-qualitaet-button"
+                                        data-qualitaet="ueberragend"
+                                        data-englisch="Ascendant"
+                                    >
+                                        Überragend
+                                    </button>
+
+                                </div>
+
                             </div>
 
-                            <!-- Itemrating -->
+                            <!-- Itemwerte -->
 
-                            <div class="angabe-eingabe">
-                                <label for="itemrating">
-                                    Itemrating (optional)
-                                </label>
-                                <input
-                                    type="number"
-                                    id="itemrating"
-                                    min="0"
-                                    step="0.1"
-                                    placeholder="Itemrating"
-                                >
+                            <div class="item-werte">
+
+                                <!-- Rüstungswert -->
+
+                                <div class="item-wert">
+
+                                    <label for="item-ruestungswert">
+                                        Rüstungswert
+                                    </label>
+
+                                    <input
+                                        type="number"
+                                        id="item-ruestungswert"
+                                        min="0"
+                                        step="0.1"
+                                        placeholder="Optional"
+                                    >
+
+                                </div>
+
+                                <!-- Itemrating -->
+
+                                <div class="item-wert">
+
+                                    <label for="itemrating">
+                                        Itemrating
+                                    </label>
+
+                                    <input
+                                        type="number"
+                                        id="itemrating"
+                                        min="0"
+                                        step="0.1"
+                                        placeholder="Optional"
+                                    >
+
+                                </div>
+
                             </div>
 
                         </div>
-                    </section>
 
-                    <!-- ========================================
-                         6. MENGE
-                         ======================================== -->
-
-                    <section class="rechner-bereich item-menge">
-                        <h2>Menge</h2>
-
-                        <div class="angabe-eingabe">
-                            <label for="item-menge">
-                                Anzahl
-                            </label>
-                            <input
-                                type="number"
-                                id="item-menge"
-                                min="1"
-                                value="1"
-                                step="1"
-                            >
-                        </div>
                     </section>
 
                     <!-- ========================================
@@ -863,12 +908,14 @@
                          ======================================== -->
 
                     <div class="item-konfigurator-aktion">
+
                         <button
                             type="button"
                             id="item-in-warenkorb"
                         >
                             🛒 Item in den Warenkorb
                         </button>
+
                     </div>
 
                 </div>
