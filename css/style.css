@@ -669,6 +669,7 @@ body::after {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    width: min(100%, 360px);
     margin-bottom: 1rem;
     padding: 0.8rem;
     background: rgba(20, 20, 20, 0.45);
@@ -1016,6 +1017,10 @@ body::after {
     grid-template-columns:
         repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
+}
+
+.item-werte-formular .angabe-eingabe input {
+    width: min(100%, 220px);
 }
 
 /* ========================================
