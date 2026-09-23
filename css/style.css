@@ -1436,8 +1436,8 @@ body::after {
 .dino-konfigurator-aktion {
     display: flex;
     align-items: center;
-    margin-top: 0.85rem;
-    margin-bottom: 0rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #tier-in-warenkorb {
