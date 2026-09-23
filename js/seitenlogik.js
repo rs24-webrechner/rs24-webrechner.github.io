@@ -1353,7 +1353,7 @@ geneDaten.forEach(function (gene) {
         gene.id;
 
     option.textContent =
-        gene.name_de;
+        gene.name;
 
     genAuswahl.appendChild(option);
 });
@@ -1442,7 +1442,7 @@ function genHinzufuegen(gene) {
             document.createElement("span");
 
         sidebarName.textContent =
-            gene.name_de;
+            gene.name;
 
         sidebarEintrag.appendChild(sidebarName);
 
@@ -1469,7 +1469,7 @@ function genHinzufuegen(gene) {
         "gene-slot-name";
 
     name.textContent =
-        gene.name_de;
+        gene.name;
 
     const entfernen =
         document.createElement("button");
@@ -1494,7 +1494,7 @@ function genHinzufuegen(gene) {
         "gene-slot-beschreibung";
 
     beschreibung.textContent =
-        gene.beschreibung_de;
+        gene.beschreibung;
 
     entfernen.addEventListener("click", function () {
         genEntfernen(gene);
