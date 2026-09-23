@@ -1436,7 +1436,7 @@ body::after {
 .dino-konfigurator-aktion {
     display: flex;
     align-items: center;
-    margin-top: 0;
+    margin-top: 0.65rem;
     margin-bottom: 0;
 }
 
