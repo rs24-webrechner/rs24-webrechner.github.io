@@ -1345,30 +1345,23 @@ const geneSlots =
 // GENE IM DROPDOWN ANZEIGEN
 // ========================================
 
-// Reihenfolge der vier Gene-Gruppen
+// Die Kategorien werden direkt aus der Gene-Datenbank
+// übernommen. Dadurch müssen die Kategorien hier
+// nicht noch einmal manuell eingetragen werden.
 
-const geneGruppen = [
-    "Zucht",
-    "Kampf",
-    "Hilfseigenschaften",
-    "Sonstiges"
-];
+const geneGruppen = [];
 
-// Für jede Gruppe wird ein eigener Bereich
-// innerhalb des Dropdowns erstellt.
+geneDaten.forEach(function (gene) {
+
+    if (!geneGruppen.includes(gene.kategorie)) {
+        geneGruppen.push(gene.kategorie);
+    }
+});
+
+// Für jede vorhandene Kategorie wird ein eigener
+// Bereich innerhalb des Dropdowns erstellt.
 
 geneGruppen.forEach(function (kategorie) {
-
-    const geneDerKategorie =
-        geneDaten.filter(function (gene) {
-            return gene.kategorie === kategorie;
-        });
-
-    // Leere Gruppen werden nicht angezeigt.
-
-    if (geneDerKategorie.length === 0) {
-        return;
-    }
 
     const gruppe =
         document.createElement("optgroup");
@@ -1376,19 +1369,23 @@ geneGruppen.forEach(function (kategorie) {
     gruppe.label =
         kategorie;
 
-    geneDerKategorie.forEach(function (gene) {
+    geneDaten
+        .filter(function (gene) {
+            return gene.kategorie === kategorie;
+        })
+        .forEach(function (gene) {
 
-        const option =
-            document.createElement("option");
+            const option =
+                document.createElement("option");
 
-        option.value =
-            gene.id;
+            option.value =
+                gene.id;
 
-        option.textContent =
-            gene.name;
+            option.textContent =
+                gene.name;
 
-        gruppe.appendChild(option);
-    });
+            gruppe.appendChild(option);
+        });
 
     genAuswahl.appendChild(gruppe);
 });
