@@ -2520,6 +2520,10 @@ body::after {
         border-radius: 11px;
     }
 
+    .dino-konfigurator .rechner-aktionen {
+    margin-top: 0.85rem;
+}
+
     .rechner-auswahl {
         gap: 0.5rem;
     }
