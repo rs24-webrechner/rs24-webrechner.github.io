@@ -1345,17 +1345,43 @@ const geneSlots =
 // GENE IM DROPDOWN ANZEIGEN
 // ========================================
 
-geneDaten.forEach(function (gene) {
-    const option =
-        document.createElement("option");
+// Reihenfolge der vier Gene-Gruppen
 
-    option.value =
-        gene.id;
+const geneGruppen = [
+    "Zucht",
+    "Kampf",
+    "Hilfseigenschaften",
+    "Sonstiges"
+];
 
-    option.textContent =
-        gene.name;
+// Für jede Gruppe wird ein eigener Bereich
+// innerhalb des Dropdowns erstellt.
 
-    genAuswahl.appendChild(option);
+geneGruppen.forEach(function (kategorie) {
+    const gruppe =
+        document.createElement("optgroup");
+
+    gruppe.label =
+        kategorie;
+
+    geneDaten
+        .filter(function (gene) {
+            return gene.kategorie === kategorie;
+        })
+        .forEach(function (gene) {
+            const option =
+                document.createElement("option");
+
+            option.value =
+                gene.id;
+
+            option.textContent =
+                gene.name;
+
+            gruppe.appendChild(option);
+        });
+
+    genAuswahl.appendChild(gruppe);
 });
 
 // Solange keine Gene ausgewählt wurden,
