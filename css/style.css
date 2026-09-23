@@ -1433,10 +1433,14 @@ body::after {
    WARENKORB-AKTION
    ======================================== */
 
+.dino-konfigurator .rechner-bereich {
+    margin-bottom: 0.85rem;
+}
+
 .dino-konfigurator-aktion {
     display: flex;
     align-items: center;
-    padding-top: 0.65rem;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
