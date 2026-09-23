@@ -1358,36 +1358,40 @@ const geneGruppen = [
 // innerhalb des Dropdowns erstellt.
 
 geneGruppen.forEach(function (kategorie) {
+
+    const geneDerKategorie =
+        geneDaten.filter(function (gene) {
+            return gene.kategorie === kategorie;
+        });
+
+    // Leere Gruppen werden nicht angezeigt.
+
+    if (geneDerKategorie.length === 0) {
+        return;
+    }
+
     const gruppe =
         document.createElement("optgroup");
 
     gruppe.label =
         kategorie;
 
-    geneDaten
-        .filter(function (gene) {
-            return gene.kategorie === kategorie;
-        })
-        .forEach(function (gene) {
-            const option =
-                document.createElement("option");
+    geneDerKategorie.forEach(function (gene) {
 
-            option.value =
-                gene.id;
+        const option =
+            document.createElement("option");
 
-            option.textContent =
-                gene.name;
+        option.value =
+            gene.id;
 
-            gruppe.appendChild(option);
-        });
+        option.textContent =
+            gene.name;
+
+        gruppe.appendChild(option);
+    });
 
     genAuswahl.appendChild(gruppe);
 });
-
-// Solange keine Gene ausgewählt wurden,
-// bleibt der Gen-Bereich ausgeblendet.
-
-dinoGene.hidden = true;
 
 // ========================================
 // GEN AUSWÄHLEN
