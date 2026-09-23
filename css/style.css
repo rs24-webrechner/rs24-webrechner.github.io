@@ -1436,8 +1436,8 @@ body::after {
 .dino-konfigurator-aktion {
     display: flex;
     align-items: center;
-    margin-top: 0.2rem;
-    margin-bottom: 0.85rem;
+    margin-top: 0.85rem;
+    margin-bottom: 0rem;
 }
 
 #tier-in-warenkorb {
@@ -2519,10 +2519,6 @@ body::after {
         padding: 0.9rem;
         border-radius: 11px;
     }
-
-    .dino-konfigurator .rechner-aktionen {
-    margin-top: 0.85rem;
-}
 
     .rechner-auswahl {
         gap: 0.5rem;
