@@ -11,17 +11,20 @@ import { itemDaten } from "../data/item_daten.js";
 // ========================================
 
 // Preise der einzelnen Itemstufen
+
 const itempreise = {
     blaupausen: {
         sattel: 5000,
         tek: 8000,
         sonstige: 1000
     },
+
     konvertierbar: {
         sattel: 4000,
         tek: 6000,
         sonstige: 0
     },
+
     hergestellt: {
         sattel: 3000,
         tek: 4000,
@@ -39,11 +42,13 @@ const mindestpreise = {
         tek: 8000,
         sonstige: 1000
     },
+
     konvertierbar: {
         sattel: 4000,
         tek: 6000,
         sonstige: 0
     },
+
     hergestellt: {
         sattel: 3000,
         tek: 4000,
@@ -52,9 +57,11 @@ const mindestpreise = {
 };
 
 // Maximal möglicher Itempreis
+
 const maximalerItempreis = 20000;
 
 // Aktuell ausgewählte Itemstufe
+
 let aktuelleItemstufe = "blaupausen";
 
 // ========================================
@@ -107,20 +114,38 @@ seitenleisteUmschalter.addEventListener(
 // ========================================
 
 function preiseAnzeigen(stufe) {
-    const preise = itempreise[stufe];
-    const mindestwerte = mindestpreise[stufe];
+    const preise =
+        itempreise[stufe];
 
-    preisSattel.value = preise.sattel;
-    preisTek.value = preise.tek;
-    preisSonstige.value = preise.sonstige;
+    const mindestwerte =
+        mindestpreise[stufe];
 
-    preisSattel.min = mindestwerte.sattel;
-    preisTek.min = mindestwerte.tek;
-    preisSonstige.min = mindestwerte.sonstige;
+    preisSattel.value =
+        preise.sattel;
 
-    preisSattel.max = maximalerItempreis;
-    preisTek.max = maximalerItempreis;
-    preisSonstige.max = maximalerItempreis;
+    preisTek.value =
+        preise.tek;
+
+    preisSonstige.value =
+        preise.sonstige;
+
+    preisSattel.min =
+        mindestwerte.sattel;
+
+    preisTek.min =
+        mindestwerte.tek;
+
+    preisSonstige.min =
+        mindestwerte.sonstige;
+
+    preisSattel.max =
+        maximalerItempreis;
+
+    preisTek.max =
+        maximalerItempreis;
+
+    preisSonstige.max =
+        maximalerItempreis;
 }
 
 // ========================================
@@ -142,11 +167,17 @@ function aktuellePreiseSpeichern() {
 // ITEMPREIS PRÜFEN
 // ========================================
 
-function itempreisPruefen(input, kategorie) {
-    let wert = Number(input.value);
+function itempreisPruefen(
+    input,
+    kategorie
+) {
+    let wert =
+        Number(input.value);
 
     const mindestwert =
-        mindestpreise[aktuelleItemstufe][kategorie];
+        mindestpreise[
+            aktuelleItemstufe
+        ][kategorie];
 
     if (wert < mindestwert) {
         wert = mindestwert;
@@ -156,7 +187,8 @@ function itempreisPruefen(input, kategorie) {
         wert = maximalerItempreis;
     }
 
-    input.value = wert;
+    input.value =
+        wert;
 
     aktuellePreiseSpeichern();
 }
@@ -165,13 +197,19 @@ function itempreisPruefen(input, kategorie) {
 // ITEMSTUFE WECHSELN
 // ========================================
 
-itempreisStufe.addEventListener("change", function () {
-    aktuellePreiseSpeichern();
+itempreisStufe.addEventListener(
+    "change",
+    function () {
+        aktuellePreiseSpeichern();
 
-    aktuelleItemstufe = this.value;
+        aktuelleItemstufe =
+            this.value;
 
-    preiseAnzeigen(aktuelleItemstufe);
-});
+        preiseAnzeigen(
+            aktuelleItemstufe
+        );
+    }
+);
 
 // ========================================
 // PREISÄNDERUNGEN
@@ -180,21 +218,30 @@ itempreisStufe.addEventListener("change", function () {
 preisSattel.addEventListener(
     "change",
     function () {
-        itempreisPruefen(this, "sattel");
+        itempreisPruefen(
+            this,
+            "sattel"
+        );
     }
 );
 
 preisTek.addEventListener(
     "change",
     function () {
-        itempreisPruefen(this, "tek");
+        itempreisPruefen(
+            this,
+            "tek"
+        );
     }
 );
 
 preisSonstige.addEventListener(
     "change",
     function () {
-        itempreisPruefen(this, "sonstige");
+        itempreisPruefen(
+            this,
+            "sonstige"
+        );
     }
 );
 
@@ -202,13 +249,16 @@ preisSonstige.addEventListener(
 // STARTWERTE LADEN
 // ========================================
 
-preiseAnzeigen(aktuelleItemstufe);
+preiseAnzeigen(
+    aktuelleItemstufe
+);
 
 // ========================================
 // MUTATIONEN
 // ========================================
 
 // Alle im System bekannten Mutationen
+
 const mutationen = [
     "leben",
     "ausdauer",
@@ -221,9 +271,12 @@ const mutationen = [
 ];
 
 // Aktuell ausgewählte Mutationen
-const ausgewaehlteMutationen = new Set();
+
+const ausgewaehlteMutationen =
+    new Set();
 
 // Werte der einzelnen Mutationen
+
 const mutationswerte = {
     leben: 2,
     ausdauer: 2,
@@ -236,6 +289,7 @@ const mutationswerte = {
 };
 
 // Preis pro Mutationspaar
+
 const mutationspreise = {
     leben: 0,
     ausdauer: 0,
@@ -248,13 +302,16 @@ const mutationspreise = {
 };
 
 // Maximaler Preis pro Mutationspaar
+
 const maximalerMutationspreis = 100;
 
 // Minimale und maximale Mutationsanzahl
+
 const minimaleMutationen = 2;
 const maximaleMutationen = 254;
 
 // Orientierungspunkte für den Mutationsslider
+
 const mutationsMarken = [
     2,
     50,
@@ -269,16 +326,24 @@ const mutationsMarken = [
 // ========================================
 
 const mutationAuswahl =
-    document.getElementById("mutation-auswahl");
+    document.getElementById(
+        "mutation-auswahl"
+    );
 
 const aktiveMutationen =
-    document.getElementById("aktive-mutationen");
+    document.getElementById(
+        "aktive-mutationen"
+    );
 
 const mutationsSlider =
-    document.getElementById("mutations-slider");
+    document.getElementById(
+        "mutations-slider"
+    );
 
 const dinoMutationen =
-    document.getElementById("dino-mutationen");
+    document.getElementById(
+        "dino-mutationen"
+    );
 
 // ========================================
 // MUTATIONSNAMEN
@@ -304,9 +369,14 @@ function mutationName(mutation) {
 // ========================================
 
 function mutationsSliderFarbe(slider) {
-    const min = Number(slider.min);
-    const max = Number(slider.max);
-    const wert = Number(slider.value);
+    const min =
+        Number(slider.min);
+
+    const max =
+        Number(slider.max);
+
+    const wert =
+        Number(slider.value);
 
     const fortschritt =
         ((wert - min) / (max - min)) * 100;
@@ -321,25 +391,35 @@ function mutationsSliderFarbe(slider) {
 // MUTATION HINZUFÜGEN
 // ========================================
 
-mutationAuswahl.addEventListener("change", function () {
-    const mutation = this.value;
+mutationAuswahl.addEventListener(
+    "change",
+    function () {
+        const mutation =
+            this.value;
 
-    if (!mutation) {
-        return;
+        if (!mutation) {
+            return;
+        }
+
+        ausgewaehlteMutationen.add(
+            mutation
+        );
+
+        mutationHinzufuegen(
+            mutation
+        );
+
+        this.value = "";
     }
-
-    ausgewaehlteMutationen.add(mutation);
-
-    mutationHinzufuegen(mutation);
-
-    this.value = "";
-});
+);
 
 // ========================================
 // AKTIVE MUTATION ANZEIGEN
 // ========================================
 
-function mutationHinzufuegen(mutation) {
+function mutationHinzufuegen(
+    mutation
+) {
     const option =
         mutationAuswahl.querySelector(
             `option[value="${mutation}"]`
@@ -356,13 +436,17 @@ function mutationHinzufuegen(mutation) {
     const container =
         document.createElement("div");
 
-    container.className = "mutationspreis";
-    container.dataset.mutation = mutation;
+    container.className =
+        "mutationspreis";
+
+    container.dataset.mutation =
+        mutation;
 
     const kopf =
         document.createElement("div");
 
-    kopf.className = "mutationspreis-kopf";
+    kopf.className =
+        "mutationspreis-kopf";
 
     const titel =
         document.createElement("h4");
@@ -370,7 +454,9 @@ function mutationHinzufuegen(mutation) {
     titel.textContent =
         mutationName(mutation);
 
-    kopf.appendChild(titel);
+    kopf.appendChild(
+        titel
+    );
 
     const eingabe =
         document.createElement("div");
@@ -383,25 +469,38 @@ function mutationHinzufuegen(mutation) {
 
     input.type = "number";
     input.min = "0";
-    input.max = maximalerMutationspreis;
+    input.max =
+        maximalerMutationspreis;
     input.step = "1";
-    input.value = mutationspreise[mutation];
 
-    input.addEventListener("change", function () {
-        let wert = Number(this.value);
+    input.value =
+        mutationspreise[mutation];
 
-        if (wert < 0) {
-            wert = 0;
+    input.addEventListener(
+        "change",
+        function () {
+            let wert =
+                Number(this.value);
+
+            if (wert < 0) {
+                wert = 0;
+            }
+
+            if (
+                wert >
+                maximalerMutationspreis
+            ) {
+                wert =
+                    maximalerMutationspreis;
+            }
+
+            this.value =
+                wert;
+
+            mutationspreise[mutation] =
+                wert;
         }
-
-        if (wert > maximalerMutationspreis) {
-            wert = maximalerMutationspreis;
-        }
-
-        this.value = wert;
-
-        mutationspreise[mutation] = wert;
-    });
+    );
 
     const einheit =
         document.createElement("span");
@@ -409,15 +508,28 @@ function mutationHinzufuegen(mutation) {
     einheit.textContent =
         "SP / Paar";
 
-    eingabe.appendChild(input);
-    eingabe.appendChild(einheit);
+    eingabe.appendChild(
+        input
+    );
 
-    container.appendChild(kopf);
-    container.appendChild(eingabe);
+    eingabe.appendChild(
+        einheit
+    );
 
-    aktiveMutationen.appendChild(container);
+    container.appendChild(
+        kopf
+    );
 
-    dinoMutationen.hidden = false;
+    container.appendChild(
+        eingabe
+    );
+
+    aktiveMutationen.appendChild(
+        container
+    );
+
+    dinoMutationen.hidden =
+        false;
 
     // ========================================
     // HAUPTBEREICH – SLIDER
@@ -451,19 +563,34 @@ function mutationHinzufuegen(mutation) {
     const entfernen =
         document.createElement("button");
 
-    entfernen.type = "button";
+    entfernen.type =
+        "button";
+
     entfernen.className =
         "mutation-slider-entfernen";
-    entfernen.textContent = "×";
+
+    entfernen.textContent =
+        "×";
+
     entfernen.title =
         "Mutation entfernen";
 
-    entfernen.addEventListener("click", function () {
-        mutationEntfernen(mutation);
-    });
+    entfernen.addEventListener(
+        "click",
+        function () {
+            mutationEntfernen(
+                mutation
+            );
+        }
+    );
 
-    sliderKopf.appendChild(sliderTitel);
-    sliderKopf.appendChild(entfernen);
+    sliderKopf.appendChild(
+        sliderTitel
+    );
+
+    sliderKopf.appendChild(
+        entfernen
+    );
 
     // ========================================
     // SLIDER-BEREICH
@@ -494,7 +621,9 @@ function mutationHinzufuegen(mutation) {
     aktuellerWert.textContent =
         mutationswerte[mutation];
 
-    sliderWerte.appendChild(aktuellerWert);
+    sliderWerte.appendChild(
+        aktuellerWert
+    );
 
     // ========================================
     // RANGE-SLIDER
@@ -503,7 +632,8 @@ function mutationHinzufuegen(mutation) {
     const slider =
         document.createElement("input");
 
-    slider.type = "range";
+    slider.type =
+        "range";
 
     slider.min =
         minimaleMutationen;
@@ -511,23 +641,29 @@ function mutationHinzufuegen(mutation) {
     slider.max =
         maximaleMutationen;
 
-    slider.step = "2";
+    slider.step =
+        "2";
 
     slider.value =
         mutationswerte[mutation];
 
-    slider.addEventListener("input", function () {
-        const wert =
-            Number(this.value);
+    slider.addEventListener(
+        "input",
+        function () {
+            const wert =
+                Number(this.value);
 
-        mutationswerte[mutation] =
-            wert;
+            mutationswerte[mutation] =
+                wert;
 
-        aktuellerWert.textContent =
-            wert;
+            aktuellerWert.textContent =
+                wert;
 
-        mutationsSliderFarbe(this);
-    });
+            mutationsSliderFarbe(
+                this
+            );
+        }
+    );
 
     // ========================================
     // ORIENTIERUNGSMARKEN
@@ -539,52 +675,88 @@ function mutationHinzufuegen(mutation) {
     marken.className =
         "mutation-slider-marken";
 
-    mutationsMarken.forEach(function (marke) {
-        const marker =
-            document.createElement("div");
+    mutationsMarken.forEach(
+        function (marke) {
+            const marker =
+                document.createElement(
+                    "div"
+                );
 
-        marker.className =
-            "mutation-slider-marke";
+            marker.className =
+                "mutation-slider-marke";
 
-        const strich =
-            document.createElement("span");
+            const strich =
+                document.createElement(
+                    "span"
+                );
 
-        strich.className =
-            "mutation-slider-marke-strich";
+            strich.className =
+                "mutation-slider-marke-strich";
 
-        const beschriftung =
-            document.createElement("span");
+            const beschriftung =
+                document.createElement(
+                    "span"
+                );
 
-        beschriftung.className =
-            "mutation-slider-marke-text";
+            beschriftung.className =
+                "mutation-slider-marke-text";
 
-        beschriftung.textContent =
-            marke;
+            beschriftung.textContent =
+                marke;
 
-        marker.appendChild(strich);
-        marker.appendChild(beschriftung);
+            marker.appendChild(
+                strich
+            );
 
-        marken.appendChild(marker);
-    });
+            marker.appendChild(
+                beschriftung
+            );
 
-    sliderBereich.appendChild(sliderWerte);
-    sliderBereich.appendChild(slider);
-    sliderBereich.appendChild(marken);
+            marken.appendChild(
+                marker
+            );
+        }
+    );
 
-    sliderContainer.appendChild(sliderKopf);
-    sliderContainer.appendChild(sliderBereich);
+    sliderBereich.appendChild(
+        sliderWerte
+    );
 
-    mutationsSlider.appendChild(sliderContainer);
+    sliderBereich.appendChild(
+        slider
+    );
 
-    mutationsSliderFarbe(slider);
+    sliderBereich.appendChild(
+        marken
+    );
+
+    sliderContainer.appendChild(
+        sliderKopf
+    );
+
+    sliderContainer.appendChild(
+        sliderBereich
+    );
+
+    mutationsSlider.appendChild(
+        sliderContainer
+    );
+
+    mutationsSliderFarbe(
+        slider
+    );
 }
 
 // ========================================
 // MUTATION ENTFERNEN
 // ========================================
 
-function mutationEntfernen(mutation) {
-    ausgewaehlteMutationen.delete(mutation);
+function mutationEntfernen(
+    mutation
+) {
+    ausgewaehlteMutationen.delete(
+        mutation
+    );
 
     const option =
         mutationAuswahl.querySelector(
@@ -592,7 +764,8 @@ function mutationEntfernen(mutation) {
         );
 
     if (option) {
-        option.disabled = false;
+        option.disabled =
+            false;
     }
 
     const preisfeld =
@@ -613,8 +786,11 @@ function mutationEntfernen(mutation) {
         slider.remove();
     }
 
-    if (ausgewaehlteMutationen.size === 0) {
-        dinoMutationen.hidden = true;
+    if (
+        ausgewaehlteMutationen.size === 0
+    ) {
+        dinoMutationen.hidden =
+            true;
     }
 }
 
@@ -623,16 +799,24 @@ function mutationEntfernen(mutation) {
 // ========================================
 
 const dinoKonfigurieren =
-    document.getElementById("dino-konfigurieren");
+    document.getElementById(
+        "dino-konfigurieren"
+    );
 
 const itemKonfigurieren =
-    document.getElementById("item-konfigurieren");
+    document.getElementById(
+        "item-konfigurieren"
+    );
 
 const dinoKonfigurator =
-    document.getElementById("dino-konfigurator");
+    document.getElementById(
+        "dino-konfigurator"
+    );
 
 const itemKonfigurator =
-    document.getElementById("item-konfigurator");
+    document.getElementById(
+        "item-konfigurator"
+    );
 
 const dinoKonfiguratorSchliessen =
     document.getElementById(
@@ -640,7 +824,9 @@ const dinoKonfiguratorSchliessen =
     );
 
 const tierInWarenkorb =
-    document.getElementById("tier-in-warenkorb");
+    document.getElementById(
+        "tier-in-warenkorb"
+    );
 
 const itemKonfiguratorSchliessen =
     document.getElementById(
@@ -648,15 +834,21 @@ const itemKonfiguratorSchliessen =
     );
 
 const itemInWarenkorb =
-    document.getElementById("item-in-warenkorb");
+    document.getElementById(
+        "item-in-warenkorb"
+    );
 
 // ========================================
 // DINO KONFIGURIEREN
 // ========================================
 
-dinoKonfigurieren.addEventListener("click", function () {
-    dinoKonfigurator.hidden = false;
-});
+dinoKonfigurieren.addEventListener(
+    "click",
+    function () {
+        dinoKonfigurator.hidden =
+            false;
+    }
+);
 
 // ========================================
 // DINO-KONFIGURATOR SCHLIESSEN
@@ -665,7 +857,8 @@ dinoKonfigurieren.addEventListener("click", function () {
 dinoKonfiguratorSchliessen.addEventListener(
     "click",
     function () {
-        dinoKonfigurator.hidden = true;
+        dinoKonfigurator.hidden =
+            true;
     }
 );
 
@@ -673,14 +866,13 @@ dinoKonfiguratorSchliessen.addEventListener(
 // TIER IN DEN WARENKORB
 // ========================================
 
-// Die eigentliche Warenkorb-Logik kommt später.
-// Der Button ist bereits vorbereitet und reagiert
-// aktuell nur auf den visuellen Klick.
+// Die Warenkorb-Logik wird erst später
+// vollständig angebunden.
 
 tierInWarenkorb.addEventListener(
     "click",
     function () {
-        // Platzhalter für die spätere Warenkorb-Logik.
+        // Platzhalter
     }
 );
 
@@ -689,15 +881,19 @@ tierInWarenkorb.addEventListener(
 // ========================================
 
 // Aktuell ausgewählte Item-Kategorie
+
 let aktuelleItemKategorie = null;
 
 // Aktuell ausgewähltes Item
+
 let aktuellesItem = null;
 
 // Aktuell ausgewählte Qualität
+
 let aktuelleItemQualitaet = null;
 
 // Aktuell ausgewählte Herstellungsart
+
 let aktuelleItemHerstellungsart = null;
 
 // ========================================
@@ -710,11 +906,13 @@ const itemKategorien = {
         hinweis:
             "Ossidon / Rex / Megatherium / Therizino / Deinosuchus / Spino / Acro / Carcha / Giga / Reaper / Rhynio / Dreadnoghtus / Rock Drake / Gigadesmodus / Tek-Sättel / Deinonychus"
     },
+
     "tek-ausruestung": {
         name: "Tek-Ausrüstung",
         hinweis:
             "Tek-Rüstung / Tek-Waffen / Tek-Werkzeuge"
     },
+
     "sonstige-bauplaene": {
         name: "Sonstiges",
         hinweis:
@@ -726,9 +924,13 @@ const itemKategorien = {
 // ITEM-KONFIGURATOR ÖFFNEN
 // ========================================
 
-itemKonfigurieren.addEventListener("click", function () {
-    itemKonfigurator.hidden = false;
-});
+itemKonfigurieren.addEventListener(
+    "click",
+    function () {
+        itemKonfigurator.hidden =
+            false;
+    }
+);
 
 // ========================================
 // ITEM-KONFIGURATOR SCHLIESSEN
@@ -737,7 +939,8 @@ itemKonfigurieren.addEventListener("click", function () {
 itemKonfiguratorSchliessen.addEventListener(
     "click",
     function () {
-        itemKonfigurator.hidden = true;
+        itemKonfigurator.hidden =
+            true;
     }
 );
 
@@ -746,57 +949,82 @@ itemKonfiguratorSchliessen.addEventListener(
 // ========================================
 
 const itemKategorieButtons =
-    document.querySelectorAll(".item-kategorie-button");
+    document.querySelectorAll(
+        ".item-kategorie-button"
+    );
 
 const itemKategorieHinweis =
-    document.getElementById("item-kategorie-hinweis");
+    document.getElementById(
+        "item-kategorie-hinweis"
+    );
 
-itemKategorieButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-        itemKategorieButtons.forEach(
-            function (andererButton) {
-                andererButton.classList.remove("aktiv");
+itemKategorieButtons.forEach(
+    function (button) {
+        button.addEventListener(
+            "click",
+            function () {
+
+                itemKategorieButtons.forEach(
+                    function (andererButton) {
+                        andererButton.classList.remove(
+                            "aktiv"
+                        );
+                    }
+                );
+
+                button.classList.add(
+                    "aktiv"
+                );
+
+                aktuelleItemKategorie =
+                    button.dataset.kategorie;
+
+                if (itemKategorieHinweis) {
+                    const kategorie =
+                        itemKategorien[
+                            aktuelleItemKategorie
+                        ];
+
+                    if (kategorie) {
+                        itemKategorieHinweis.textContent =
+                            kategorie.hinweis;
+
+                        itemKategorieHinweis.hidden =
+                            false;
+                    }
+                }
+
+                // Itemauswahl bei Kategorienwechsel zurücksetzen
+
+                aktuellesItem =
+                    null;
+
+                itemSucheEingabe.value =
+                    "";
+
+                itemSucheErgebnisse.innerHTML =
+                    "";
+
+                itemSucheErgebnisse.hidden =
+                    true;
             }
         );
-
-        button.classList.add("aktiv");
-
-        aktuelleItemKategorie =
-            button.dataset.kategorie;
-
-        if (itemKategorieHinweis) {
-            const kategorie =
-                itemKategorien[aktuelleItemKategorie];
-
-            if (kategorie) {
-                itemKategorieHinweis.textContent =
-                    kategorie.hinweis;
-
-                itemKategorieHinweis.hidden = false;
-            }
-        }
-
-        // Itemauswahl bei Kategorienwechsel zurücksetzen
-
-        aktuellesItem = null;
-
-        itemSucheEingabe.value = "";
-
-        itemSucheErgebnisse.innerHTML = "";
-
-        itemSucheErgebnisse.hidden = true;
-    });
-});
+    }
+);
 
 // ========================================
 // ITEM-SUCHE
 // ========================================
 
 const itemSucheEingabe =
-    document.getElementById("item-suche-eingabe");
+    document.getElementById(
+        "item-suche-eingabe"
+    );
 
 const itemSucheErgebnisse =
-    document.getElementById("item-suche-ergebnisse");
+    document.getElementById(
+        "item-suche-ergebnisse"
+    );
 
 // ========================================
 // ITEM-SUCHE ERGEBNISSE ANZEIGEN
@@ -804,26 +1032,39 @@ const itemSucheErgebnisse =
 
 function itemSucheAnzeigen() {
     const suchtext =
-        itemSucheEingabe.value.trim().toLowerCase();
+        itemSucheEingabe.value
+            .trim()
+            .toLowerCase();
 
-    itemSucheErgebnisse.innerHTML = "";
+    itemSucheErgebnisse.innerHTML =
+        "";
 
     if (!suchtext) {
-        itemSucheErgebnisse.hidden = true;
+        itemSucheErgebnisse.hidden =
+            true;
+
         return;
     }
 
     const treffer =
-        itemDaten.filter(function (item) {
-            const nameDeutsch =
-                (item.name_de || "").toLowerCase();
+        itemDaten.filter(
+            function (item) {
+                const nameDeutsch =
+                    (
+                        item.name_de || ""
+                    ).toLowerCase();
 
-            return nameDeutsch.startsWith(suchtext);
-        });
+                return nameDeutsch.startsWith(
+                    suchtext
+                );
+            }
+        );
 
     if (treffer.length === 0) {
         const keinTreffer =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         keinTreffer.className =
             "item-suche-kein-treffer";
@@ -831,44 +1072,63 @@ function itemSucheAnzeigen() {
         keinTreffer.textContent =
             "Kein passendes Item gefunden.";
 
-        itemSucheErgebnisse.appendChild(keinTreffer);
+        itemSucheErgebnisse.appendChild(
+            keinTreffer
+        );
 
-        itemSucheErgebnisse.hidden = false;
+        itemSucheErgebnisse.hidden =
+            false;
 
         return;
     }
 
-    treffer.forEach(function (item) {
-        const eintrag =
-            document.createElement("button");
+    treffer.forEach(
+        function (item) {
+            const eintrag =
+                document.createElement(
+                    "button"
+                );
 
-        eintrag.type = "button";
+            eintrag.type =
+                "button";
 
-        eintrag.className =
-            "item-suche-ergebnis";
+            eintrag.className =
+                "item-suche-ergebnis";
 
-        // Für die Anzeige wird der deutsche Name verwendet.
-        // Die englischen Namen bleiben für die spätere
-        // Mehrsprachigkeit in der Datenbank erhalten.
+            // Für die Anzeige wird der deutsche Name verwendet.
+            // Die englischen Namen bleiben für die spätere
+            // Mehrsprachigkeit in der Datenbank erhalten.
 
-        eintrag.textContent =
-            item.name_de || item.name;
+            eintrag.textContent =
+                item.name_de ||
+                item.name;
 
-        eintrag.addEventListener("click", function () {
-            aktuellesItem = item;
+            eintrag.addEventListener(
+                "click",
+                function () {
+                    aktuellesItem =
+                        item;
 
-            itemSucheEingabe.value =
-                item.name_de || item.name;
+                    itemSucheEingabe.value =
+                        item.name_de ||
+                        item.name;
 
-            itemSucheErgebnisse.innerHTML = "";
+                    itemSucheErgebnisse.innerHTML =
+                        "";
 
-            itemSucheErgebnisse.hidden = true;
-        });
+                    itemSucheErgebnisse.hidden =
+                        true;
+                }
+            );
 
-        itemSucheErgebnisse.appendChild(eintrag);
-    });
+            itemSucheErgebnisse.appendChild(
+                eintrag
+            );
+        }
+    );
 
-    itemSucheErgebnisse.hidden = false;
+    itemSucheErgebnisse.hidden =
+        false;
 }
 
 // ========================================
@@ -887,22 +1147,34 @@ itemSucheEingabe.addEventListener(
 // ========================================
 
 const itemQualitaetButtons =
-    document.querySelectorAll(".item-qualitaet-button");
+    document.querySelectorAll(
+        ".item-qualitaet-button"
+    );
 
-itemQualitaetButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-        itemQualitaetButtons.forEach(
-            function (andererButton) {
-                andererButton.classList.remove("aktiv");
+itemQualitaetButtons.forEach(
+    function (button) {
+        button.addEventListener(
+            "click",
+            function () {
+
+                itemQualitaetButtons.forEach(
+                    function (andererButton) {
+                        andererButton.classList.remove(
+                            "aktiv"
+                        );
+                    }
+                );
+
+                button.classList.add(
+                    "aktiv"
+                );
+
+                aktuelleItemQualitaet =
+                    button.dataset.qualitaet;
             }
         );
-
-        button.classList.add("aktiv");
-
-        aktuelleItemQualitaet =
-            button.dataset.qualitaet;
-    });
-});
+    }
+);
 
 // ========================================
 // HERSTELLUNGSART
@@ -913,33 +1185,45 @@ const itemHerstellungsartButtons =
         ".item-herstellungsart-button"
     );
 
-itemHerstellungsartButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-        itemHerstellungsartButtons.forEach(
-            function (andererButton) {
-                andererButton.classList.remove("aktiv");
+itemHerstellungsartButtons.forEach(
+    function (button) {
+        button.addEventListener(
+            "click",
+            function () {
+
+                itemHerstellungsartButtons.forEach(
+                    function (andererButton) {
+                        andererButton.classList.remove(
+                            "aktiv"
+                        );
+                    }
+                );
+
+                button.classList.add(
+                    "aktiv"
+                );
+
+                aktuelleItemHerstellungsart =
+                    button.dataset.herstellungsart;
             }
         );
-
-        button.classList.add("aktiv");
-
-        aktuelleItemHerstellungsart =
-            button.dataset.herstellungsart;
-    });
-});
+    }
+);
 
 // ========================================
 // ITEM IN DEN WARENKORB
 // ========================================
 
-// Die eigentliche Warenkorb-Logik kommt später.
-// Die Konfiguration wird bis dahin nur gesammelt.
+// Die Warenkorb-Logik wird erst später
+// vollständig angebunden.
 
 itemInWarenkorb.addEventListener(
     "click",
     function () {
+
         const itemKonfiguration = {
-            item: aktuellesItem,
+            item:
+                aktuellesItem,
 
             kategorie:
                 aktuelleItemKategorie,
@@ -987,6 +1271,7 @@ const dinoKategorien = [
         hinweis:
             "Bulbdog / Katze / Compy / Cosmo / Dimorphodon / Drakeling / Featherlight / Ferox / Gloon / Glowtail / Hesperonis / Ichthyornis / Jerboa / Mesopithecus / Microraptor / Otter / Pegomastax / Shinehorn / Vulture"
     },
+
     {
         wert: "companion",
         name: "Companion",
@@ -994,6 +1279,7 @@ const dinoKategorien = [
         hinweis:
             "Armadoggo / Veilwyn"
     },
+
     {
         wert: "normal",
         name: "Normal",
@@ -1001,6 +1287,7 @@ const dinoKategorien = [
         hinweis:
             "Alles was nicht explizit unter einer anderen Kategorie aufgelistet ist!"
     },
+
     {
         wert: "boss",
         name: "Boss",
@@ -1008,6 +1295,7 @@ const dinoKategorien = [
         hinweis:
             "Ossidon / Rex / Megatherium / Therizino / Deinosuchus / Spino / Acro"
     },
+
     {
         wert: "eier",
         name: "Eier",
@@ -1015,6 +1303,7 @@ const dinoKategorien = [
         hinweis:
             "Deinonychus / Aureliax / Wyvern / Rock Drake"
     },
+
     {
         wert: "special",
         name: "Special",
@@ -1022,6 +1311,7 @@ const dinoKategorien = [
         hinweis:
             "Carchar / Giga / Reaper / Rhynio / Dreadnoughtus\nWichtig: Tiere dürfen nur an Spieler verkauft werden, die bereits einen im Besitz haben und dies nachweisen können!"
     },
+
     {
         wert: "gacha",
         name: "Element-Gacha",
@@ -1032,26 +1322,38 @@ const dinoKategorien = [
 ];
 
 // Aktuell ausgewählte Kategorie
-let aktuelleDinoKategorie = null;
+
+let aktuelleDinoKategorie =
+    null;
 
 // Aktuell ausgewähltes Tier
-let aktuellesTier = null;
+
+let aktuellesTier =
+    null;
 
 // ========================================
 // HTML-ELEMENTE
 // ========================================
 
 const kategorieButtons =
-    document.querySelector(".kategorie-buttons");
+    document.querySelector(
+        ".kategorie-buttons"
+    );
 
 const kategorieHinweis =
-    document.querySelector(".kategorie-hinweis");
+    document.querySelector(
+        ".kategorie-hinweis"
+    );
 
 const dinoSucheEingabe =
-    document.getElementById("dino-suche-eingabe");
+    document.getElementById(
+        "dino-suche-eingabe"
+    );
 
 const dinoSucheErgebnisse =
-    document.getElementById("dino-suche-ergebnisse");
+    document.getElementById(
+        "dino-suche-ergebnisse"
+    );
 
 // ========================================
 // DINO-SUCHE
@@ -1059,32 +1361,49 @@ const dinoSucheErgebnisse =
 
 function dinoSucheAnzeigen() {
     const suchtext =
-        dinoSucheEingabe.value.trim().toLowerCase();
+        dinoSucheEingabe.value
+            .trim()
+            .toLowerCase();
 
-    dinoSucheErgebnisse.innerHTML = "";
+    dinoSucheErgebnisse.innerHTML =
+        "";
 
     if (!suchtext) {
-        dinoSucheErgebnisse.hidden = true;
+        dinoSucheErgebnisse.hidden =
+            true;
+
         return;
     }
 
     const treffer =
-        tier_daten.filter(function (tier) {
-            const name =
-                (tier.name || "").toLowerCase();
+        tier_daten.filter(
+            function (tier) {
+                const name =
+                    (
+                        tier.name || ""
+                    ).toLowerCase();
 
-            const nameDeutsch =
-                (tier.name_de || "").toLowerCase();
+                const nameDeutsch =
+                    (
+                        tier.name_de || ""
+                    ).toLowerCase();
 
-            return (
-                name.startsWith(suchtext) ||
-                nameDeutsch.startsWith(suchtext)
-            );
-        });
+                return (
+                    name.startsWith(
+                        suchtext
+                    ) ||
+                    nameDeutsch.startsWith(
+                        suchtext
+                    )
+                );
+            }
+        );
 
     if (treffer.length === 0) {
         const keinTreffer =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         keinTreffer.className =
             "dino-suche-kein-treffer";
@@ -1092,80 +1411,118 @@ function dinoSucheAnzeigen() {
         keinTreffer.textContent =
             "Kein passendes Tier gefunden.";
 
-        dinoSucheErgebnisse.appendChild(keinTreffer);
+        dinoSucheErgebnisse.appendChild(
+            keinTreffer
+        );
 
-        dinoSucheErgebnisse.hidden = false;
+        dinoSucheErgebnisse.hidden =
+            false;
 
         return;
     }
 
-    treffer.forEach(function (tier) {
-        const eintrag =
-            document.createElement("button");
+    treffer.forEach(
+        function (tier) {
+            const eintrag =
+                document.createElement(
+                    "button"
+                );
 
-        eintrag.type = "button";
+            eintrag.type =
+                "button";
 
-        eintrag.className =
-            "dino-suche-ergebnis";
+            eintrag.className =
+                "dino-suche-ergebnis";
 
-        // Für die Anzeige wird der deutsche Name verwendet.
-        // Falls kein deutscher Name vorhanden ist,
-        // wird auf den Originalnamen zurückgegriffen.
+            // Für die Anzeige wird der deutsche Name verwendet.
+            // Falls kein deutscher Name vorhanden ist,
+            // wird auf den Originalnamen zurückgegriffen.
 
-        eintrag.textContent =
-            tier.name_de || tier.name;
+            eintrag.textContent =
+                tier.name_de ||
+                tier.name;
 
-        eintrag.addEventListener("click", function () {
-            aktuellesTier = tier;
+            eintrag.addEventListener(
+                "click",
+                function () {
+                    aktuellesTier =
+                        tier;
 
-            // ========================================
-            // KATEGORIE AUTOMATISCH ANPASSEN
-            // ========================================
+                    // ========================================
+                    // KATEGORIE AUTOMATISCH ANPASSEN
+                    // ========================================
 
-            if (tier.kategorie) {
-                document
-                    .querySelectorAll(".kategorie-button.aktiv")
-                    .forEach(function (aktiv) {
-                        aktiv.classList.remove("aktiv");
-                    });
+                    if (tier.kategorie) {
+                        document
+                            .querySelectorAll(
+                                ".kategorie-button.aktiv"
+                            )
+                            .forEach(
+                                function (aktiv) {
+                                    aktiv.classList.remove(
+                                        "aktiv"
+                                    );
+                                }
+                            );
 
-                const passendeKategorie =
-                    document.querySelector(
-                        `.kategorie-button[data-kategorie="${tier.kategorie}"]`
-                    );
+                        const passendeKategorie =
+                            document.querySelector(
+                                `.kategorie-button[data-kategorie="${tier.kategorie}"]`
+                            );
 
-                if (passendeKategorie) {
-                    passendeKategorie.classList.add("aktiv");
+                        if (
+                            passendeKategorie
+                        ) {
+                            passendeKategorie.classList.add(
+                                "aktiv"
+                            );
+                        }
+
+                        aktuelleDinoKategorie =
+                            tier.kategorie;
+
+                        const kategorie =
+                            dinoKategorien.find(
+                                function (eintrag) {
+                                    return (
+                                        eintrag.wert ===
+                                        tier.kategorie
+                                    );
+                                }
+                            );
+
+                        if (
+                            kategorie &&
+                            kategorieHinweis
+                        ) {
+                            kategorieHinweis.textContent =
+                                kategorie.hinweis;
+
+                            kategorieHinweis.hidden =
+                                false;
+                        }
+                    }
+
+                    dinoSucheEingabe.value =
+                        tier.name_de ||
+                        tier.name;
+
+                    dinoSucheErgebnisse.innerHTML =
+                        "";
+
+                    dinoSucheErgebnisse.hidden =
+                        true;
                 }
+            );
 
-                aktuelleDinoKategorie =
-                    tier.kategorie;
+            dinoSucheErgebnisse.appendChild(
+                eintrag
+            );
+        }
+    );
 
-                const kategorie =
-                    dinoKategorien.find(function (eintrag) {
-                        return eintrag.wert === tier.kategorie;
-                    });
-
-                if (kategorie && kategorieHinweis) {
-                    kategorieHinweis.textContent =
-                        kategorie.hinweis;
-
-                    kategorieHinweis.hidden = false;
-                }
-            }
-
-            dinoSucheEingabe.value =
-                tier.name_de || tier.name;
-
-            dinoSucheErgebnisse.innerHTML = "";
-
-            dinoSucheErgebnisse.hidden = true;
-        });
-
-        dinoSucheErgebnisse.appendChild(eintrag);
-    });
-
-    dinoSucheErgebnisse.hidden = false;
+    dinoSucheErgebnisse.hidden =
+        false;
 }
 
 // ========================================
@@ -1183,82 +1540,116 @@ dinoSucheEingabe.addEventListener(
 // KATEGORIEN ANZEIGEN
 // ========================================
 
-dinoKategorien.forEach(function (kategorie) {
-    const button =
-        document.createElement("button");
+dinoKategorien.forEach(
+    function (kategorie) {
+        const button =
+            document.createElement(
+                "button"
+            );
 
-    button.type = "button";
+        button.type =
+            "button";
 
-    button.className =
-        "kategorie-button";
+        button.className =
+            "kategorie-button";
 
-    button.dataset.kategorie =
-        kategorie.wert;
-
-    const inhalt =
-        document.createElement("span");
-
-    inhalt.className =
-        "kategorie-button-inhalt";
-
-    const icon =
-        document.createElement("img");
-
-    icon.className =
-        "kategorie-button-icon";
-
-    icon.src =
-        `assets/icons/tiere/${kategorie.icon}`;
-
-    icon.alt =
-        kategorie.name;
-
-    const text =
-        document.createElement("span");
-
-    text.className =
-        "kategorie-button-text";
-
-    text.textContent =
-        kategorie.name;
-
-    inhalt.appendChild(icon);
-    inhalt.appendChild(text);
-
-    button.appendChild(inhalt);
-
-    kategorieButtons.appendChild(button);
-
-    button.addEventListener("click", function () {
-        document
-            .querySelectorAll(".kategorie-button.aktiv")
-            .forEach(function (aktiv) {
-                aktiv.classList.remove("aktiv");
-            });
-
-        button.classList.add("aktiv");
-
-        aktuelleDinoKategorie =
+        button.dataset.kategorie =
             kategorie.wert;
 
-        // ========================================
-        // KATEGORIE-HINWEIS
-        // ========================================
+        const inhalt =
+            document.createElement(
+                "span"
+            );
 
-        if (kategorieHinweis) {
-            kategorieHinweis.textContent =
-                kategorie.hinweis;
+        inhalt.className =
+            "kategorie-button-inhalt";
 
-            kategorieHinweis.hidden = false;
-        }
-    });
-});
+        const icon =
+            document.createElement(
+                "img"
+            );
+
+        icon.className =
+            "kategorie-button-icon";
+
+        icon.src =
+            `assets/icons/tiere/${kategorie.icon}`;
+
+        icon.alt =
+            kategorie.name;
+
+        const text =
+            document.createElement(
+                "span"
+            );
+
+        text.className =
+            "kategorie-button-text";
+
+        text.textContent =
+            kategorie.name;
+
+        inhalt.appendChild(
+            icon
+        );
+
+        inhalt.appendChild(
+            text
+        );
+
+        button.appendChild(
+            inhalt
+        );
+
+        kategorieButtons.appendChild(
+            button
+        );
+
+        button.addEventListener(
+            "click",
+            function () {
+
+                document
+                    .querySelectorAll(
+                        ".kategorie-button.aktiv"
+                    )
+                    .forEach(
+                        function (aktiv) {
+                            aktiv.classList.remove(
+                                "aktiv"
+                            );
+                        }
+                    );
+
+                button.classList.add(
+                    "aktiv"
+                );
+
+                aktuelleDinoKategorie =
+                    kategorie.wert;
+
+                // ========================================
+                // KATEGORIE-HINWEIS
+                // ========================================
+
+                if (kategorieHinweis) {
+                    kategorieHinweis.textContent =
+                        kategorie.hinweis;
+
+                    kategorieHinweis.hidden =
+                        false;
+                }
+            }
+        );
+    }
+);
 
 // ========================================
 // DINO-ANGABEN
 // ========================================
 
 // Aktuelle Auswahl der Dino-Angaben
+
 const dinoAngaben = {
     abgabeart: null,
     geschlecht: null,
@@ -1268,32 +1659,48 @@ const dinoAngaben = {
 };
 
 // Alle Auswahlboxen
+
 const angabeOptionen =
-    document.querySelectorAll(".angabe-option");
+    document.querySelectorAll(
+        ".angabe-option"
+    );
 
 // Auswahlboxen anklickbar machen
 
-angabeOptionen.forEach(function (option) {
-    option.addEventListener("click", function () {
-        const gruppe =
-            option.dataset.gruppe;
+angabeOptionen.forEach(
+    function (option) {
+        option.addEventListener(
+            "click",
+            function () {
 
-        const wert =
-            option.dataset.wert;
+                const gruppe =
+                    option.dataset.gruppe;
 
-        document
-            .querySelectorAll(
-                `.angabe-option[data-gruppe="${gruppe}"]`
-            )
-            .forEach(function (andereOption) {
-                andereOption.classList.remove("aktiv");
-            });
+                const wert =
+                    option.dataset.wert;
 
-        option.classList.add("aktiv");
+                document
+                    .querySelectorAll(
+                        `.angabe-option[data-gruppe="${gruppe}"]`
+                    )
+                    .forEach(
+                        function (andereOption) {
+                            andereOption.classList.remove(
+                                "aktiv"
+                            );
+                        }
+                    );
 
-        dinoAngaben[gruppe] = wert;
-    });
-});
+                option.classList.add(
+                    "aktiv"
+                );
+
+                dinoAngaben[gruppe] =
+                    wert;
+            }
+        );
+    }
+);
 
 // ========================================
 // GENE
@@ -1306,13 +1713,16 @@ angabeOptionen.forEach(function (option) {
 // damit einzelne Gene eindeutig angesprochen werden können.
 
 const geneDaten =
-    geneDatenOriginal.map(function (gene, index) {
-        return {
-            ...gene,
-            id:
-                `${gene.kategorie}-${index}`
-        };
-    });
+    geneDatenOriginal.map(
+        function (gene, index) {
+            return {
+                ...gene,
+
+                id:
+                    `${gene.kategorie}-${index}`
+            };
+        }
+    );
 
 // ========================================
 // WEBSITE-HARDCAP
@@ -1326,20 +1736,31 @@ const maximaleGene =
     5;
 
 // Aktuell ausgewählte Gene
-const ausgewaehlteGene = [];
+
+const ausgewaehlteGene =
+    [];
 
 // HTML-Elemente
+
 const genAuswahl =
-    document.getElementById("gen-auswahl");
+    document.getElementById(
+        "gen-auswahl"
+    );
 
 const aktiveGene =
-    document.getElementById("aktive-gene");
+    document.getElementById(
+        "aktive-gene"
+    );
 
 const dinoGene =
-    document.getElementById("dino-gene");
+    document.getElementById(
+        "dino-gene"
+    );
 
 const geneSlots =
-    document.getElementById("gene-slots");
+    document.getElementById(
+        "gene-slots"
+    );
 
 // ========================================
 // GENE IM DROPDOWN ANZEIGEN
@@ -1349,107 +1770,164 @@ const geneSlots =
 // übernommen. Dadurch müssen die Kategorien hier
 // nicht noch einmal manuell eingetragen werden.
 
-const geneGruppen = [];
+const geneGruppen =
+    [];
 
-geneDaten.forEach(function (gene) {
+geneDaten.forEach(
+    function (gene) {
 
-    if (!geneGruppen.includes(gene.kategorie)) {
-        geneGruppen.push(gene.kategorie);
+        if (
+            !geneGruppen.includes(
+                gene.kategorie
+            )
+        ) {
+            geneGruppen.push(
+                gene.kategorie
+            );
+        }
     }
-});
+);
 
 // Für jede vorhandene Kategorie wird ein eigener
 // Bereich innerhalb des Dropdowns erstellt.
 
-geneGruppen.forEach(function (kategorie) {
+geneGruppen.forEach(
+    function (kategorie) {
 
-    const gruppe =
-        document.createElement("optgroup");
+        const gruppe =
+            document.createElement(
+                "optgroup"
+            );
 
-    gruppe.label =
-        kategorie;
+        gruppe.label =
+            kategorie;
 
-    geneDaten
-        .filter(function (gene) {
-            return gene.kategorie === kategorie;
-        })
-        .forEach(function (gene) {
+        geneDaten
+            .filter(
+                function (gene) {
+                    return (
+                        gene.kategorie ===
+                        kategorie
+                    );
+                }
+            )
+            .forEach(
+                function (gene) {
 
-            const option =
-                document.createElement("option");
+                    const option =
+                        document.createElement(
+                            "option"
+                        );
 
-            option.value =
-                gene.id;
+                    option.value =
+                        gene.id;
 
-            option.textContent =
-                gene.name;
+                    option.textContent =
+                        gene.name;
 
-            gruppe.appendChild(option);
-        });
+                    gruppe.appendChild(
+                        option
+                    );
+                }
+            );
 
-    genAuswahl.appendChild(gruppe);
-});
+        genAuswahl.appendChild(
+            gruppe
+        );
+    }
+);
 
 // ========================================
 // GEN AUSWÄHLEN
 // ========================================
 
-genAuswahl.addEventListener("change", function () {
-    const geneId =
-        this.value;
+genAuswahl.addEventListener(
+    "change",
+    function () {
+        const geneId =
+            this.value;
 
-    if (!geneId) {
-        return;
+        if (!geneId) {
+            return;
+        }
+
+        // Website-Hardcap:
+        // Maximal fünf Gene gleichzeitig.
+
+        if (
+            ausgewaehlteGene.length >=
+            maximaleGene
+        ) {
+            this.value =
+                "";
+
+            return;
+        }
+
+        const gene =
+            geneDaten.find(
+                function (eintrag) {
+                    return (
+                        eintrag.id ===
+                        geneId
+                    );
+                }
+            );
+
+        if (!gene) {
+            this.value =
+                "";
+
+            return;
+        }
+
+        // ========================================
+        // MAX STACKS DES GENS
+        // ========================================
+
+        const vorhandeneAnzahl =
+            ausgewaehlteGene.filter(
+                function (ausgewaehltesGene) {
+                    return (
+                        ausgewaehltesGene.id ===
+                        geneId
+                    );
+                }
+            ).length;
+
+        if (
+            gene.max_stacks !== null &&
+            vorhandeneAnzahl >=
+                gene.max_stacks
+        ) {
+            this.value =
+                "";
+
+            return;
+        }
+
+        ausgewaehlteGene.push(
+            gene
+        );
+
+        genHinzufuegen(
+            gene
+        );
+
+        this.value =
+            "";
     }
-
-    // Website-Hardcap:
-    // Maximal fünf Gene gleichzeitig.
-
-    if (ausgewaehlteGene.length >= maximaleGene) {
-        this.value = "";
-        return;
-    }
-
-    const gene =
-        geneDaten.find(function (eintrag) {
-            return eintrag.id === geneId;
-        });
-
-    if (!gene) {
-        this.value = "";
-        return;
-    }
-
-    // ========================================
-    // MAX STACKS DES GENS
-    // ========================================
-
-    const vorhandeneAnzahl =
-        ausgewaehlteGene.filter(function (ausgewaehltesGene) {
-            return ausgewaehltesGene.id === geneId;
-        }).length;
-
-    if (
-        gene.max_stacks !== null &&
-        vorhandeneAnzahl >= gene.max_stacks
-    ) {
-        this.value = "";
-        return;
-    }
-
-    ausgewaehlteGene.push(gene);
-
-    genHinzufuegen(gene);
-
-    this.value = "";
-});
+);
 
 // ========================================
 // GEN HINZUFÜGEN
 // ========================================
 
-function genHinzufuegen(gene) {
-    dinoGene.hidden = false;
+function genHinzufuegen(
+    gene
+) {
+    dinoGene.hidden =
+        false;
 
     // ========================================
     // SIDEBAR
@@ -1457,7 +1935,9 @@ function genHinzufuegen(gene) {
 
     if (aktiveGene) {
         const sidebarEintrag =
-            document.createElement("div");
+            document.createElement(
+                "div"
+            );
 
         sidebarEintrag.className =
             "gene-auswahl-eintrag";
@@ -1466,14 +1946,20 @@ function genHinzufuegen(gene) {
             gene.id;
 
         const sidebarName =
-            document.createElement("span");
+            document.createElement(
+                "span"
+            );
 
         sidebarName.textContent =
             gene.name;
 
-        sidebarEintrag.appendChild(sidebarName);
+        sidebarEintrag.appendChild(
+            sidebarName
+        );
 
-        aktiveGene.appendChild(sidebarEintrag);
+        aktiveGene.appendChild(
+            sidebarEintrag
+        );
     }
 
     // ========================================
@@ -1481,7 +1967,9 @@ function genHinzufuegen(gene) {
     // ========================================
 
     const slot =
-        document.createElement("div");
+        document.createElement(
+            "div"
+        );
 
     slot.className =
         "gene-slot";
@@ -1490,7 +1978,9 @@ function genHinzufuegen(gene) {
         gene.id;
 
     const name =
-        document.createElement("span");
+        document.createElement(
+            "span"
+        );
 
     name.className =
         "gene-slot-name";
@@ -1499,9 +1989,12 @@ function genHinzufuegen(gene) {
         gene.name;
 
     const entfernen =
-        document.createElement("button");
+        document.createElement(
+            "button"
+        );
 
-    entfernen.type = "button";
+    entfernen.type =
+        "button";
 
     entfernen.className =
         "gene-slot-entfernen";
@@ -1515,7 +2008,9 @@ function genHinzufuegen(gene) {
     // Beschreibung erscheint nur beim Darüberfahren
 
     const beschreibung =
-        document.createElement("div");
+        document.createElement(
+            "div"
+        );
 
     beschreibung.className =
         "gene-slot-beschreibung";
@@ -1523,27 +2018,49 @@ function genHinzufuegen(gene) {
     beschreibung.textContent =
         gene.beschreibung;
 
-    entfernen.addEventListener("click", function () {
-        genEntfernen(gene);
-    });
+    entfernen.addEventListener(
+        "click",
+        function () {
+            genEntfernen(
+                gene
+            );
+        }
+    );
 
-    slot.appendChild(name);
-    slot.appendChild(entfernen);
-    slot.appendChild(beschreibung);
+    slot.appendChild(
+        name
+    );
 
-    geneSlots.appendChild(slot);
+    slot.appendChild(
+        entfernen
+    );
+
+    slot.appendChild(
+        beschreibung
+    );
+
+    geneSlots.appendChild(
+        slot
+    );
 }
 
 // ========================================
 // GEN ENTFERNEN
 // ========================================
 
-function genEntfernen(gene) {
+function genEntfernen(
+    gene
+) {
     const index =
-        ausgewaehlteGene.indexOf(gene);
+        ausgewaehlteGene.indexOf(
+            gene
+        );
 
     if (index !== -1) {
-        ausgewaehlteGene.splice(index, 1);
+        ausgewaehlteGene.splice(
+            index,
+            1
+        );
     }
 
     if (aktiveGene) {
@@ -1565,10 +2082,15 @@ function genEntfernen(gene) {
     // Das zuletzt hinzugefügte Feld dieses Gens entfernen
 
     if (slots.length > 0) {
-        slots[slots.length - 1].remove();
+        slots[
+            slots.length - 1
+        ].remove();
     }
 
-    if (ausgewaehlteGene.length === 0) {
-        dinoGene.hidden = true;
+    if (
+        ausgewaehlteGene.length === 0
+    ) {
+        dinoGene.hidden =
+            true;
     }
 }

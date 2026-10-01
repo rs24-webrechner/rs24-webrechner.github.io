@@ -44,12 +44,22 @@
                         Rechner
                     </a>
                 </li>
+
                 <li>
                     <a href="index.html">
                         Punkte bekommen
                     </a>
                 </li>
             </ul>
+
+            <!-- Warenkorb -->
+
+            <a
+                href="warenkorb.html"
+                class="navigation-warenkorb"
+            >
+                🛒 Warenkorb
+            </a>
 
             <!-- Mobiles Menü -->
 
@@ -63,6 +73,7 @@
 
         </div>
     </nav>
+
 
     <!-- ========================================
          RECHNER
@@ -91,36 +102,45 @@
 
             <h2>⚙ Einstellungen</h2>
 
+
             <!-- ========================================
                  ITEMS
                  ======================================== -->
 
             <section class="seitenleisten-bereich itempreise">
+
                 <h3>📦 Items</h3>
 
                 <p class="seitenleisten-hinweis">
                     Individuelle Preise bei Bedarf eingeben
                 </p>
 
+
                 <!-- Itemstufe -->
 
                 <div class="itempreis-stufe">
+
                     <select id="itempreis-stufe">
                         <option value="blaupausen">
                             Blaupausen
                         </option>
+
                         <option value="konvertierbar">
                             Konvertierbar
                         </option>
+
                         <option value="hergestellt">
                             Hergestellt
                         </option>
                     </select>
+
                 </div>
+
 
                 <!-- Endgame-Sättel -->
 
                 <div class="itempreis-gruppe">
+
                     <h4>
                         <img
                             src="assets/icons/items/endgame.png"
@@ -130,6 +150,7 @@
                     </h4>
 
                     <div class="preisfeld">
+
                         <input
                             type="number"
                             id="preis-sattel"
@@ -138,13 +159,18 @@
                             max="20000"
                             step="100"
                         >
+
                         <span>SP</span>
+
                     </div>
+
                 </div>
+
 
                 <!-- Tek-Ausrüstung -->
 
                 <div class="itempreis-gruppe">
+
                     <h4>
                         <img
                             src="assets/icons/items/tek.png"
@@ -154,6 +180,7 @@
                     </h4>
 
                     <div class="preisfeld">
+
                         <input
                             type="number"
                             id="preis-tek"
@@ -162,13 +189,18 @@
                             max="20000"
                             step="100"
                         >
+
                         <span>SP</span>
+
                     </div>
+
                 </div>
+
 
                 <!-- Sonstiges -->
 
                 <div class="itempreis-gruppe">
+
                     <h4>
                         <img
                             src="assets/icons/items/sonstige.png"
@@ -178,6 +210,7 @@
                     </h4>
 
                     <div class="preisfeld">
+
                         <input
                             type="number"
                             id="preis-sonstige"
@@ -186,22 +219,28 @@
                             max="20000"
                             step="100"
                         >
+
                         <span>SP</span>
+
                     </div>
+
                 </div>
 
             </section>
+
 
             <!-- ========================================
                  TIERE
                  ======================================== -->
 
             <section class="seitenleisten-bereich tiere">
+
                 <h3>🧬 Tiere</h3>
 
                 <p class="seitenleisten-hinweis">
                     Individuelle Preise bei Bedarf eingeben
                 </p>
+
 
                 <!-- ========================================
                      MUTATIONSAUSWAHL
@@ -222,6 +261,7 @@
                         <!-- Mutation hinzufügen -->
 
                         <select id="mutation-auswahl">
+
                             <option
                                 value=""
                                 selected
@@ -229,28 +269,37 @@
                             >
                                 Mutation hinzufügen
                             </option>
+
                             <option value="leben">
                                 Leben
                             </option>
+
                             <option value="ausdauer">
                                 Ausdauer
                             </option>
+
                             <option value="gewicht">
                                 Gewicht
                             </option>
+
                             <option value="sauerstoff">
                                 Sauerstoff
                             </option>
+
                             <option value="nahrung">
                                 Nahrung
                             </option>
+
                             <option value="schaden">
                                 Schaden
                             </option>
+
                             <option value="handwerk">
                                 Handwerk
                             </option>
+
                         </select>
+
 
                         <!-- Aktive Mutationen -->
 
@@ -262,7 +311,9 @@
                         </div>
 
                     </div>
+
                 </div>
+
 
                 <!-- ========================================
                      GENEAUSWAHL
@@ -279,7 +330,9 @@
                     </h4>
 
                     <div class="genauswahl">
+
                         <select id="gen-auswahl">
+
                             <option
                                 value=""
                                 selected
@@ -287,7 +340,9 @@
                             >
                                 Gen hinzufügen
                             </option>
+
                         </select>
+
                     </div>
 
                 </div>
@@ -296,22 +351,28 @@
 
         </aside>
 
+
         <!-- ========================================
              HAUPTBEREICH
              ======================================== -->
 
         <section class="rechner-hauptbereich">
 
+
             <!-- ========================================
                  RECHNER-KOPF
                  ======================================== -->
 
             <div class="rechner-kopf">
+
                 <h1>Rechner</h1>
+
                 <p>
                     Tiere und Items für den Handel konfigurieren.
                 </p>
+
             </div>
+
 
             <!-- ========================================
                  RECHNER-AUSWAHL
@@ -329,6 +390,7 @@
                     🦖 Dino konfigurieren
                 </button>
 
+
                 <!-- Item konfigurieren -->
 
                 <button
@@ -340,6 +402,7 @@
                 </button>
 
             </section>
+
 
             <!-- ========================================
                  DINO-KONFIGURATOR
@@ -361,11 +424,13 @@
                     ×
                 </button>
 
+
                 <!-- ========================================
                      DINO-KONFIGURATOR BOX
                      ======================================== -->
 
                 <div class="konfigurator-box">
+
 
                     <!-- ========================================
                          KATEGORIE
@@ -376,6 +441,7 @@
                         <div class="kategorie-buttons">
                             <!-- Kategorie-Buttons werden per JavaScript eingefügt -->
                         </div>
+
 
                         <!-- Kategorie-Hinweis -->
 
@@ -388,6 +454,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          ANGABEN
                          ======================================== -->
@@ -395,6 +462,7 @@
                     <section class="rechner-bereich">
 
                         <div class="angaben-formular">
+
 
                             <!-- Tier-Suche -->
 
@@ -408,6 +476,7 @@
                                         placeholder="Name des Tieres eingeben"
                                         autocomplete="off"
                                     >
+
 
                                     <!-- Suchergebnisse -->
 
@@ -423,9 +492,11 @@
 
                             </div>
 
+
                             <!-- Level -->
 
                             <div class="angabe-eingabe">
+
                                 <label for="dino-level">
                                     Level
                                 </label>
@@ -436,7 +507,9 @@
                                     min="1"
                                     placeholder="Level"
                                 >
+
                             </div>
+
 
                             <!-- Abgabeart -->
 
@@ -469,6 +542,7 @@
                                 </div>
 
                             </div>
+
 
                             <!-- Geschlecht -->
 
@@ -511,6 +585,7 @@
 
                             </div>
 
+
                             <!-- Kastration -->
 
                             <div class="angabe-gruppe">
@@ -542,6 +617,7 @@
                                 </div>
 
                             </div>
+
 
                             <!-- Shiny -->
 
@@ -583,6 +659,7 @@
                                 </div>
 
                             </div>
+
 
                             <!-- Rassenzusatz -->
 
@@ -638,6 +715,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          MUTATIONEN
                          ======================================== -->
@@ -658,6 +736,7 @@
                         </div>
 
                     </section>
+
 
                     <!-- ========================================
                          GENE
@@ -680,6 +759,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          AKTION
                          ======================================== -->
@@ -698,6 +778,7 @@
                 </div>
 
             </section>
+
 
             <!-- ========================================
                  ITEM-KONFIGURATOR
@@ -719,11 +800,13 @@
                     ×
                 </button>
 
+
                 <!-- ========================================
                      ITEM-KONFIGURATOR BOX
                      ======================================== -->
 
                 <div class="konfigurator-box">
+
 
                     <!-- ========================================
                          KATEGORIE
@@ -771,6 +854,7 @@
 
                         </div>
 
+
                         <!-- Kategorie-Hinweis -->
 
                         <div
@@ -782,6 +866,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          ITEM + MENGE + ITEMWERTE
                          ======================================== -->
@@ -789,6 +874,7 @@
                     <section class="rechner-bereich item-angaben">
 
                         <div class="item-suche-menge">
+
 
                             <!-- Item-Suche -->
 
@@ -801,6 +887,7 @@
                                     autocomplete="off"
                                 >
 
+
                                 <!-- Suchergebnisse -->
 
                                 <div
@@ -812,6 +899,7 @@
                                 </div>
 
                             </div>
+
 
                             <!-- Menge -->
 
@@ -831,6 +919,7 @@
 
                             </div>
 
+
                             <!-- Rüstungswert -->
 
                             <div class="item-menge item-wert-oben">
@@ -848,6 +937,7 @@
                                 >
 
                             </div>
+
 
                             <!-- Itemrating -->
 
@@ -870,6 +960,7 @@
                         </div>
 
                     </section>
+
 
                     <!-- ========================================
                          HERSTELLUNGSART
@@ -909,6 +1000,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          QUALITÄT
                          ======================================== -->
@@ -917,9 +1009,11 @@
 
                         <h2>Qualität</h2>
 
+
                         <!-- Qualitätsauswahl -->
 
                         <div class="item-qualitaet-buttons">
+
 
                             <!-- Obere Reihe -->
 
@@ -949,6 +1043,7 @@
                             >
                                 Fortschrittlich
                             </button>
+
 
                             <!-- Untere Reihe -->
 
@@ -983,6 +1078,7 @@
 
                     </section>
 
+
                     <!-- ========================================
                          AKTION
                          ======================================== -->
@@ -1006,11 +1102,15 @@
 
     </main>
 
+
     <!-- ========================================
          SEITENLOGIK
          ======================================== -->
 
-    <script type="module" src="js/seitenlogik.js"></script>
+    <script
+        type="module"
+        src="js/seitenlogik.js"
+    ></script>
 
 </body>
 
