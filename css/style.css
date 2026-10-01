@@ -2653,3 +2653,366 @@ body::after {
         border-radius: 11px;
     }
 }
+
+/* ========================================
+   WARENKORB
+   ======================================== */
+
+/* ========================================
+   WARENKORB - GRUNDSTRUKTUR
+   ======================================== */
+
+.warenkorb {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 30px 60px;
+    box-sizing: border-box;
+}
+
+.warenkorb-kopf {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.warenkorb-kopf h1 {
+    margin: 0 0 10px;
+}
+
+.warenkorb-kopf p {
+    margin: 0;
+}
+
+
+/* ========================================
+   SPALTENKOPF
+   ======================================== */
+
+.warenkorb-spaltenkopf {
+    display: grid;
+    grid-template-columns: 90px minmax(0, 1fr) 120px;
+
+    border: 1px solid #3c3938;
+    border-bottom: none;
+
+    background: #171717;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.warenkorb-spaltenkopf > div {
+    padding: 14px 10px;
+}
+
+.warenkorb-spaltenkopf > div:nth-child(2) {
+    border-left: 1px solid #3c3938;
+    border-right: 1px solid #3c3938;
+}
+
+
+/* ========================================
+   WARENKORB-POSITION
+   ======================================== */
+
+.warenkorb-position {
+    display: grid;
+    grid-template-columns: 90px minmax(0, 1fr) 120px;
+
+    border: 1px solid #3c3938;
+    border-top: none;
+
+    background: rgba(23, 23, 23, 0.9);
+}
+
+.warenkorb-position + .warenkorb-position {
+    margin-top: 15px;
+}
+
+
+/* ========================================
+   MENGE
+   ======================================== */
+
+.warenkorb-menge {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 25px 10px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.warenkorb-menge span {
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   INFORMATIONEN
+   ======================================== */
+
+.warenkorb-informationen {
+    min-width: 0;
+    padding: 25px 30px;
+
+    border-left: 1px solid #3c3938;
+    border-right: 1px solid #3c3938;
+}
+
+.warenkorb-informationen h2 {
+    margin: 0 0 25px;
+
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+
+/* ========================================
+   GRUNDDATEN
+   ======================================== */
+
+.warenkorb-grunddaten {
+    display: grid;
+    gap: 0;
+
+    border: 1px solid #3c3938;
+}
+
+.warenkorb-datenzeile {
+    display: grid;
+    grid-template-columns: minmax(160px, 0.8fr) minmax(0, 1.2fr);
+
+    min-height: 42px;
+}
+
+.warenkorb-datenzeile + .warenkorb-datenzeile {
+    border-top: 1px solid #3c3938;
+}
+
+.warenkorb-datenzeile > span,
+.warenkorb-datenzeile > strong {
+    display: flex;
+    align-items: center;
+
+    padding: 8px 12px;
+}
+
+.warenkorb-datenzeile > span {
+    background: rgba(60, 57, 56, 0.25);
+}
+
+.warenkorb-datenzeile > strong {
+    font-weight: normal;
+}
+
+
+/* ========================================
+   UNTERBEREICHE
+   ======================================== */
+
+.warenkorb-unterbereich {
+    margin-top: 30px;
+}
+
+.warenkorb-unterbereich h3 {
+    margin: 0 0 12px;
+
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* ========================================
+   MUTATIONEN
+   ======================================== */
+
+.mutationen-tabelle {
+    display: grid;
+
+    border: 1px solid #3c3938;
+}
+
+.mutation-kopf,
+.mutation-zeile {
+    display: grid;
+    grid-template-columns: minmax(140px, 1fr) 100px 140px;
+}
+
+.mutation-kopf {
+    font-weight: bold;
+    background: rgba(60, 57, 56, 0.3);
+}
+
+.mutation-kopf span,
+.mutation-zeile span {
+    padding: 9px 12px;
+    text-align: center;
+}
+
+.mutation-kopf span:first-child,
+.mutation-zeile span:first-child {
+    text-align: left;
+}
+
+.mutation-zeile {
+    border-top: 1px solid #3c3938;
+}
+
+
+/* ========================================
+   GENE
+   ======================================== */
+
+.gene-tabelle {
+    display: grid;
+
+    border: 1px solid #3c3938;
+}
+
+.gene-kopf,
+.gene-preise {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gene-kopf {
+    font-weight: bold;
+    background: rgba(60, 57, 56, 0.3);
+}
+
+.gene-kopf span,
+.gene-preise span {
+    padding: 9px 8px;
+    text-align: center;
+}
+
+.gene-kopf span + span,
+.gene-preise span + span {
+    border-left: 1px solid #3c3938;
+}
+
+.gene-preise {
+    border-top: 1px solid #3c3938;
+}
+
+
+/* ========================================
+   PREIS
+   ======================================== */
+
+.warenkorb-preis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+    padding: 14px 16px;
+
+    border: 1px solid #3c3938;
+}
+
+.warenkorb-preis strong {
+    font-size: 1.05rem;
+}
+
+
+/* ========================================
+   AKTION
+   ======================================== */
+
+.warenkorb-aktion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 25px 10px;
+}
+
+.warenkorb-entfernen {
+    width: 100%;
+    max-width: 100px;
+
+    padding: 9px 8px;
+
+    border: 1px solid #b20000;
+    border-radius: 4px;
+
+    background: transparent;
+
+    color: inherit;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.warenkorb-entfernen:hover {
+    background: rgba(178, 0, 0, 0.2);
+    border-color: #ef3200;
+}
+
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 800px) {
+
+    .warenkorb {
+        padding: 30px 15px 50px;
+    }
+
+    .warenkorb-spaltenkopf {
+        display: none;
+    }
+
+    .warenkorb-position {
+        grid-template-columns: 60px minmax(0, 1fr);
+    }
+
+    .warenkorb-informationen {
+        border-right: none;
+    }
+
+    .warenkorb-aktion {
+        grid-column: 1 / -1;
+
+        border-top: 1px solid #3c3938;
+
+        padding: 12px;
+    }
+
+    .warenkorb-entfernen {
+        max-width: none;
+    }
+
+    .warenkorb-datenzeile {
+        grid-template-columns: 1fr;
+    }
+
+    .warenkorb-datenzeile > strong {
+        border-top: 1px solid rgba(60, 57, 56, 0.5);
+    }
+
+    .mutation-kopf,
+    .mutation-zeile {
+        grid-template-columns: minmax(100px, 1fr) 70px 100px;
+    }
+
+    .gene-kopf,
+    .gene-preise {
+        font-size: 0.85rem;
+    }
+
+    .warenkorb-informationen {
+        padding: 20px 15px;
+    }
+}
