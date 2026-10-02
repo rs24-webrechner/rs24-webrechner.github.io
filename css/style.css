@@ -2663,16 +2663,17 @@ body::after {
    ======================================== */
 
 .warenkorb {
-    width: 100%;
-    max-width: 1400px;
+    width: fit-content;
+    max-width: 100%;
     margin: 0 auto;
     padding: 40px 30px 60px;
     box-sizing: border-box;
 }
 
 .warenkorb-kopf {
-    text-align: center;
     margin-bottom: 35px;
+
+    text-align: center;
 }
 
 .warenkorb-icon {
@@ -2695,12 +2696,22 @@ body::after {
 
 
 /* ========================================
+   WARENKORB-INHALT
+   ======================================== */
+
+.warenkorb-inhalt {
+    width: fit-content;
+    max-width: 100%;
+}
+
+
+/* ========================================
    SPALTENKOPF
    ======================================== */
 
 .warenkorb-spaltenkopf {
     display: grid;
-    grid-template-columns: 90px minmax(0, 1fr) 120px;
+    grid-template-columns: 90px max-content 120px;
 
     border: 1px solid #3c3938;
     border-bottom: none;
@@ -2727,7 +2738,7 @@ body::after {
 
 .warenkorb-position {
     display: grid;
-    grid-template-columns: 90px minmax(0, 1fr) 120px;
+    grid-template-columns: 90px max-content 120px;
 
     border: 1px solid #3c3938;
     border-top: none;
@@ -2772,6 +2783,14 @@ body::after {
     border-right: 1px solid #3c3938;
 }
 
+.warenkorb-informationen h2 {
+    margin: 0 0 25px;
+
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
 
 /* ========================================
    DINO - KOPF
@@ -2805,7 +2824,6 @@ body::after {
 
 .dino-details {
     margin-top: 4px;
-
     padding-left: 30px;
 }
 
@@ -2824,14 +2842,13 @@ body::after {
 
 .dino-detailzeile > strong {
     text-align: right;
-
     font-weight: normal;
 
     white-space: nowrap;
 }
 
 .dino-abgabeart {
-    margin-bottom: 0;
+    min-height: 32px;
 }
 
 
@@ -2840,9 +2857,7 @@ body::after {
    ======================================== */
 
 .dino-unterbereich {
-    margin-top: 0;
-
-    padding-left: 30px;
+    margin-top: 24px;
 }
 
 .dino-unterbereich + .dino-unterbereich {
@@ -2850,10 +2865,11 @@ body::after {
 }
 
 .dino-unterbereich h3 {
-    margin: 0;
+    margin: 0 0 8px;
 
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 1.2rem;
+    font-weight: bold;
+
     text-align: left;
 }
 
@@ -2866,53 +2882,73 @@ body::after {
     display: flex;
     align-items: flex-end;
 
-    margin-top: 0;
+    width: 100%;
 }
 
 .mutationen-tabelle {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
 
     flex-wrap: nowrap;
 }
 
 .mutation-spalte {
     display: grid;
-    grid-template-rows: 32px 32px 32px;
+    grid-template-rows: 28px auto;
 
-    min-width: 120px;
+    min-width: 105px;
 
     text-align: center;
 }
 
 .mutation-spalte + .mutation-spalte {
-    border-left: 1px solid #3c3938;
+    margin-left: 5px;
 }
 
-.mutation-spalte strong,
-.mutation-spalte span {
+.mutation-spalte > strong {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding: 4px 8px;
-}
+    padding: 3px 8px;
 
-.mutation-spalte strong {
+    border: 1px solid #3c3938;
+    border-bottom: none;
+
+    background: rgba(60, 57, 56, 0.3);
+
     font-weight: bold;
 }
 
-.mutation-spalte span:last-child {
+.mutation-werte {
+    display: grid;
+    grid-template-rows: 27px 27px;
+
+    border: 1px solid #3c3938;
+}
+
+.mutation-werte span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px 8px;
+
     white-space: nowrap;
+}
+
+.mutation-werte span + span {
+    border-top: 1px solid #3c3938;
 }
 
 .mutationen-gesamtpreis {
     min-width: 150px;
+    margin-left: auto;
 
     padding-left: 25px;
-    padding-bottom: 8px;
 
     text-align: right;
+
     white-space: nowrap;
 }
 
@@ -2925,54 +2961,110 @@ body::after {
     display: flex;
     align-items: flex-end;
 
-    margin-top: 0;
+    width: 100%;
 }
 
 .gene-tabelle {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
 
     flex-wrap: nowrap;
 }
 
 .gene-spalte {
     display: grid;
-    grid-template-rows: 32px 32px;
+    grid-template-rows: 28px auto;
 
-    min-width: 120px;
+    min-width: 105px;
 
     text-align: center;
 }
 
 .gene-spalte + .gene-spalte {
-    border-left: 1px solid #3c3938;
+    margin-left: 5px;
 }
 
-.gene-spalte strong,
-.gene-spalte span {
+.gene-spalte > strong {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding: 4px 8px;
-}
+    padding: 3px 8px;
 
-.gene-spalte strong {
+    border: 1px solid #3c3938;
+    border-bottom: none;
+
+    background: rgba(60, 57, 56, 0.3);
+
     font-weight: bold;
 }
 
-.gene-spalte span {
+.gene-werte {
+    display: grid;
+
+    border: 1px solid #3c3938;
+}
+
+.gene-werte span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 27px;
+
+    padding: 2px 8px;
+
     white-space: nowrap;
 }
 
 .gene-gesamtpreis {
     min-width: 150px;
+    margin-left: auto;
 
     padding-left: 25px;
-    padding-bottom: 8px;
 
     text-align: right;
+
     white-space: nowrap;
+}
+
+
+/* ========================================
+   GRUNDDATEN
+   ======================================== */
+
+.warenkorb-grunddaten {
+    display: grid;
+    gap: 0;
+
+    border: 1px solid #3c3938;
+}
+
+.warenkorb-datenzeile {
+    display: grid;
+    grid-template-columns: minmax(160px, 0.8fr) minmax(0, 1.2fr);
+
+    min-height: 42px;
+}
+
+.warenkorb-datenzeile + .warenkorb-datenzeile {
+    border-top: 1px solid #3c3938;
+}
+
+.warenkorb-datenzeile > span,
+.warenkorb-datenzeile > strong {
+    display: flex;
+    align-items: center;
+
+    padding: 8px 12px;
+}
+
+.warenkorb-datenzeile > span {
+    background: rgba(60, 57, 56, 0.25);
+}
+
+.warenkorb-datenzeile > strong {
+    font-weight: normal;
 }
 
 
@@ -3030,6 +3122,7 @@ body::after {
 
 .warenkorb-entfernen:hover {
     background: rgba(178, 0, 0, 0.2);
+
     border-color: #ef3200;
 }
 
@@ -3041,7 +3134,12 @@ body::after {
 @media (max-width: 800px) {
 
     .warenkorb {
+        width: 100%;
         padding: 30px 15px 50px;
+    }
+
+    .warenkorb-inhalt {
+        width: 100%;
     }
 
     .warenkorb-spaltenkopf {
@@ -3068,8 +3166,15 @@ body::after {
         max-width: none;
     }
 
-    .dino-details,
-    .dino-unterbereich {
+    .warenkorb-datenzeile {
+        grid-template-columns: 1fr;
+    }
+
+    .warenkorb-datenzeile > strong {
+        border-top: 1px solid rgba(60, 57, 56, 0.5);
+    }
+
+    .dino-details {
         padding-left: 15px;
     }
 
