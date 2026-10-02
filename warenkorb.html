@@ -65,12 +65,15 @@
     <main class="warenkorb">
 
         <div class="warenkorb-kopf">
-            <h1>Warenkorb</h1>
+            <div class="warenkorb-icon">🛒</div>
+
+            <h1>WARENKORB</h1>
+
             <p>
-                Hier findest du deine ausgewählten Tiere, Items
-                und Shiny-Essenzen.
+                Hier findest du deine ausgewählten Tiere, Items und Essenzen.
             </p>
         </div>
+
 
         <section
             class="warenkorb-inhalt"
@@ -98,57 +101,65 @@
                     <span>1x</span>
                 </div>
 
+
                 <div class="warenkorb-informationen">
 
-                    <h2>DINO</h2>
+                    <!-- DINO-KOPF -->
 
-                    <!-- GRUNDDATEN -->
+                    <div class="dino-kopf">
 
-                    <div class="warenkorb-grunddaten">
+                        <strong class="dino-name">
+                            Rex
+                        </strong>
 
-                        <div class="warenkorb-datenzeile">
-                            <span>Dinoname</span>
-                            <strong>Beispiel-Dino</strong>
+                        <button
+                            type="button"
+                            class="warenkorb-entfernen"
+                        >
+                            Entfernen
+                        </button>
+
+                    </div>
+
+
+                    <!-- DINO-DETAILS -->
+
+                    <div class="dino-details">
+
+                        <div class="dino-detailzeile">
+                            <span>Boss</span>
+
+                            <strong>
+                                50.000 SP
+                            </strong>
                         </div>
 
-                        <div class="warenkorb-datenzeile">
-                            <span>Preisstufe</span>
-                            <strong>Stufe 2</strong>
+                        <div class="dino-detailzeile">
+                            <span>Level: 300</span>
+
+                            <strong>
+                                33.333 SP
+                            </strong>
                         </div>
 
-                        <div class="warenkorb-datenzeile">
-                            <span>Preisstufenname</span>
-                            <strong>225–450</strong>
+                        <div class="dino-detailzeile">
+                            <span>Shiny: Ja</span>
+
+                            <strong>
+                                +30.000 SP
+                            </strong>
                         </div>
 
-                        <div class="warenkorb-datenzeile">
-                            <span>Mindestpreis</span>
-                            <strong>—</strong>
+                        <div class="dino-detailzeile">
+                            <span>Kastration: Ja</span>
+
+                            <strong>
+                                -75 %
+                            </strong>
                         </div>
 
-                        <div class="warenkorb-datenzeile">
-                            <span>Level</span>
-                            <strong>300</strong>
-                        </div>
-
-                        <div class="warenkorb-datenzeile">
-                            <span>Levelpreis</span>
-                            <strong>—</strong>
-                        </div>
-
-                        <div class="warenkorb-datenzeile">
-                            <span>Shiny</span>
-                            <strong>Nein</strong>
-                        </div>
-
-                        <div class="warenkorb-datenzeile">
-                            <span>Shiny-Aufschlag</span>
-                            <strong>—</strong>
-                        </div>
-
-                        <div class="warenkorb-datenzeile">
-                            <span>Kastration</span>
-                            <strong>Nein</strong>
+                        <div class="dino-detailzeile dino-abgabeart">
+                            <span>Abgabeart: Baby</span>
                         </div>
 
                     </div>
@@ -156,104 +167,73 @@
 
                     <!-- MUTATIONEN -->
 
-                    <section class="warenkorb-unterbereich">
+                    <section class="dino-unterbereich">
+
                         <h3>Mutationen</h3>
 
-                        <div class="mutationen-tabelle">
+                        <div class="mutationen-bereich">
 
-                            <div class="mutation">
-                                <strong>Leben</strong>
-                                <span>—</span>
-                                <span>—</span>
+                            <div class="mutationen-tabelle">
+
+                                <div class="mutation-spalte">
+                                    <strong>Leben</strong>
+                                    <span>3</span>
+                                    <span>15.000 SP</span>
+                                </div>
+
+                                <div class="mutation-spalte">
+                                    <strong>Schaden</strong>
+                                    <span>2</span>
+                                    <span>25.000 SP</span>
+                                </div>
+
                             </div>
 
-                            <div class="mutation">
-                                <strong>Ausdauer</strong>
-                                <span>—</span>
-                                <span>—</span>
-                            </div>
-
-                            <div class="mutation">
-                                <strong>Gewicht</strong>
-                                <span>—</span>
-                                <span>—</span>
-                            </div>
-
-                            <div class="mutation">
-                                <strong>Nahrung</strong>
-                                <span>—</span>
-                                <span>—</span>
-                            </div>
-
-                            <div class="mutation">
-                                <strong>Sauerstoff</strong>
-                                <span>—</span>
-                                <span>—</span>
-                            </div>
-
-                            <div class="mutation">
-                                <strong>Schaden</strong>
-                                <span>—</span>
-                                <span>—</span>
-                            </div>
-
-                            <div class="mutation">
-                                <strong>Handwerk</strong>
-                                <span>—</span>
-                                <span>—</span>
+                            <div class="mutationen-gesamtpreis">
+                                40.000 SP
                             </div>
 
                         </div>
+
                     </section>
 
 
                     <!-- GENE -->
 
-                    <section class="warenkorb-unterbereich">
+                    <section class="dino-unterbereich">
+
                         <h3>Gene</h3>
 
-                        <div class="gene-tabelle">
+                        <div class="gene-bereich">
 
-                            <div class="gene-kopf">
-                                <span>1. Gen</span>
-                                <span>2. Gen</span>
-                                <span>3. Gen</span>
-                                <span>4. Gen</span>
-                                <span>5. Gen</span>
+                            <div class="gene-tabelle">
+
+                                <div class="gene-spalte">
+                                    <strong>1. Gen</strong>
+                                    <span>10.000 SP</span>
+                                </div>
+
+                                <div class="gene-spalte">
+                                    <strong>3. Gen</strong>
+                                    <span>10.000 SP</span>
+                                </div>
+
                             </div>
 
-                            <div class="gene-preise">
-                                <span>—</span>
-                                <span>—</span>
-                                <span>—</span>
-                                <span>—</span>
-                                <span>—</span>
+                            <div class="gene-gesamtpreis">
+                                20.000 SP
                             </div>
 
                         </div>
+
                     </section>
-
-
-                    <!-- PREIS -->
-
-                    <div class="warenkorb-preis">
-                        <span>Preis</span>
-                        <strong>—</strong>
-                    </div>
 
                 </div>
 
 
                 <!-- AKTION -->
 
-                <div class="warenkorb-aktion">
-                    <button
-                        type="button"
-                        class="warenkorb-entfernen"
-                    >
-                        Entfernen
-                    </button>
-                </div>
+                <div class="warenkorb-aktion"></div>
 
             </article>
 
