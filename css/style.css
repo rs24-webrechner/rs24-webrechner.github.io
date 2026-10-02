@@ -2704,34 +2704,6 @@ body::after {
     max-width: 100%;
 }
 
-
-/* ========================================
-   SPALTENKOPF
-   ======================================== */
-
-.warenkorb-spaltenkopf {
-    display: grid;
-    grid-template-columns: 90px max-content 120px;
-
-    border: 1px solid #3c3938;
-    border-bottom: none;
-
-    background: #171717;
-
-    text-align: center;
-    font-weight: bold;
-}
-
-.warenkorb-spaltenkopf > div {
-    padding: 14px 10px;
-}
-
-.warenkorb-spaltenkopf > div:nth-child(2) {
-    border-left: 1px solid #3c3938;
-    border-right: 1px solid #3c3938;
-}
-
-
 /* ========================================
    WARENKORB-POSITION
    ======================================== */
