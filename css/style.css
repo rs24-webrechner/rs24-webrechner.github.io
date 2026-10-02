@@ -2670,28 +2670,52 @@ body::after {
     box-sizing: border-box;
 }
 
+/* ========================================
+   WARENKORB-KOPF
+   ======================================== */
+
 .warenkorb-kopf {
+    width: 100%;
     margin-bottom: 35px;
 
-    text-align: center;
+    text-align: left;
+}
+
+.warenkorb-titel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+
+    gap: 8px;
 }
 
 .warenkorb-icon {
-    margin-bottom: 5px;
+    display: block;
+
+    margin: 0;
 
     font-size: 1.8rem;
-    text-align: right;
+    line-height: 1;
 }
 
 .warenkorb-kopf h1 {
-    margin: 0 0 10px;
+    display: block;
+
+    margin: 0;
 
     font-size: 1.8rem;
+    line-height: 1;
+
+    text-align: left;
     letter-spacing: 2px;
 }
 
 .warenkorb-kopf p {
-    margin: 0;
+    margin: 8px 0 0;
+
+    text-align: left;
 }
 
 
