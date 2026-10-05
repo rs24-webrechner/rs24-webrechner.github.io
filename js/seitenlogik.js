@@ -1269,7 +1269,7 @@ const dinoKategorien = [
         name: "Schulter",
         icon: "schulter.png",
         hinweis:
-            "Bulbdog / Katze / Compy / Cosmo / Dimorphodon / Drakeling / Featherlight / Ferox / Gloon / Glowtail /\nHesperonis / Ichthyornis / Jerboa / Mesopithecus / Microraptor / Otter / Pegomastax / Shinehorn / Vulture\nKEIN TIDEPUP!"
+            "Bulbdog / Katze / Compy / Cosmo / Dimorphodon / Drakeling / Featherlight / Ferox / Gloon / Glowtail /\nHesperonis / Ichthyornis / Jerboa / Mesopithecus / Microraptor / Otter / Pegomastax / Shinehorn / Vulture\nKein Tidepup, da diese als normale Tiere festgelegt wurden!"
     },
 
     {
