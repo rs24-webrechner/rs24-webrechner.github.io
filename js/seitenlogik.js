@@ -1269,7 +1269,7 @@ const dinoKategorien = [
         name: "Schulter",
         icon: "schulter.png",
         hinweis:
-            "Bulbdog / Katze / Compy / Cosmo / Dimorphodon / Drakeling / Featherlight / Ferox / Gloon / Glowtail / Hesperonis / Ichthyornis / Jerboa / Mesopithecus / Microraptor / Otter / Pegomastax / Shinehorn / Vulture"
+            "Bulbdog / Katze / Compy / Cosmo / Dimorphodon / Drakeling / Featherlight / Ferox / Gloon / Glowtail /\nHesperonis / Ichthyornis / Jerboa / Mesopithecus / Microraptor / Otter / Pegomastax / Shinehorn / Vulture\nKEIN TIDEPUP!"
     },
 
     {
@@ -1301,7 +1301,7 @@ const dinoKategorien = [
         name: "Eier",
         icon: "eier.png",
         hinweis:
-            "Deinonychus / Aureliax / Wyvern / Rock Drake"
+            "Deinonychus / Aureliax / Wyvern / Rock Drake / Magmasaur"
     },
 
     {
