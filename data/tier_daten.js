@@ -484,7 +484,7 @@ export const tier_daten = [
     },
     {
         name: "Magmasaur",
-        kategorie: "normal",
+        kategorie: "eier",
         mod: "Ark Official"
     },
     {
@@ -904,11 +904,6 @@ export const tier_daten = [
     },
     {
         name: "Tidepup",
-        kategorie: "schulter",
-        mod: "Ark Official"
-    },
-    {
-        name: "Tidepup Evolution",
         kategorie: "normal",
         mod: "Ark Official"
     },
