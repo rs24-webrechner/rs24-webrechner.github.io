@@ -121,6 +121,7 @@
                 <div class="itempreis-stufe">
 
                     <select id="itempreis-stufe">
+
                         <option value="blaupausen">
                             Blaupausen
                         </option>
@@ -132,6 +133,7 @@
                         <option value="hergestellt">
                             Hergestellt
                         </option>
+
                     </select>
 
                 </div>
@@ -511,35 +513,21 @@
                             </div>
 
 
-                            <!-- Abgabeart -->
+                            <!-- Dino-ID -->
 
-                            <div class="angabe-gruppe">
+                            <div class="angabe-eingabe">
 
-                                <span class="angabe-label">
-                                    Abgabeart
-                                </span>
+                                <label for="dino-id">
+                                    Dino-ID
+                                </label>
 
-                                <div class="angabe-optionen">
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="abgabeart"
-                                        data-wert="baby"
-                                    >
-                                        Baby
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="abgabeart"
-                                        data-wert="ausgewachsen"
-                                    >
-                                        Ausgewachsen
-                                    </button>
-
-                                </div>
+                                <input
+                                    type="text"
+                                    id="dino-id"
+                                    inputmode="numeric"
+                                    pattern="[0-9]+"
+                                    placeholder="Dino-ID"
+                                >
 
                             </div>
 
@@ -654,57 +642,6 @@
                                         data-wert="essenz"
                                     >
                                         Essenz
-                                    </button>
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- Rassenzusatz -->
-
-                            <div class="angabe-gruppe">
-
-                                <span class="angabe-label">
-                                    Rassenzusatz
-                                </span>
-
-                                <div class="angabe-optionen">
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="rassenzusatz"
-                                        data-wert="aberant"
-                                    >
-                                        Aberrant
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="rassenzusatz"
-                                        data-wert="x"
-                                    >
-                                        X
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="rassenzusatz"
-                                        data-wert="tek"
-                                    >
-                                        Tek
-                                    </button>
-
-                                    <button
-                                        type="button"
-                                        class="angabe-option"
-                                        data-gruppe="rassenzusatz"
-                                        data-wert="s"
-                                    >
-                                        S
                                     </button>
 
                                 </div>
